@@ -1,0 +1,104 @@
+% Preamble untuk Proposal dan Skripsi - UIN Imam Bonjol Padang
+\usepackage[indonesian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{mathptmx} % Times New Roman
+\usepackage{titlesec} % Untuk format judul bab
+\usepackage{caption} % Untuk format caption
+\usepackage{etoolbox} % Untuk reset penomoran section per chapter
+\usepackage{cite} % Untuk sitasi
+\usepackage{amsmath} % Untuk \numberwithin
+\usepackage{lipsum} % Untuk dummy text (testing)
+\usepackage{fancyhdr} % Untuk pengaturan posisi nomor halaman
+\usepackage[hidelinks]{hyperref} % Untuk metadata PDF dan link
+
+% Pengaturan Margin
+\geometry{
+  a4paper,
+  top=4cm,
+  bottom=3cm,
+  left=4cm,
+  right=3cm
+}
+
+% Pengaturan Spasi (Spasi 1.5)
+\setstretch{1.5}
+
+% Pengaturan Paragraf (Indentasi alinea baru)
+\setlength{\parindent}{1.25cm} % Sesuai "ketukan ke-7" (kira-kira 0.5 inci)
+\setlength{\parskip}{0pt}
+
+% Penomoran Bab (BAB I, BAB II, dst.)
+\renewcommand{\thechapter}{\Roman{chapter}}
+
+% Penomoran Section (A, B, C...) reset setiap Bab
+\renewcommand{\thesection}{\Alph{section}}
+\makeatletter
+\@addtoreset{section}{chapter}
+\makeatother
+
+% Penomoran Subsection (1, 2, 3...)
+\renewcommand{\thesubsection}{\arabic{subsection}}
+
+% Format Judul Bab (Level 0)
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries\centering}
+  {\MakeUppercase{\chaptername}\ \thechapter}
+  {0pt}
+  {\MakeUppercase}
+\titlespacing*{\chapter}{0pt}{-20pt}{40pt}
+
+% Format Judul Section (Level 1)
+\titleformat{\section}
+  {\normalfont\bfseries}
+  {\thesection.\quad}
+  {0pt}
+  {}
+
+% Format Judul Subsection (Level 2)
+\titleformat{\subsection}
+  {\normalfont\bfseries}
+  {\thesubsection.\quad}
+  {0pt}
+  {}
+
+% Pengaturan Caption (Tabel di atas, Gambar di bawah)
+\captionsetup{
+  font=small,
+  labelfont=bf,
+  justification=centering,
+  singlelinecheck=false,
+  skip=10pt
+}
+\captionsetup[table]{position=above}
+\captionsetup[figure]{position=below}
+
+% Pengaturan TOC Depth (Maksimal Level 1/Section)
+\setcounter{tocdepth}{1}
+\setcounter{secnumdepth}{1}
+
+% --- Pengaturan Posisi Nomor Halaman ---
+\fancypagestyle{frontmatter}{
+  \fancyhf{}
+  \fancyfoot[C]{\thepage} % Tengah bawah untuk Romawi
+  \renewcommand{\headrulewidth}{0pt}
+  \footskip=2.5cm
+}
+
+\fancypagestyle{mainmatter}{
+  \fancyhf{}
+  \fancyfoot[R]{\thepage} % Kanan bawah untuk Arab
+  \renewcommand{\headrulewidth}{0pt}
+  \footskip=2.5cm
+}
+
+% Helper command untuk istilah asing
+\newcommand{\foreign}[1]{\textit{#1}}
+
+% Persamaan matematis (bab.urutan)
+\numberwithin{equation}{chapter}
+\renewcommand{\theequation}{\thechapter.\arabic{equation}}

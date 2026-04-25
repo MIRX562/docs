@@ -1,0 +1,52 @@
+\chapter{METODE PENELITIAN}
+
+\section{Jenis Penelitian}
+Penelitian ini dikategorikan sebagai penelitian eksperimental teknis dengan fokus pada pengujian performa (\foreign{benchmarking}) dan pengembangan sistem (\foreign{Research and Development}). Peneliti melakukan eksperimen langsung terhadap berbagai varian model \foreign{Whisper} untuk mengukur metrik akurasi dan kecepatan dalam lingkungan sistem terdistribusi.
+
+\section{Setting Penelitian}
+Penelitian ini dilakukan secara daring melalui pemanfaatan infrastruktur \foreign{cloud} dan perangkat keras lokal.
+\begin{enumerate}
+    \item \textbf{Lokasi:} Pengujian dilakukan menggunakan \foreign{remote pod} dari layanan \foreign{Runpod} untuk mendapatkan lingkungan komputasi GPU yang terkontrol.
+    \item \textbf{Waktu:} Penelitian direncanakan berlangsung selama tiga bulan, mencakup tahap pengembangan sistem, pengumpulan data audio lokal, hingga tahap analisis hasil \foreign{benchmarking}.
+\end{enumerate}
+
+\section{Bahan atau Materi Penelitian}
+Bahan penelitian utama berupa data audio yang akan ditranskripsi.
+\begin{enumerate}
+    \item \textbf{Dataset:} Menggunakan 5 sampel audio rekaman lokal dalam Bahasa Indonesia yang diambil dari sumber terbuka (seperti YouTube atau arsip rekaman rapat publik).
+    \item \textbf{Kriteria Audio:} Audio dipilih dengan durasi yang bervariasi (antara 5 hingga 15 menit) dengan tingkat kejelasan suara yang berbeda untuk menguji ketangguhan model.
+\end{enumerate}
+
+\section{Alat/Instrumen Penelitian}
+Instrumen penelitian terdiri dari perangkat keras dan perangkat lunak sebagai berikut:
+\begin{enumerate}
+    \item \textbf{Perangkat Keras (Hardware):}
+    \begin{itemize}
+        \item NVIDIA RTX A4000 (16GB VRAM) via \foreign{Runpod}.
+        \item Apple Mac Mini M4 sebagai unit pembanding efisiensi komputasi lokal.
+    \end{itemize}
+    \item \textbf{Perangkat Lunak (Software):}
+    \begin{itemize}
+        \item Sistem Operasi: Ubuntu 22.04 LTS (pada \foreign{Runpod}).
+        \item Framework Utama: \foreign{Next.js} (React) dan \foreign{Node.js}.
+        \item Pemrosesan Audio: \foreign{Python} 3.10 dengan pustaka \foreign{Faster-Whisper} atau \foreign{OpenAI Whisper}.
+        \item Manajemen Antrean: Redis dan \foreign{BullMQ}.
+    \end{itemize}
+\end{enumerate}
+
+\section{Teknik Pengumpulan Data/Prosedur Penelitian}
+Prosedur penelitian dilakukan melalui tahapan-tahapan berikut:
+\begin{enumerate}
+    \item \textbf{Perancangan Arsitektur:} Membangun skema komunikasi antara \foreign{Web Server} (Next.js) dan \foreign{GPU Worker} (Python) menggunakan Redis sebagai \foreign{Message Broker}.
+    \item \textbf{Persiapan Dataset:} Mengunduh dan melakukan \foreign{preprocessing} pada 5 sampel audio lokal (konversi format ke 16kHz mono WAV).
+    \item \textbf{Eksekusi Transkripsi:} Menjalankan proses transkripsi untuk setiap sampel audio menggunakan seluruh varian model \foreign{Whisper} (\foreign{Tiny, Small, Medium, Large-v3, Large-v3-Turbo}).
+    \item \textbf{Pencatatan Metrik:} Mencatat waktu mulai dan selesai (\foreign{inference time}), serta penggunaan VRAM maksimal selama proses berlangsung.
+\end{enumerate}
+
+\section{Teknik Analisis Data}
+Data yang terkumpul dianalisis secara kuantitatif melalui:
+\begin{enumerate}
+    \item \textbf{Analisis Akurasi:} Menghitung nilai \foreign{Word Error Rate} (WER) dengan membandingkan teks hasil transkripsi otomatis terhadap teks referensi (transkripsi manual).
+    \item \textbf{Analisis Performa:} Membandingkan kecepatan pemrosesan (\foreign{Real Time Factor} atau detik per menit audio) antar model.
+    \item \textbf{Analisis Efisiensi:} Mengevaluasi model mana yang memberikan rasio terbaik antara akurasi (WER terendah) dan biaya komputasi (VRAM/Waktu).
+\end{enumerate}

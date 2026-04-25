@@ -1,0 +1,22 @@
+\begin{thebibliography}{}
+
+\bibitem[Andreyev, 2025]{andreyev_quantization_2025}
+Andreyev, A. (2025).
+\newblock Quantization for {OpenAI}'s {Whisper} {Models}: {A} {Comparative} {Analysis}.
+\newblock arXiv:2503.09905 [cs].
+
+\bibitem[Bain et~al., 2023]{bain_whisperx_2023}
+Bain, M., Huh, J., Han, T., and Zisserman, A. (2023).
+\newblock {WhisperX}: {Time}-{Accurate} {Speech} {Transcription} of {Long}-{Form} {Audio}.
+\newblock In {\em {INTERSPEECH} 2023}, pages 4489--4493. ISCA.
+
+\bibitem[Fathony et~al., ]{fathony_optimisasi_nodate}
+Fathony, I. A.~N., Mareta, A., Adiana, B.~E., Wardhani, O., and Halim, A.
+\newblock Optimisasi {Whisper} {Speech}-to-{Text} {Bahasa} {Indonesia} dengan {Hybrid} {Cloud} dan {Multi}-{Engine}.
+\newblock 18(1).
+
+\bibitem[Radford et~al., ]{radford_robust_nodate}
+Radford, A., Kim, J.~W., Xu, T., Brockman, G., McLeavey, C., and Sutskever, I.
+\newblock Robust {Speech} {Recognition} via {Large}-{Scale} {Weak} {Supervision}.
+
+\end{thebibliography}

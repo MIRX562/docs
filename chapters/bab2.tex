@@ -1,0 +1,34 @@
+\chapter{TINJAUAN PUSTAKA}
+
+\section{Kerangka Teori}
+Bagian ini memaparkan teori-teori dasar yang menjadi landasan dalam pengembangan dan analisis sistem transkripsi terdistribusi.
+
+\subsection{Automatic Speech Recognition (ASR) dan Model Whisper}
+\foreign{Automatic Speech Recognition} (ASR) adalah teknologi yang memungkinkan komputer untuk mengubah sinyal suara menjadi teks secara otomatis. Perkembangan terbaru dalam bidang ini didominasi oleh pendekatan \foreign{deep learning}, salah satunya adalah model \foreign{Whisper} yang dikembangkan oleh OpenAI. \foreign{Whisper} menggunakan arsitektur \foreign{Transformer} berbasis \foreign{encoder-decoder} yang dilatih menggunakan 680.000 jam data audio multibahasa secara \foreign{weakly supervised} \cite{radford_robust_nodate}. Hal ini membuat model tersebut memiliki tingkat ketahanan (\foreign{robustness}) yang tinggi terhadap aksen, kebisingan latar belakang, dan istilah teknis dibandingkan model ASR tradisional.
+
+\subsection{Sistem Transkripsi Terdistribusi}
+Sistem terdistribusi adalah sekumpulan komputer mandiri yang tampak bagi pengguna sebagai satu sistem tunggal yang koheren. Dalam konteks transkripsi otomatis, beban kerja pemrosesan audio bersifat \foreign{compute-intensive}. Oleh karena itu, penggunaan arsitektur terdistribusi yang memisahkan antara antarmuka pengguna (\foreign{Next.js}) dan unit pemrosesan (\foreign{Python Worker}) sangat krusial. Komunikasi antar komponen ini biasanya dilakukan melalui \foreign{Message Broker} seperti Redis atau RabbitMQ untuk mengelola antrean tugas secara asinkron.
+
+\subsection{Metrik Evaluasi: Word Error Rate (WER)}
+Akurasi sistem ASR diukur menggunakan metrik \foreign{Word Error Rate} (WER). WER dihitung dengan menjumlahkan jumlah substitusi ($S$), penghapusan ($D$), dan penyisipan ($I$) kata, kemudian dibagi dengan jumlah total kata ($N$) pada referensi asli:
+\begin{equation}
+    WER = \frac{S + D + I}{N}
+\end{equation}
+Nilai WER yang lebih rendah menunjukkan tingkat akurasi yang lebih tinggi.
+
+\section{Literatur Review}
+Penelitian mengenai implementasi dan optimasi model \foreign{Whisper} telah banyak dilakukan dalam beberapa tahun terakhir. Fathony dkk. \cite{fathony_optimisasi_nodate} melakukan penelitian mengenai optimasi \foreign{Whisper} untuk Bahasa Indonesia menggunakan pendekatan \foreign{Hybrid Cloud}. Temuan mereka menunjukkan bahwa penggunaan strategi \foreign{multi-engine} dapat meningkatkan kecepatan transkripsi secara signifikan tanpa mengorbankan akurasi secara drastis pada data bahasa lokal.
+
+Penelitian lain oleh Andreyev \cite{andreyev_quantization_2025} berfokus pada teknik kuantisasi model \foreign{Whisper} (INT4, INT5, dan INT8) untuk mengurangi latensi dan penggunaan memori pada perangkat \foreign{edge}. Hasilnya menunjukkan bahwa kuantisasi mampu mengurangi penggunaan memori hingga 45\% dengan penurunan akurasi yang minimal. Hal ini relevan dengan penelitian ini yang juga mempertimbangkan penggunaan sumber daya GPU yang terbatas di lingkungan kampus.
+
+Bain dkk. \cite{bain_whisperx_2023} memperkenalkan \foreign{WhisperX} yang mengoptimalkan model \foreign{Whisper} asli dengan menambahkan fitur \foreign{Voice Activity Detection} (VAD) dan \foreign{forced alignment} untuk menghasilkan \foreign{timestamp} tingkat kata yang lebih akurat. Meskipun penelitian ini berfokus pada model \foreign{Whisper} standar, teknik pemrosesan yang diusulkan dalam \foreign{WhisperX} menjadi referensi penting dalam memahami efisiensi pemrosesan audio berdurasi panjang.
+
+Perbedaan utama penelitian ini dengan penelitian sebelumnya adalah pada fokus implementasi sistem transkripsi yang terintegrasi secara penuh dalam ekosistem SaaS terdistribusi menggunakan \foreign{Next.js} dan \foreign{Python Worker}, serta melakukan \foreign{benchmarking} komprehensif pada seluruh varian model \foreign{Whisper} menggunakan data rekaman lokal bahasa Indonesia guna mencari titik temu antara efisiensi biaya infrastruktur dan akurasi hasil.
+
+\section{Hipotesis}
+Berdasarkan tinjauan pustaka di atas, diajukan hipotesis sebagai berikut:
+\begin{enumerate}
+    \item Terdapat korelasi positif antara ukuran model \foreign{Whisper} dengan tingkat akurasi, di mana model \foreign{Large-v3} diharapkan menghasilkan WER terendah namun dengan \foreign{inference time} paling lama.
+    \item Model \foreign{Large-v3-Turbo} mampu memberikan akurasi yang mendekati model \foreign{Large-v3} dengan kecepatan pemrosesan yang jauh lebih efisien pada infrastruktur NVIDIA RTX A4000.
+    \item Arsitektur terdistribusi menggunakan \foreign{Python Worker} mampu menjaga stabilitas sistem transkripsi pada beban kerja tinggi dibandingkan dengan pemrosesan monolitik.
+\end{enumerate}

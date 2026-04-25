@@ -1,0 +1,31 @@
+\documentclass[12pt,a4paper,oneside]{report}
+
+% Memasukkan preamble
+\input{preamble}
+
+\begin{document}
+
+% --- Bagian Awal (Front Matter) ---
+\pagenumbering{roman}
+\pagestyle{frontmatter}
+\include{frontmatter/sampul}
+\include{frontmatter/judul}
+\include{frontmatter/persetujuan}
+
+% Daftar Isi
+\tableofcontents
+\newpage
+
+% --- Bagian Isi (Main Matter) ---
+\pagenumbering{arabic}
+\pagestyle{mainmatter}
+\include{chapters/bab1}
+\include{chapters/bab2}
+\include{chapters/bab3}
+
+% --- Daftar Pustaka ---
+\addcontentsline{toc}{chapter}{DAFTAR PUSTAKA}
+\bibliographystyle{apalike}
+\bibliography{../referensi/ref/ref}
+
+\end{document}

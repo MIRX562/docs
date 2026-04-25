@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99e (TeX Live 2026)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main_proposal.aux
+A level-1 auxiliary file: frontmatter/sampul.aux
+A level-1 auxiliary file: frontmatter/judul.aux
+A level-1 auxiliary file: frontmatter/persetujuan.aux
+A level-1 auxiliary file: chapters/bab1.aux
+A level-1 auxiliary file: chapters/bab2.aux
+A level-1 auxiliary file: chapters/bab3.aux
+The style file: apalike.bst
+Database file #1: ../referensi/ref/ref.bib
+Warning--empty year in fathony_optimisasi_nodate
+Warning--empty journal in fathony_optimisasi_nodate
+Warning--empty year in radford_robust_nodate
+Warning--empty journal in radford_robust_nodate
+You've used 4 entries,
+            1935 wiz_defined-function locations,
+            497 strings with 4607 characters,
+and the built_in function-call counts, 1713 in all, are:
+= -- 163
+> -- 91
+< -- 2
++ -- 32
+- -- 32
+* -- 136
+:= -- 302
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 36
+chr.to.int$ -- 4
+cite$ -- 8
+duplicate$ -- 65
+empty$ -- 102
+format.name$ -- 36
+if$ -- 332
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 3
+newline$ -- 22
+num.names$ -- 12
+pop$ -- 42
+preamble$ -- 1
+purify$ -- 36
+quote$ -- 0
+skip$ -- 51
+stack$ -- 0
+substring$ -- 88
+swap$ -- 12
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 24
+warning$ -- 4
+while$ -- 11
+width$ -- 0
+write$ -- 48
+(There were 4 warnings)

@@ -1,0 +1,40 @@
+\chapter{PENDAHULUAN}
+
+\section{Latar Belakang}
+Perkembangan teknologi kecerdasan buatan, khususnya dalam bidang \foreign{Automatic Speech Recognition} (ASR), telah mengubah cara interaksi manusia dengan data suara. Kebutuhan akan transkripsi otomatis semakin meningkat di berbagai sektor, termasuk lingkungan akademis untuk keperluan dokumentasi rapat, perkuliahan, dan wawancara penelitian. Saat ini, solusi transkripsi berbasis \foreign{cloud} seperti Google \foreign{Cloud Speech-to-Text} menjadi pilihan utama karena akurasinya yang tinggi. Namun, penggunaan layanan tersebut memerlukan biaya operasional yang signifikan dan menimbulkan kekhawatiran terkait kedaulatan serta privasi data sensitif yang diunggah ke peladen pihak ketiga.
+
+Di sisi lain, model \foreign{state-of-the-art} seperti \foreign{Whisper} yang diperkenalkan oleh OpenAI \cite{radford_robust_nodate} menawarkan performa yang kompetitif dan bersifat \foreign{open source}. Hal ini membuka peluang bagi institusi pendidikan untuk mengimplementasikan sistem transkripsi mandiri (\foreign{self-hosted}). Mayoritas kampus dan laboratorium penelitian saat ini telah memiliki infrastruktur perangkat keras berupa komputer dengan \foreign{Graphic Processing Unit} (GPU) yang mumpuni. Dengan memanfaatkan sumber daya komputasi internal tersebut, biaya operasional dapat ditekan secara drastis dibandingkan menggunakan API komersial \cite{fathony_optimisasi_nodate}.
+
+Namun, implementasi \foreign{Whisper} pada lingkungan produksi berskala \foreign{Software-as-a-Service} (SaaS) menghadapi tantangan teknis dalam hal manajemen antrean dan skalabilitas. Diperlukan arsitektur sistem terdistribusi yang efisien untuk menangani beban kerja transkripsi yang intensif secara komputasi. Selain itu, terdapat berbagai varian model \foreign{Whisper} mulai dari \foreign{Tiny} hingga \foreign{Large-v3-Turbo} yang memiliki karakteristik performa dan akurasi yang berbeda-beda. Oleh karena itu, penelitian ini bertujuan untuk melakukan analisis mendalam mengenai performa dan akurasi berbagai varian model \foreign{Whisper} pada sistem transkripsi terdistribusi yang dibangun menggunakan \foreign{Next.js} dan \foreign{Python Worker}.
+
+\section{Rumusan Masalah}
+Berdasarkan latar belakang di atas, rumusan masalah dalam penelitian ini adalah:
+\begin{enumerate}
+    \item Bagaimana performa kecepatan (\foreign{inference time}) dan efisiensi penggunaan sumber daya (VRAM) antar varian model \foreign{Whisper} pada sistem terdistribusi?
+    \item Sejauh mana tingkat akurasi (\foreign{Word Error Rate}) yang dihasilkan oleh berbagai varian model \foreign{Whisper} pada sampel audio rekaman lokal bahasa Indonesia?
+    \item Bagaimana efektivitas arsitektur terdistribusi menggunakan \foreign{Next.js} dan \foreign{Python Worker} dalam menangani beban kerja transkripsi otomatis?
+\end{enumerate}
+
+\section{Batasan Masalah}
+Penelitian ini dibatasi pada hal-hal sebagai berikut:
+\begin{enumerate}
+    \item Model yang diuji terbatas pada varian \foreign{Whisper} (\foreign{Tiny, Small, Medium, Large-v3, Large-v3-Turbo}).
+    \item Sistem dibangun menggunakan \foreign{Next.js} untuk \foreign{frontend/backend} utama dan \foreign{Python} untuk \foreign{worker} pemrosesan audio.
+    \item Pengujian akurasi menggunakan 5 sampel audio rekaman lokal dari berbagai sumber (seperti YouTube) dalam bahasa Indonesia.
+    \item Infrastruktur pengujian menggunakan remote pod dari \foreign{Runpod} dengan spesifikasi NVIDIA RTX A4000 atau \foreign{Mac Mini M4}.
+\end{enumerate}
+
+\section{Tujuan Penelitian}
+Tujuan dari penelitian ini adalah:
+\begin{enumerate}
+    \item Menganalisis perbandingan performa kecepatan dan konsumsi sumber daya dari seluruh varian model \foreign{Whisper}.
+    \item Mengukur tingkat akurasi transkripsi model \foreign{Whisper} pada data audio lokal bahasa Indonesia untuk menentukan model yang paling optimal antara akurasi dan kecepatan.
+    \item Mengimplementasikan prototipe sistem transkripsi terdistribusi yang dapat memanfaatkan \foreign{resource} GPU internal secara efisien.
+\end{enumerate}
+
+\section{Manfaat Penelitian}
+Manfaat yang diharapkan dari penelitian ini adalah:
+\begin{enumerate}
+    \item \textbf{Manfaat Teoritis:} Memberikan kontribusi berupa data pembanding (*benchmarking*) terbaru mengenai performa varian model \foreign{Whisper} pada bahasa Indonesia dalam lingkungan sistem terdistribusi.
+    \item \textbf{Manfaat Praktis:} Memberikan solusi sistem transkripsi yang ekonomis dan aman bagi institusi yang memiliki sumber daya GPU, serta mengurangi ketergantungan pada layanan \foreign{cloud} berbayar.
+\end{enumerate}
