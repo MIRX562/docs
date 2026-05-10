@@ -7,51 +7,61 @@ A level-1 auxiliary file: frontmatter/persetujuan.aux
 A level-1 auxiliary file: chapters/bab1.aux
 A level-1 auxiliary file: chapters/bab2.aux
 A level-1 auxiliary file: chapters/bab3.aux
-The style file: apalike.bst
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ../referensi/ref/ref.bib
-Warning--empty year in fathony_optimisasi_nodate
-Warning--empty journal in fathony_optimisasi_nodate
-Warning--empty year in radford_robust_nodate
-Warning--empty journal in radford_robust_nodate
-You've used 4 entries,
-            1935 wiz_defined-function locations,
-            497 strings with 4607 characters,
-and the built_in function-call counts, 1713 in all, are:
-= -- 163
-> -- 91
-< -- 2
-+ -- 32
-- -- 32
-* -- 136
-:= -- 302
-add.period$ -- 12
-call.type$ -- 4
-change.case$ -- 36
-chr.to.int$ -- 4
-cite$ -- 8
-duplicate$ -- 65
-empty$ -- 102
-format.name$ -- 36
-if$ -- 332
-int.to.chr$ -- 1
-int.to.str$ -- 0
-missing$ -- 3
-newline$ -- 22
-num.names$ -- 12
-pop$ -- 42
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No journal in fathony_optimisasi_nodate
+Warning--No journal in imai_evaluating_nodate
+Warning--No journal in radford_robust_nodate
+Warning--No journal in riebel_user-centered_nodate
+You've used 12 entries,
+            6951 wiz_defined-function locations,
+            1355 strings with 14389 characters,
+and the built_in function-call counts, 27112 in all, are:
+= -- 3198
+> -- 252
+< -- 1415
++ -- 1484
+- -- 24
+* -- 1889
+:= -- 5123
+add.period$ -- 54
+call.type$ -- 12
+change.case$ -- 166
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 745
+empty$ -- 1019
+format.name$ -- 442
+if$ -- 4924
+int.to.chr$ -- 0
+int.to.str$ -- 36
+missing$ -- 0
+newline$ -- 361
+num.names$ -- 96
+pop$ -- 491
 preamble$ -- 1
-purify$ -- 36
+purify$ -- 56
 quote$ -- 0
-skip$ -- 51
+skip$ -- 1521
 stack$ -- 0
-substring$ -- 88
-swap$ -- 12
-text.length$ -- 1
+substring$ -- 1584
+swap$ -- 432
+text.length$ -- 41
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 24
+top$ -- 1
+type$ -- 1088
 warning$ -- 4
-while$ -- 11
+while$ -- 159
 width$ -- 0
-write$ -- 48
+write$ -- 466
 (There were 4 warnings)

@@ -16,14 +16,17 @@
 % Daftar Isi, Daftar Tabel, Daftar Gambar
 \tableofcontents
 \newpage
+
+\addcontentsline{toc}{chapter}{DAFTAR TABEL}
 \listoftables
 \newpage
+
+\addcontentsline{toc}{chapter}{DAFTAR GAMBAR}
 \listoffigures
 \newpage
 
 % --- Bagian Isi (Main Matter) ---
-\pagenumbering{arabic}
-\pagestyle{mainmatter}
+\startmainmatter
 \include{chapters/bab1}
 \include{chapters/bab2}
 \include{chapters/bab3}
@@ -32,9 +35,7 @@
 
 % --- Daftar Pustaka ---
 \addcontentsline{toc}{chapter}{DAFTAR PUSTAKA}
-\begin{singlespace}
-    \bibliographystyle{apalike}
-    \bibliography{../referensi/ref/ref}
-\end{singlespace}
+\bibliographystyle{apacite}
+\bibliography{../referensi/ref/ref}
 
 \end{document}

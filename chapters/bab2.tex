@@ -3,32 +3,57 @@
 \section{Kerangka Teori}
 Bagian ini memaparkan teori-teori dasar yang menjadi landasan dalam pengembangan dan analisis sistem transkripsi terdistribusi.
 
-\subsection{Automatic Speech Recognition (ASR) dan Model Whisper}
-\foreign{Automatic Speech Recognition} (ASR) adalah teknologi yang memungkinkan komputer untuk mengubah sinyal suara menjadi teks secara otomatis. Perkembangan terbaru dalam bidang ini didominasi oleh pendekatan \foreign{deep learning}, salah satunya adalah model \foreign{Whisper} yang dikembangkan oleh OpenAI. \foreign{Whisper} menggunakan arsitektur \foreign{Transformer} berbasis \foreign{encoder-decoder} yang dilatih menggunakan 680.000 jam data audio multibahasa secara \foreign{weakly supervised} \cite{radford_robust_nodate}. Hal ini membuat model tersebut memiliki tingkat ketahanan (\foreign{robustness}) yang tinggi terhadap aksen, kebisingan latar belakang, dan istilah teknis dibandingkan model ASR tradisional.
+\subsection{Automatic Speech Recognition (ASR) dan Arsitektur Transformer}
+\foreign{Automatic Speech Recognition} (ASR) adalah teknologi yang memungkinkan komputer untuk mengubah sinyal suara menjadi teks secara otomatis. Perkembangan terbaru dalam bidang ini didominasi oleh arsitektur \foreign{Transformer} yang menggunakan mekanisme \foreign{self-attention} untuk menangkap dependensi global dalam data sekuensial secara paralel \cite{latif_transformers_2025}. Model \foreign{Whisper} yang dikembangkan oleh OpenAI merupakan salah satu implementasi \foreign{Transformer} paling sukses, yang dilatih menggunakan 680.000 jam data audio multibahasa secara \foreign{weakly supervised} untuk mencapai generalisasi yang luas \cite{radford_robust_nodate}. Arsitektur ini memungkinkan model untuk melakukan tugas transkripsi, translasi, dan deteksi bahasa dalam satu kesatuan sistem saraf tanpa memerlukan komponen akustik tradisional. Hal ini membuat \foreign{Whisper} memiliki tingkat ketahanan (\foreign{robustness}) yang sangat tinggi terhadap variasi aksen, kebisingan latar belakang, dan istilah teknis yang sering ditemui pada percakapan alami \cite{graham_evaluating_2024}.
 
-\subsection{Sistem Transkripsi Terdistribusi}
-Sistem terdistribusi adalah sekumpulan komputer mandiri yang tampak bagi pengguna sebagai satu sistem tunggal yang koheren. Dalam konteks transkripsi otomatis, beban kerja pemrosesan audio bersifat \foreign{compute-intensive}. Oleh karena itu, penggunaan arsitektur terdistribusi yang memisahkan antara antarmuka pengguna (\foreign{Next.js}) dan unit pemrosesan (\foreign{Python Worker}) sangat krusial. Komunikasi antar komponen ini biasanya dilakukan melalui \foreign{Message Broker} seperti Redis atau RabbitMQ untuk mengelola antrean tugas secara asinkron.
+\subsection{Sistem Transkripsi Terdistribusi dan Next.js}
+Dalam konteks transkripsi otomatis skala besar, beban kerja pemrosesan audio bersifat \foreign{compute-intensive} yang membutuhkan sumber daya GPU yang signifikan dan manajemen memori yang ketat. Penggunaan arsitektur terdistribusi memungkinkan pemisahan antara antarmuka pengguna (\foreign{frontend}), logika bisnis (\foreign{backend}), dan unit pemrosesan inferensi (\foreign{worker}). Framework \foreign{Next.js} 16 yang didukung oleh \foreign{TypeScript} menyediakan lingkungan pengembangan yang kokoh untuk membangun orkestrator tugas yang skalabel melalui fitur \textit{App Router} dan \textit{Server Components}. Penggunaan \foreign{Bun} sebagai \textit{runtime} JavaScript berperforma tinggi semakin mempercepat waktu eksekusi skrip sisi server dan manajemen paket \cite{sekhar_emmanni_role_2021}. Komunikasi asinkron antar komponen ini dikelola secara efisien melalui \foreign{Job Queue Management} berbasis Redis dan \foreign{BullMQ}, yang memungkinkan sistem menangani antrean tugas yang panjang tanpa mengorbankan responsivitas antarmuka bagi pengguna akhir \cite{machacek_turning_2023}.
 
-\subsection{Metrik Evaluasi: Word Error Rate (WER)}
-Akurasi sistem ASR diukur menggunakan metrik \foreign{Word Error Rate} (WER). WER dihitung dengan menjumlahkan jumlah substitusi ($S$), penghapusan ($D$), dan penyisipan ($I$) kata, kemudian dibagi dengan jumlah total kata ($N$) pada referensi asli:
-\begin{equation}
-    WER = \frac{S + D + I}{N}
-\end{equation}
-Nilai WER yang lebih rendah menunjukkan tingkat akurasi yang lebih tinggi.
+\subsection{Interaksi Manusia-Komputer dan Koreksi Manual (Human-in-the-Loop)}
+Interaksi Manusia-Komputer memainkan peran krusial dalam menjembatani keterbatasan model kecerdasan buatan saat ini yang belum sepenuhnya bebas dari kesalahan. Meskipun model ASR telah mencapai tingkat akurasi yang tinggi, ambiguitas linguistik dan gangguan audio tetap menjadi tantangan yang sulit diatasi sepenuhnya oleh algoritma murni. Konsep \textit{Human-in-the-loop} (HITL) menempatkan pengguna manusia sebagai validator akhir untuk memastikan integritas data transkripsi melalui proses penyuntingan manual. Implementasi antarmuka yang intuitif sangat penting untuk mengurangi beban kognitif dan latensi waktu selama proses koreksi berlangsung guna mencapai efisiensi maksimal \cite{gaur_effects_2016}. Penggunaan visualisasi bentuk gelombang audio (\textit{waveform}) yang tersinkronisasi dengan teks memungkinkan transkriptor melakukan identifikasi kesalahan secara visual dan auditori secara bersamaan \cite{riebel_user-centered_nodate}. Pendekatan ini memastikan bahwa hasil akhir transkripsi memiliki kualitas yang layak untuk publikasi akademis maupun kebutuhan dokumentasi profesional \cite{imai_evaluating_nodate}.
+
+\subsection{Metrik Evaluasi: WER dan CER}
+Akurasi sistem ASR umumnya diukur menggunakan metrik \foreign{Word Error Rate} (WER) yang didasarkan pada algoritma jarak Levenshtein. WER dihitung dengan menjumlahkan jumlah substitusi ($S$), penghapusan ($D$), dan penyisipan ($I$) kata, kemudian dibagi dengan jumlah total kata ($N$) pada referensi asli yang dianggap sebagai kebenaran dasar (\textit{ground truth}) \cite{ferraro_benchmarking_2023}. Penggunaan WER sangat efektif untuk menilai pemahaman model terhadap struktur kalimat dan kosakata secara keseluruhan dalam suatu bahasa. Namun, untuk analisis yang lebih granular, metrik \foreign{Character Error Rate} (CER) juga digunakan untuk mengukur kesalahan pada level karakter individual. CER sangat berguna dalam mendeteksi kesalahan kecil pada penulisan kata-kata unik, singkatan, atau istilah teknis yang mungkin tidak tertangkap secara eksplisit oleh metrik WER saja.
 
 \section{Literatur Review}
-Penelitian mengenai implementasi dan optimasi model \foreign{Whisper} telah banyak dilakukan dalam beberapa tahun terakhir. Fathony dkk. \cite{fathony_optimisasi_nodate} melakukan penelitian mengenai optimasi \foreign{Whisper} untuk Bahasa Indonesia menggunakan pendekatan \foreign{Hybrid Cloud}. Temuan mereka menunjukkan bahwa penggunaan strategi \foreign{multi-engine} dapat meningkatkan kecepatan transkripsi secara signifikan tanpa mengorbankan akurasi secara drastis pada data bahasa lokal.
+Tinjauan pustaka dilakukan dengan menganalisis berbagai penelitian terdahulu yang memiliki relevansi dengan pemrosesan bahasa alami, arsitektur sistem terdistribusi, serta metodologi pengembangan perangkat lunak berbasis pengguna. Fokus utama dari peninjauan ini adalah untuk memetakan posisi penelitian saat ini dalam ekosistem teknologi ASR (\textit{Automatic Speech Recognition}) serta mengidentifikasi celah penelitian yang dapat diisi oleh pengembangan sistem Skriptor. Berdasarkan analisis terhadap 20 literatur utama, ditemukan bahwa integrasi antara model AI berperforma tinggi dengan antarmuka yang mendukung intervensi manusia (\textit{human-in-the-loop}) merupakan faktor kunci dalam meningkatkan efisiensi proses transkripsi di berbagai domain. Data literatur tersebut dirangkum dalam Tabel 2.1 untuk memberikan gambaran komprehensif mengenai metode, tujuan, dan temuan utama dari setiap penelitian yang dirujuk.
 
-Penelitian lain oleh Andreyev \cite{andreyev_quantization_2025} berfokus pada teknik kuantisasi model \foreign{Whisper} (INT4, INT5, dan INT8) untuk mengurangi latensi dan penggunaan memori pada perangkat \foreign{edge}. Hasilnya menunjukkan bahwa kuantisasi mampu mengurangi penggunaan memori hingga 45\% dengan penurunan akurasi yang minimal. Hal ini relevan dengan penelitian ini yang juga mempertimbangkan penggunaan sumber daya GPU yang terbatas di lingkungan kampus.
+\begin{small}
+\begin{longtable}{|p{2.5cm}|p{2cm}|p{2.1cm}|p{2.5cm}|p{3.5cm}|}
+\caption{Ringkasan Literatur Review} \label{tab:lit_review} \\
+\hline
+\textbf{Judul} & \textbf{Penulis} & \textbf{Metode Penelitian} & \textbf{Tujuan Penelitian} & \textbf{Hasil Penelitian} \\ \hline
+\endfirsthead
+\multicolumn{5}{c}%
+{{\bfseries \tablename\ \thetable{} -- Lanjutan dari halaman sebelumnya}} \\
+\hline
+\textbf{Judul} & \textbf{Penulis} & \textbf{Metode Penelitian} & \textbf{Tujuan Penelitian} & \textbf{Hasil Penelitian} \\ \hline
+\endhead
+\hline \multicolumn{5}{|r|}{{Berlanjut ke halaman berikutnya}} \\ \hline
+\endfoot
+\hline
+\endlastfoot
+User-centered Design Methods in Data-Intensive Software... & Riebel (2023) & Literature Review & Menganalisis integrasi UCD dalam AI & UCD meningkatkan empati dan definisi masalah dalam pengembangan AI. \\ \hline
+A Study on Using Waterfall and Agile Methods... & Andrei (2019) & Comparative Study & Menganalisis efisiensi Waterfall vs Agile & Agile lebih cocok untuk proyek software yang dinamis dan beriterasi. \\ \hline
+Evaluating Open-Source ASR Systems... & Imai (2025) & Evaluasi Eksperimental & Mengukur akurasi ASR pada audio bising & Perlu robust error correction untuk mengatasi bias demografis. \\ \hline
+End-to-End Speech Recognition: A Survey & Prabhavalkar (2023) & Survey Literatur & Memetakan perkembangan E2E ASR & Model E2E mereduksi WER hingga 50\% dibanding HMM tradisional. \\ \hline
+Transformers in Speech Processing: A Survey & Latif (2025) & Survey Literatur & Menganalisis Transformer dalam audio & Transformer unggul dalam memodelkan dependensi jangka panjang. \\ \hline
+Multilingual DistilWhisper... & Ferraz (2024) & Eksperimental (Distillation) & Meringankan model Whisper untuk bahasa langka & DistilWhisper meningkatkan performa bahasa under-represented dengan overhead minim. \\ \hline
+Does ChatGPT and Whisper Make Humanoid Robots More Relatable? & Chen (2024) & Evaluasi Pengguna & Membandingkan Whisper vs Google ASR pada robot & Whisper memiliki WER terendah (1.71\%) dan paling disukai oleh pengguna. \\ \hline
+Quantization for OpenAI's Whisper Models... & Andreyev (2025) & Analisis Komparatif & Mengukur dampak kuantisasi pada latensi & Kuantisasi INT8 mereduksi size 45\% dan latensi 19\% tanpa degradasi akurasi. \\ \hline
+A Self-Training Approach for Whisper to Enhance Long Dysarthric Speech... & Wang (2025) & Self-training method & Meningkatkan ASR untuk penderita disartria & Metode self-training meningkatkan performa pada ucapan penderita disabilitas. \\ \hline
+Accurate Speech Recognition AI using Model of Deep Learning... & Isyanto (2024) & Eksperimental CNN & Membangun ASR untuk keamanan perbankan & Algoritma CNN mencapai akurasi 99\% untuk pengenalan kata kunci keamanan. \\ \hline
+Evaluating OpenAI's Whisper ASR... & Graham (2024) & Analisis Performa & Mengevaluasi Whisper pada berbagai aksen & Whisper lebih akurat pada aksen asli (native) dibandingkan aksen non-native. \\ \hline
+A Closer Look on the User Centred Design & Chammas (2015) & Analisis Teoretis & Mengkaji manfaat dan hambatan UCD & UCD meningkatkan kepuasan pengguna meskipun membutuhkan iterasi konstan. \\ \hline
+A Comparative Study of Agile and Waterfall Software Development... & Justin (2024) & Analisis Komparatif & Membandingkan Agile vs Waterfall & Agile lebih unggul dalam kepuasan pelanggan dan kecepatan pengembangan. \\ \hline
+The effects of automatic speech recognition quality on human transcription latency & Gaur (2016) & Studi Empiris & Mengukur latensi koreksi manual ASR & Koreksi manual lebih efisien jika WER berada di bawah ambang batas 30\%. \\ \hline
+WhisperX: Time-Accurate Speech Transcription... & Bain (2023) & Pengembangan Sistem & Penyelarasan waktu tingkat kata pada Whisper & VAD dan forced alignment memungkinkan transkripsi 12x lebih cepat. \\ \hline
+Bridging the Gap Between Generalized ASR and Domain-Specific... & Nelson (2023) & Integrasi Vosk & Menyesuaikan ASR untuk domain spesifik & Language modeling pada Vosk efektif untuk istilah medis dan hukum. \\ \hline
+A semi-automatic pipeline for transcribing child speech & Christodoulidou (2025) & Evaluasi Pipeline & Membangun pipeline transkripsi suara anak & Koreksi manual sebelum forced alignment meningkatkan kualitas data akustik. \\ \hline
+Comparing ASR Systems in Context of Speech Disfluencies & Teleki (2024) & Analisis Korpus Besar & Mengevaluasi Google ASR vs Whisper & Whisper lebih unggul dalam menangani interjeksi dan keraguan bicara. \\ \hline
+Perancangan Antarmuka Pengguna Aplikasi Informasi Siswa... & Pratiwi (2022) & User Centered Design (UCD) & Merancang aplikasi informasi sekolah & Metode UCD menghasilkan desain yang 100\% dapat digunakan oleh target user. \\ \hline
+Estonian Speech Recognition and Transcription Editing Service & Olev (2022) & Pengembangan Layanan & Membangun sistem transkripsi berbasis wav2vec2.0 & Sistem berbasis E2E mencapai WER 6.9\% dan mendukung editing kolaboratif. \\ \hline
+\end{longtable}
+\end{small}
 
-Bain dkk. \cite{bain_whisperx_2023} memperkenalkan \foreign{WhisperX} yang mengoptimalkan model \foreign{Whisper} asli dengan menambahkan fitur \foreign{Voice Activity Detection} (VAD) dan \foreign{forced alignment} untuk menghasilkan \foreign{timestamp} tingkat kata yang lebih akurat. Meskipun penelitian ini berfokus pada model \foreign{Whisper} standar, teknik pemrosesan yang diusulkan dalam \foreign{WhisperX} menjadi referensi penting dalam memahami efisiensi pemrosesan audio berdurasi panjang.
-
-Perbedaan utama penelitian ini dengan penelitian sebelumnya adalah pada fokus implementasi sistem transkripsi yang terintegrasi secara penuh dalam ekosistem SaaS terdistribusi menggunakan \foreign{Next.js} dan \foreign{Python Worker}, serta melakukan \foreign{benchmarking} komprehensif pada seluruh varian model \foreign{Whisper} menggunakan data rekaman lokal bahasa Indonesia guna mencari titik temu antara efisiensi biaya infrastruktur dan akurasi hasil.
-
-\section{Hipotesis}
-Berdasarkan tinjauan pustaka di atas, diajukan hipotesis sebagai berikut:
-\begin{enumerate}
-    \item Terdapat korelasi positif antara ukuran model \foreign{Whisper} dengan tingkat akurasi, di mana model \foreign{Large-v3} diharapkan menghasilkan WER terendah namun dengan \foreign{inference time} paling lama.
-    \item Model \foreign{Large-v3-Turbo} mampu memberikan akurasi yang mendekati model \foreign{Large-v3} dengan kecepatan pemrosesan yang jauh lebih efisien pada infrastruktur NVIDIA RTX A4000.
-    \item Arsitektur terdistribusi menggunakan \foreign{Python Worker} mampu menjaga stabilitas sistem transkripsi pada beban kerja tinggi dibandingkan dengan pemrosesan monolitik.
-\end{enumerate}
+Berdasarkan tinjauan literatur di atas, penelitian ini memfokuskan diri pada integrasi sistem transkripsi berbasis \foreign{Next.js} dan \foreign{Python Worker} dalam arsitektur terdistribusi yang dioptimasi untuk penggunaan institusi lokal. Penelitian ini mengisi celah dengan menggabungkan performa model WhisperX yang telah terbukti unggul dengan antarmuka koreksi manual yang dirancang menggunakan prinsip UCD. Melalui pendekatan ini, diharapkan transkripsi bahasa Indonesia pada data siniar dapat dilakukan dengan akurasi yang lebih tinggi dan waktu koreksi yang lebih singkat.
