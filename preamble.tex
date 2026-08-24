@@ -11,6 +11,7 @@
 \usepackage{caption} % Untuk format caption
 \usepackage{etoolbox} % Untuk reset penomoran section per chapter
 \usepackage{amsmath} % Untuk \numberwithin
+\usepackage{amssymb} % Untuk simbol matematika seperti \mathbb
 \usepackage{lipsum} % Untuk dummy text (testing)
 \usepackage{fancyhdr} % Untuk pengaturan posisi nomor halaman
 \usepackage[hidelinks]{hyperref} % Untuk metadata PDF dan link
@@ -34,11 +35,15 @@
   \renewcommand{\BAnd}{dan}
   \renewcommand{\BRetrievedFrom}{Diambil dari}
   \renewcommand{\BRetrieved}[1]{Diakses pada #1}
+  
+  % Memaksa penggunaan format pendek (dkk.) jika penulis > 1 (bahkan pada kutipan pertama)
+  % Menggunakan pendekatan manual untuk menghindari error 'Undefined control sequence'
+  \renewcommand{\cite}[1]{(\citeauthor{#1}, \citeyear{#1})}
+  \renewcommand{\citep}[1]{(\citeauthor{#1}, \citeyear{#1})}
+  \renewcommand{\citet}[1]{\citeauthor{#1} (\citeyear{#1})}
 }
 
-% Menyesuaikan format agar selalu menggunakan kurung (Author, Year)
-\let\oldcite\cite
-\renewcommand{\cite}{\citep}
+% Menyesuaikan format agar selalu menggunakan kurung (Author, Year) - Sudah dihandle di AtBeginDocument via \shortcite
 
 % --- Pengaturan List (Enumerate/Itemize) ---
 % Menghapus spasi tambahan antar item dan sekitar list agar sesuai dengan spasi 1.5 paragraf
@@ -54,7 +59,7 @@
 % --- Variabel Global Identitas ---
 \newcommand{\mhsname}{MUHAMAD IFFAN RAMADHAN}
 \newcommand{\mhsnim}{2117020036}
-\newcommand{\mhsjudul}{Analisis Performa dan Akurasi Model Whisper pada Sistem Transkripsi Terdistribusi Menggunakan Next.js dan Python Worker}
+\newcommand{\mhsjudul}{Rancang Bangun Sistem Speech To Text Berbasis Web Menggunakan Model Open AI Whisper}
 \newcommand{\mhsprodi}{Sistem Informasi}
 \newcommand{\mhsfakultas}{Fakultas Sains dan Teknologi}
 \newcommand{\mhsuniv}{Universitas Islam Negeri Imam Bonjol Padang}
@@ -146,20 +151,41 @@
 \setcounter{tocdepth}{1}
 \setcounter{secnumdepth}{2}
 
-% Menambahkan titik-titik (dotted leaders) untuk Bab
+% Perataan kiri semua entry (Level 0 dan 1)
+\setlength{\cftchapindent}{0pt}
+\setlength{\cftsecindent}{0pt}
+\setlength{\cfttabindent}{0pt}
+\setlength{\cftfigindent}{0pt}
+
+% Spasi antar entry konsisten 1.5 (menghapus skip tambahan bawaan tocloft)
+\setlength{\cftbeforechapskip}{0pt}
+\setlength{\cftbeforesecskip}{0pt}
+\setlength{\cftbeforetabskip}{0pt}
+\setlength{\cftbeforefigskip}{0pt}
+
+% Membuat titik-titik menjadi sangat padat (seperti MS Word)
+\renewcommand{\cftdotsep}{0.5}
+
+% Menambahkan titik-titik (dotted leaders) untuk Bab (bawaan tocloft tidak ada untuk bab)
 \renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
 
 % Menambahkan kata "BAB" di depan nomor bab pada Daftar Isi
 \renewcommand{\cftchappresnum}{BAB }
-\setlength{\cftchapnumwidth}{1.8cm}
-\renewcommand{\cftchapaftersnumb}{\quad}
+\setlength{\cftchapnumwidth}{1.4cm} % Dikurangi dari 1.8cm agar tidak terlalu jauh
+\renewcommand{\cftchapaftersnumb}{} % Menghapus quad agar lebih rapat
 
-% Membuat judul dertar isi, tabel, gambar berada di tengah dan All Caps
+% Membuat judul daftar isi, tabel, gambar berada di tengah dan All Caps
 \renewcommand{\contentsname}{\centering DAFTAR ISI}
 \renewcommand{\listtablename}{\centering DAFTAR TABEL}
 \renewcommand{\listfigurename}{\centering DAFTAR GAMBAR}
 
-% --- Pengaturan Posisi Nomor Halaman ---
+% Menghapus spasi tambahan antar bab di Daftar Tabel dan Daftar Gambar (LoT/LoF)
+\makeatletter
+\addtocontents{lot}{\protect\renewcommand{\protect\addvspace}[1]{}}
+\addtocontents{lof}{\protect\renewcommand{\protect\addvspace}[1]{}}
+\makeatother
+
+% --- Pengaturan Posisi Nomor Halaman --- 
 \fancypagestyle{frontmatter}{
   \fancyhf{}
   \fancyfoot[C]{\thepage} % Tengah bawah untuk Romawi

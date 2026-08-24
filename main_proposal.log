@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.8)  11 MAY 2026 02:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.8)  10 AUG 2026 23:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -220,7 +220,15 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
-) (/opt/texlive/2026/texmf-dist/tex/latex/lipsum/lipsum.sty (/opt/texlive/2026/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (/opt/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
+) (/opt/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/opt/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/opt/texlive/2026/texmf-dist/tex/latex/lipsum/lipsum.sty (/opt/texlive/2026/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (/opt/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2026-03-20 L3 programming layer (loader) 
  (/opt/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
@@ -711,12 +719,12 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count380
 )
-LaTeX Info: Redefining \BBA on input line 29.
+LaTeX Info: Redefining \BBA on input line 30.
 )
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 6.
  (/opt/texlive/2026/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (./main_proposal.aux (./frontmatter/sampul.aux) (./frontmatter/judul.aux) (./frontmatter/persetujuan.aux) (./chapters/bab1.aux) (./chapters/bab2.aux) (./chapters/bab3.aux))
+) (./main_proposal.aux (./frontmatter/sampul.aux) (./frontmatter/judul.aux) (./frontmatter/persetujuan.aux) (./frontmatter/pengantar.aux) (./chapters/bab1.aux) (./chapters/bab2.aux) (./chapters/bab3.aux))
 \openout1 = `main_proposal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -838,7 +846,7 @@ Package apacite Warning: No suitable language definition file (indonesian.apc) f
 \openout2 = `frontmatter/sampul.aux'.
 
 (./frontmatter/sampul.tex
-<logo_universitas.png, id=91, 588.1975pt x 588.1975pt>
+<logo_universitas.png, id=98, 588.1975pt x 588.1975pt>
 File: logo_universitas.png Graphic file (type png)
 <use logo_universitas.png>
 Package pdftex.def Info: logo_universitas.png  used on input line 9.
@@ -862,7 +870,7 @@ Package pdftex.def Info: logo_universitas.png  used on input line 11.
 \openout2 = `frontmatter/persetujuan.aux'.
 
  (./frontmatter/persetujuan.tex
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 25.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 26.
  (/opt/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -870,37 +878,53 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 25.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 26.
  (/opt/texlive/2026/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 25.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 26.
  (/opt/texlive/2026/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 25.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 26.
  (/opt/texlive/2026/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 25.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 26.
  (/opt/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
- [3
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
+ (/opt/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+) (/opt/texlive/2026/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) [3
 
 
 
-]) (./main_proposal.toc)
+])
+\openout2 = `frontmatter/pengantar.aux'.
+
+ (./frontmatter/pengantar.tex [4
+
+
+
+]) (./main_proposal.toc
+Overfull \hbox (0.76111pt too wide) detected at line 26
+\T1/ptm/b/n/12 BAB III 
+ []
+
+)
 \tf@toc=\write5
 \openout5 = `main_proposal.toc'.
 
- [4
+ [5
 
 
 
@@ -908,35 +932,30 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \tf@lot=\write6
 \openout6 = `main_proposal.lot'.
 
- [5
+ [6
 
 ] (./main_proposal.lof)
 \tf@lof=\write7
 \openout7 = `main_proposal.lof'.
 
- [6
+ [7
 
 ]
 \openout2 = `chapters/bab1.aux'.
 
  (./chapters/bab1.tex
 Bab I.
-
-Underfull \hbox (badness 1028) in paragraph at lines 4--5
-\T1/ptm/m/n/12 (+20) sa-tu de-ka-de ter-a-khir. Tran-si-si da-ri pe-mo-del-an tra-di-sio-nal ber-ba-sis \T1/ptm/m/it/12 (+20) Hi-dden
- []
-
-
-Underfull \hbox (badness 1331) in paragraph at lines 4--5
-\T1/ptm/m/it/12 (+20) Mar-kov Mo-del \T1/ptm/m/n/12 (+20) (HMM) me-nu-ju ar-si-tek-tur \T1/ptm/m/it/12 (+20) End-to-End \T1/ptm/m/n/12 (+20) (E2E) ber-ba-sis \T1/ptm/m/it/12 (+20) de-ep
- []
-
 [1
 
 
 
-] [2] [3]
-Underfull \hbox (badness 3428) in paragraph at lines 44--45
+] [2]
+Underfull \hbox (badness 4531) in paragraph at lines 41--42
+[]\T1/ptm/m/n/12 (+20) Varian mo-del \T1/ptm/m/it/12 (+20) Whis-per \T1/ptm/m/n/12 (+20) yang le-bih be-sar (mi-sal-nya \T1/ptm/m/it/12 (+20) Large-v3 \T1/ptm/m/n/12 (+20) dan
+ []
+
+[3]
+Underfull \hbox (badness 3428) in paragraph at lines 49--50
 []\T1/ptm/b/n/12 (+20) Manfaat Prak-tis: \T1/ptm/m/n/12 (+20) Me-nye-di-ak-an so-lu-si sis-tem transk-ri-psi man-di-ri
  []
 
@@ -945,1172 +964,1344 @@ Underfull \hbox (badness 3428) in paragraph at lines 44--45
 
  (./chapters/bab2.tex
 Bab II.
+
+Underfull \hbox (badness 6284) in paragraph at lines 4--5
+[]\T1/ptm/m/n/12 (+20) Bagian ini me-ma-park-an teori-teori da-sar yang men-ja-di lan-das-an
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 13--14
+\T1/ptm/m/n/12 (+20) la-ju sam-pel (\T1/ptm/m/it/12 (+20) sam-pling ra-te\T1/ptm/m/n/12 (+20) ) 16.000 Hz, ke-mu-di-an di-pe-cah men-ja-di
+ []
+
 [5
 
 
 
 
-] [6]
-Underfull \hbox (badness 1478) in paragraph at lines 19--20
+]
+Underfull \hbox (badness 4752) in paragraph at lines 14--15
+[]\T1/ptm/b/n/12 (+20) Arsitektur \T1/ptm/b/it/12 (+20) En-co-der \T1/ptm/b/n/12 (+20) Tran-sfor-mer: \T1/ptm/m/it/12 (+20) En-co-der \T1/ptm/m/n/12 (+20) ber-tu-gas me-me-tak-an
+ []
+
+[6] [7]
+Underfull \hbox (badness 7133) in paragraph at lines 28--29
+\T1/ptm/m/n/12 (+20) au-dio se-ca-ra ber-u-rut-an (\T1/ptm/m/it/12 (+20) se-qu-en-ti-al de-co-ding\T1/ptm/m/n/12 (+20) ), yang meng-ha-la-ngi
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 32--33
+\T1/ptm/m/it/12 (+20) Whis-pe-rX \T1/ptm/m/n/12 (+20) ada-lah kla-si-fi-ka-si iden-ti-tas su-a-ra un-tuk me-nen-tuk-an si-a-pa
+ []
+
+
+Underfull \hbox (badness 2837) in paragraph at lines 32--33
+\T1/ptm/m/n/12 (+20) pem-bi-ca-ra, ke-mu-di-an pe-me-ta-an iden-ti-tas pem-bi-ca-ra ke se-ti-ap ka-ta
+ []
+
+
+Underfull \hbox (badness 3312) in paragraph at lines 38--39
+[]\T1/ptm/b/it/12 (+20) CTranslate2\T1/ptm/b/n/12 (+20) : \T1/ptm/m/n/12 (+20) Pus-ta-ka yang meng-im-ple-men-ta-sik-an in-fe-ren-si mo-del
+ []
+
+[8] [9] [10] [11]
+Underfull \hbox (badness 1478) in paragraph at lines 87--88
 []\T1/ptm/m/n/12 (+20) Tinjauan pus-ta-ka di-la-kuk-an de-ngan meng-a-na-li-sis ber-ba-gai pe-ne-li-ti-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 []|\T1/ptm/b/n/10.95 (+20) Metode
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 []|\T1/ptm/b/n/10.95 (+20) Tujuan
  []
 
 
-Overfull \hbox (22.56622pt too wide) in alignment at lines 22--26
+Overfull \hbox (22.56622pt too wide) in alignment at lines 90--94
  [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 []|\T1/ptm/b/n/10.95 (+20) Metode
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 []|\T1/ptm/b/n/10.95 (+20) Tujuan
  []
 
 
-Overfull \hbox (22.56622pt too wide) in alignment at lines 26--31
+Overfull \hbox (22.56622pt too wide) in alignment at lines 94--99
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (22.56622pt too wide) in alignment at lines 31--33
+Overfull \hbox (22.56622pt too wide) in alignment at lines 99--101
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (22.56622pt too wide) in alignment at lines 33--35
+Overfull \hbox (22.56622pt too wide) in alignment at lines 101--103
  [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
 []|\T1/ptm/m/n/10.95 (+20) User-centered
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
 \T1/ptm/m/n/10.95 (+20) De-sign
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
 \T1/ptm/m/n/10.95 (+20) Me-tho-ds in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
 \T1/ptm/m/n/10.95 (+20) Data-Intensive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
-[]|\T1/ptm/m/n/10.95 (+20) Riebel
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+[]|[]\T1/ptm/m/n/10.95 (+20) Riebel[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
-[]|\T1/ptm/m/n/10.95 (+20) Literature
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+[]|\T1/ptm/m/it/10.95 (+20) Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
 []|\T1/ptm/m/n/10.95 (+20) Menganalisis
  []
 
 
-Underfull \hbox (badness 6236) in paragraph at lines 36--36
+Underfull \hbox (badness 6236) in paragraph at lines 104--104
 \T1/ptm/m/n/10.95 (+20) in-te-gra-si UCD
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
 []|\T1/ptm/m/n/10.95 (+20) UCD me-ning-katk-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
 \T1/ptm/m/n/10.95 (+20) em-pa-ti dan de-fi-ni-si
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
 \T1/ptm/m/n/10.95 (+20) ma-sa-lah da-lam
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-[]|\T1/ptm/m/n/10.95 (+20) A Stu-dy on
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+[]|\T1/ptm/m/n/10.95 (+20) Benchmarking
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-\T1/ptm/m/n/10.95 (+20) and Agi-le
+Overfull \hbox (1.59152pt too wide) in paragraph at lines 105--105
+[]|\T1/ptm/m/n/10.95 (-20) Membandingkan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-[]|\T1/ptm/m/n/10.95 (+20) Andrei
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+\T1/ptm/m/n/10.95 (+20) per-for-ma
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-[]|\T1/ptm/m/n/10.95 (+20) Comparative
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+\T1/ptm/m/n/10.95 (+20) la-yan-an ASR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-[]|\T1/ptm/m/n/10.95 (+20) Menganalisis
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+\T1/ptm/m/n/10.95 (+20) ber-ba-yar dan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-\T1/ptm/m/n/10.95 (+20) efi-si-en-si
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+[]|\T1/ptm/m/n/10.95 (+20) Layanan ber-ba-yar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-\T1/ptm/m/n/10.95 (+20) Wa-ter-fa-ll vs
+Underfull \hbox (badness 2401) in paragraph at lines 105--105
+\T1/ptm/m/n/10.95 (+20) le-bih aku-rat, na-mun
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-[]|\T1/ptm/m/n/10.95 (+20) Agile le-bih co-cok
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+\T1/ptm/m/n/10.95 (+20) per-for-ma sa-ngat
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-\T1/ptm/m/n/10.95 (+20) yang di-na-mis dan
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+\T1/ptm/m/n/10.95 (+20) ber-gan-tung pa-da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 []|\T1/ptm/m/n/10.95 (+20) Evaluating
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 \T1/ptm/m/n/10.95 (+20) Open-Source
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 2310) in paragraph at lines 106--106
+[]|[]\T1/ptm/m/n/10.95 (+20) Imai , dkk.[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 []|\T1/ptm/m/n/10.95 (+20) Evaluasi
  []
 
 
-Overfull \hbox (2.2412pt too wide) in paragraph at lines 38--38
+Overfull \hbox (2.2412pt too wide) in paragraph at lines 106--106
 \T1/ptm/m/n/10.95 (-20) Eks-pe-ri-men-tal| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 []|\T1/ptm/m/n/10.95 (+20) Mengukur
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 \T1/ptm/m/n/10.95 (+20) aku-ra-si ASR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 \T1/ptm/m/n/10.95 (+20) pa-da au-dio
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
-[]|\T1/ptm/m/n/10.95 (+20) Perlu ro-bust er-ror
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]|\T1/ptm/m/n/10.95 (+20) Perlu \T1/ptm/m/it/10.95 (+20) ro-bust er-ror
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
-\T1/ptm/m/n/10.95 (+20) cor-re-ction un-tuk
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\T1/ptm/m/it/10.95 (+20) cor-re-ction \T1/ptm/m/n/10.95 (+20) un-tuk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 \T1/ptm/m/n/10.95 (+20) meng-a-ta-si bi-as
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 []|\T1/ptm/m/n/10.95 (+20) End-to-End
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 \T1/ptm/m/n/10.95 (+20) Spe-e-ch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
-[]|\T1/ptm/m/n/10.95 (+20) Survey
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+[]|\T1/ptm/m/it/10.95 (+20) Survey
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 []|\T1/ptm/m/n/10.95 (+20) Memetakan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 \T1/ptm/m/n/10.95 (+20) per-kem-bang-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 \T1/ptm/m/n/10.95 (+20) WER hing-ga 50%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 \T1/ptm/m/n/10.95 (+20) di-ban-ding HMM
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
 []|\T1/ptm/m/n/10.95 (+20) Transformers
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
 \T1/ptm/m/n/10.95 (+20) in Spe-e-ch
  []
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 40--40
+Underfull \hbox (badness 1769) in paragraph at lines 108--108
 \T1/ptm/m/n/10.95 (+20) Pro-ces-sing: A
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-[]|\T1/ptm/m/n/10.95 (+20) Survey
+Underfull \hbox (badness 1590) in paragraph at lines 108--108
+[]|[]\T1/ptm/m/n/10.95 (+20) Latif , dkk.[][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+[]|\T1/ptm/m/it/10.95 (+20) Survey
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
 []|\T1/ptm/m/n/10.95 (+20) Menganalisis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-\T1/ptm/m/n/10.95 (+20) Tran-sfor-mer
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+\T1/ptm/m/it/10.95 (+20) Tran-sfor-mer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-[]|\T1/ptm/m/n/10.95 (+20) Transformer ung-gul
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+[]|\T1/ptm/m/it/10.95 (+20) Transformer \T1/ptm/m/n/10.95 (+20) ung-gul
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
 \T1/ptm/m/n/10.95 (+20) da-lam me-mo-delk-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
 \T1/ptm/m/n/10.95 (+20) de-pen-den-si jang-ka
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
 []|\T1/ptm/m/n/10.95 (+20) Multilingual
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
-[]|\T1/ptm/m/n/10.95 (+20) Ferraz
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+[]|[]\T1/ptm/m/n/10.95 (+20) Ferraz,
  []
 
 
-Overfull \hbox (2.2412pt too wide) in paragraph at lines 41--41
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+\T1/ptm/m/n/10.95 (+20) Bo-i-to,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+\T1/ptm/m/n/10.95 (+20) Brun, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+\T1/ptm/m/n/10.95 (+20) Ni-ko-u-li-na[]
+ []
+
+
+Overfull \hbox (2.2412pt too wide) in paragraph at lines 109--109
 []|\T1/ptm/m/n/10.95 (-20) Eksperimental
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
 []|\T1/ptm/m/n/10.95 (+20) Meringankan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
 \T1/ptm/m/n/10.95 (+20) un-tuk ba-ha-sa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
-[]|\T1/ptm/m/n/10.95 (+20) DistilWhisper
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+[]|\T1/ptm/m/it/10.95 (+20) DistilWhisper
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
 \T1/ptm/m/n/10.95 (+20) me-ning-katk-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
 \T1/ptm/m/n/10.95 (+20) per-for-ma ba-ha-sa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
-\T1/ptm/m/n/10.95 (+20) under-represented
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+\T1/ptm/m/it/10.95 (+20) under-represented
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
-\T1/ptm/m/n/10.95 (+20) de-ngan over-he-ad
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+\T1/ptm/m/n/10.95 (+20) de-ngan \T1/ptm/m/it/10.95 (+20) over-he-ad
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 42--42
+Underfull \hbox (badness 1038) in paragraph at lines 110--110
 []|\T1/ptm/m/n/10.95 (+20) Does Cha-tGPT
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \T1/ptm/m/n/10.95 (+20) and Whis-per
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \T1/ptm/m/n/10.95 (+20) Ma-ke
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \T1/ptm/m/n/10.95 (+20) Hu-ma-no-id
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \T1/ptm/m/n/10.95 (+20) Ro-bo-ts Mo-re
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 6792) in paragraph at lines 110--110
+[]|[]\T1/ptm/m/n/10.95 (+20) Chen, Luo,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+\T1/ptm/m/n/10.95 (+20) Gee, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+\T1/ptm/m/n/10.95 (+20) Ne-ja-ti[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 []|\T1/ptm/m/n/10.95 (+20) Evaluasi
  []
 
 
-Overfull \hbox (1.59152pt too wide) in paragraph at lines 42--42
+Overfull \hbox (1.59152pt too wide) in paragraph at lines 110--110
 []|\T1/ptm/m/n/10.95 (-20) Membandingkan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \T1/ptm/m/n/10.95 (+20) Whis-per vs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \T1/ptm/m/n/10.95 (+20) Go-o-gle ASR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 []|\T1/ptm/m/n/10.95 (+20) Whisper me-mi-li-ki
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
 \T1/ptm/m/n/10.95 (+20) Ope-nAI's
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
 \T1/ptm/m/n/10.95 (+20) Whis-per
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
-[]|\T1/ptm/m/n/10.95 (+20) Andreyev
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+[]|[]\T1/ptm/m/n/10.95 (+20) Andreyev[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
 []|\T1/ptm/m/n/10.95 (+20) Analisis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
 []|\T1/ptm/m/n/10.95 (+20) Mengukur
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
 \T1/ptm/m/n/10.95 (+20) dam-pak
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
 \T1/ptm/m/n/10.95 (+20) ku-an-ti-sa-si
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
 []|\T1/ptm/m/n/10.95 (+20) Kuantisasi INT8
  []
 
 
-Underfull \hbox (badness 3396) in paragraph at lines 43--43
+Underfull \hbox (badness 3396) in paragraph at lines 111--111
 \T1/ptm/m/n/10.95 (+20) me-re-duk-si si-ze 45%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 \T1/ptm/m/n/10.95 (+20) App-ro-a-ch for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 \T1/ptm/m/n/10.95 (+20) Whis-per to
  []
 
 
-Underfull \hbox (badness 5802) in paragraph at lines 44--44
+Underfull \hbox (badness 5802) in paragraph at lines 112--112
 \T1/ptm/m/n/10.95 (+20) Enhan-ce Long
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 \T1/ptm/m/n/10.95 (+20) Dysar-thric
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|\T1/ptm/m/n/10.95 (+20) Self-training
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+\T1/ptm/m/n/10.95 (+20) Zhao, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[]|\T1/ptm/m/it/10.95 (+20) Self-training
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 []|\T1/ptm/m/n/10.95 (+20) Meningkatkan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 \T1/ptm/m/n/10.95 (+20) ASR un-tuk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 \T1/ptm/m/n/10.95 (+20) pen-de-ri-ta
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|\T1/ptm/m/n/10.95 (+20) Metode self-training
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[]|\T1/ptm/m/n/10.95 (+20) Metode \T1/ptm/m/it/10.95 (+20) self-training
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 \T1/ptm/m/n/10.95 (+20) me-ning-katk-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 []|\T1/ptm/m/n/10.95 (+20) Accurate
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 \T1/ptm/m/n/10.95 (+20) Spe-e-ch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 \T1/ptm/m/n/10.95 (+20) Re-cog-ni-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 \T1/ptm/m/n/10.95 (+20) AI using
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-[]|\T1/ptm/m/n/10.95 (+20) Isyanto
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+[]|[]\T1/ptm/m/n/10.95 (+20) Isyanto,
  []
 
 
-Overfull \hbox (2.2412pt too wide) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+\T1/ptm/m/n/10.95 (+20) Ibra-him,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+\T1/ptm/m/n/10.95 (+20) Sam-si-nar,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+\T1/ptm/m/n/10.95 (+20) and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+\T1/ptm/m/n/10.95 (+20) Su-dar-wa-ti[]
+ []
+
+
+Overfull \hbox (2.2412pt too wide) in paragraph at lines 113--113
 []|\T1/ptm/m/n/10.95 (-20) Eksperimental
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 []|\T1/ptm/m/n/10.95 (+20) Membangun
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 \T1/ptm/m/n/10.95 (+20) ASR un-tuk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 \T1/ptm/m/n/10.95 (+20) ke-a-man-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 []|\T1/ptm/m/n/10.95 (+20) Algoritma CNN
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
 []|\T1/ptm/m/n/10.95 (+20) Evaluating
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
 \T1/ptm/m/n/10.95 (+20) Ope-nAI's
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
-[]|\T1/ptm/m/n/10.95 (+20) Graham
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
 []|\T1/ptm/m/n/10.95 (+20) Analisis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
 []|\T1/ptm/m/n/10.95 (+20) Mengevaluasi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
 \T1/ptm/m/n/10.95 (+20) Whis-per pa-da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
 \T1/ptm/m/n/10.95 (+20) di-ban-dingk-an ak-sen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-\T1/ptm/m/n/10.95 (+20) on the User
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+[]|\T1/ptm/m/n/10.95 (+20) The Ro-le of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-[]|\T1/ptm/m/n/10.95 (+20) Chammas
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+\T1/ptm/m/n/10.95 (+20) Type-Script
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-[]|\T1/ptm/m/n/10.95 (+20) Analisis
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+\T1/ptm/m/n/10.95 (+20) in Enhan-cing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-[]|\T1/ptm/m/n/10.95 (+20) Mengkaji
+Overfull \hbox (16.70714pt too wide) in paragraph at lines 115--115
+[]|[]\T1/ptm/m/n/10.95 (-20) Sekhar Em-man-ni[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-\T1/ptm/m/n/10.95 (+20) man-fa-at dan
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+[]|\T1/ptm/m/it/10.95 (+20) Empirical
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-[]|\T1/ptm/m/n/10.95 (+20) UCD me-ning-katk-an
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+[]|\T1/ptm/m/n/10.95 (+20) Menganalisis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-\T1/ptm/m/n/10.95 (+20) ke-pu-as-an peng-gu-na
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+\T1/ptm/m/n/10.95 (+20) per-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-\T1/ptm/m/n/10.95 (+20) mes-ki-pun
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+\T1/ptm/m/n/10.95 (+20) Type-Script
  []
 
 
-Underfull \hbox (badness 4531) in paragraph at lines 47--47
-\T1/ptm/m/n/10.95 (+20) mem-bu-tuhk-an ite-ra-si
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+\T1/ptm/m/n/10.95 (+20) da-lam
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+\T1/ptm/m/n/10.95 (+20) pe-ngem-bang-an
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+\T1/ptm/m/n/10.95 (+20) apli-ka-si \T1/ptm/m/it/10.95 (+20) web
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+[]|\T1/ptm/m/n/10.95 (+20) TypeScript se-ca-ra
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+\T1/ptm/m/n/10.95 (+20) ke-sa-lah-an \T1/ptm/m/it/10.95 (+20) run-ti-me
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+\T1/ptm/m/n/10.95 (+20) dan me-ning-katk-an
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 \T1/ptm/m/n/10.95 (+20) and Wa-ter-fa-ll
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 \T1/ptm/m/n/10.95 (+20) Sof-twa-re
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+\T1/ptm/m/n/10.95 (+20) John and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+\T1/ptm/m/n/10.95 (+20) Sha-i-le-sh
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+\T1/ptm/m/n/10.95 (+20) Sa-ti-sh
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+\T1/ptm/m/n/10.95 (+20) Shar-ma[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 []|\T1/ptm/m/n/10.95 (+20) Analisis
  []
 
 
-Overfull \hbox (1.59152pt too wide) in paragraph at lines 48--48
+Overfull \hbox (1.59152pt too wide) in paragraph at lines 116--116
 []|\T1/ptm/m/n/10.95 (-20) Membandingkan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
-\T1/ptm/m/n/10.95 (+20) Agi-le vs
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+\T1/ptm/m/it/10.95 (+20) Agi-le \T1/ptm/m/n/10.95 (+20) vs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
-[]|\T1/ptm/m/n/10.95 (+20) Agile le-bih
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+[]|\T1/ptm/m/it/10.95 (+20) Agile \T1/ptm/m/n/10.95 (+20) le-bih
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 \T1/ptm/m/n/10.95 (+20) ung-gul da-lam
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 \T1/ptm/m/n/10.95 (+20) ke-pu-as-an pe-langg-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 \T1/ptm/m/n/10.95 (+20) dan ke-ce-pat-an
  []
 
 
-Underfull \hbox (badness 2409) in paragraph at lines 49--49
-[]|\T1/ptm/m/n/10.95 (+20) The effe-cts of
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+[]|\T1/ptm/m/n/10.95 (+20) Turning
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-\T1/ptm/m/n/10.95 (+20) au-to-ma-tic
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+\T1/ptm/m/n/10.95 (+20) Whis-per in-to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-\T1/ptm/m/n/10.95 (+20) spe-e-ch
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+\T1/ptm/m/n/10.95 (+20) Real-Time
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-\T1/ptm/m/n/10.95 (+20) re-cog-ni-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-\T1/ptm/m/n/10.95 (+20) qu-a-li-ty
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-\T1/ptm/m/n/10.95 (+20) on hum-an
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-\T1/ptm/m/n/10.95 (+20) tran-scrip-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-[]|\T1/ptm/m/n/10.95 (+20) Mengukur
- []
-
-
-Underfull \hbox (badness 6078) in paragraph at lines 49--49
-\T1/ptm/m/n/10.95 (+20) la-ten-si ko-rek-si
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-\T1/ptm/m/n/10.95 (+20) efi-si-en ji-ka WER
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-\T1/ptm/m/n/10.95 (+20) ber-a-da di ba-wah
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-[]|\T1/ptm/m/n/10.95 (+20) WhisperX:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\T1/ptm/m/n/10.95 (+20) Time-Accurate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\T1/ptm/m/n/10.95 (+20) Spe-e-ch
- []
-
-
-Overfull \hbox (5.76027pt too wide) in paragraph at lines 50--50
-[]|\T1/ptm/m/n/10.95 (-20) Pengembangan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-[]|\T1/ptm/m/n/10.95 (+20) Penyelarasan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\T1/ptm/m/n/10.95 (+20) wak-tu ting-kat
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\T1/ptm/m/n/10.95 (+20) ka-ta pa-da
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-[]|\T1/ptm/m/n/10.95 (+20) VAD dan for-ced
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\T1/ptm/m/n/10.95 (+20) alig-nment
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\T1/ptm/m/n/10.95 (+20) me-mung-kink-an
- []
-
-
-Underfull \hbox (badness 1365) in paragraph at lines 50--50
-\T1/ptm/m/n/10.95 (+20) transk-ri-psi 12x le-bih
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-[]|\T1/ptm/m/n/10.95 (+20) Bridging the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-\T1/ptm/m/n/10.95 (+20) Gap Be-twe-en
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-\T1/ptm/m/n/10.95 (+20) Ge-ne-ra-li-zed
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-\T1/ptm/m/n/10.95 (+20) ASR and
- []
-
-
-Overfull \hbox (9.63945pt too wide) in paragraph at lines 51--51
-\T1/ptm/m/n/10.95 (-20) Domain-Specific...| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-[]|\T1/ptm/m/n/10.95 (+20) Nelson
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-[]|\T1/ptm/m/n/10.95 (+20) Integrasi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-[]|\T1/ptm/m/n/10.95 (+20) Menyesuaikan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-\T1/ptm/m/n/10.95 (+20) ASR un-tuk
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-[]|\T1/ptm/m/n/10.95 (+20) Language mo-de-ling
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-\T1/ptm/m/n/10.95 (+20) pa-da Vosk efek-tif
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]|\T1/ptm/m/n/10.95 (+20) A
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-\T1/ptm/m/n/10.95 (+20) semi-automatic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-\T1/ptm/m/n/10.95 (+20) pi-pe-li-ne for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-\T1/ptm/m/n/10.95 (+20) tran-scri-bing
- []
-
-
-Overfull \hbox (12.85599pt too wide) in paragraph at lines 52--52
-[]|\T1/ptm/m/n/10.95 (-20) Christodoulidou
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]|\T1/ptm/m/n/10.95 (+20) Evaluasi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]|\T1/ptm/m/n/10.95 (+20) Membangun
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-\T1/ptm/m/n/10.95 (+20) pi-pe-li-ne
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-\T1/ptm/m/n/10.95 (+20) transk-ri-psi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]|\T1/ptm/m/n/10.95 (+20) Koreksi ma-nu-al
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-\T1/ptm/m/n/10.95 (+20) se-be-lum for-ced
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-\T1/ptm/m/n/10.95 (+20) alig-nment
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-[]|\T1/ptm/m/n/10.95 (+20) Comparing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-\T1/ptm/m/n/10.95 (+20) ASR Sys-tems
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-\T1/ptm/m/n/10.95 (+20) in Con-te-xt
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-\T1/ptm/m/n/10.95 (+20) of Spe-e-ch
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-[]|\T1/ptm/m/n/10.95 (+20) Teleki
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-[]|\T1/ptm/m/n/10.95 (+20) Analisis
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-[]|\T1/ptm/m/n/10.95 (+20) Mengevaluasi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-\T1/ptm/m/n/10.95 (+20) da-lam me-na-nga-ni
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-[]|\T1/ptm/m/n/10.95 (+20) Perancangan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-\T1/ptm/m/n/10.95 (+20) An-tar-mu-ka
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-\T1/ptm/m/n/10.95 (+20) Peng-gu-na
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-\T1/ptm/m/n/10.95 (+20) Apli-ka-si
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-\T1/ptm/m/n/10.95 (+20) In-for-ma-si
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-[]|\T1/ptm/m/n/10.95 (+20) Pratiwi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-[]|\T1/ptm/m/n/10.95 (+20) User
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-\T1/ptm/m/n/10.95 (+20) Cen-te-red
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-\T1/ptm/m/n/10.95 (+20) De-sign
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-[]|\T1/ptm/m/n/10.95 (+20) Merancang
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-\T1/ptm/m/n/10.95 (+20) apli-ka-si
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-\T1/ptm/m/n/10.95 (+20) in-for-ma-si
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-[]|\T1/ptm/m/n/10.95 (+20) Metode UCD
- []
-
-
-Underfull \hbox (badness 5548) in paragraph at lines 54--54
-\T1/ptm/m/n/10.95 (+20) meng-ha-silk-an de-sa-in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-\T1/ptm/m/n/10.95 (+20) yang 100% da-pat
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 \T1/ptm/m/n/10.95 (+20) Tran-scrip-tion
  []
 
 
-Overfull \hbox (5.76027pt too wide) in paragraph at lines 55--55
-[]|\T1/ptm/m/n/10.95 (-20) Pengembangan
+Underfull \hbox (badness 7238) in paragraph at lines 117--117
+[]|[]\T1/ptm/m/n/10.95 (+20) Machá£ek ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
-[]|\T1/ptm/m/n/10.95 (+20) Membangun
+Overfull \hbox (3.37291pt too wide) in paragraph at lines 117--117
+[]|\T1/ptm/m/n/10.95 (-20) Mengembangkan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 \T1/ptm/m/n/10.95 (+20) sis-tem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 \T1/ptm/m/n/10.95 (+20) transk-ri-psi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+\T1/ptm/m/it/10.95 (+20) real-time
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 \T1/ptm/m/n/10.95 (+20) ber-ba-sis
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+[]|\T1/ptm/m/it/10.95 (+20) Whisper-Streaming
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 117--117
+\T1/ptm/m/n/10.95 (+20) men-ca-pai la-ten-si 3,3
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 117--117
+\T1/ptm/m/n/10.95 (+20) de-tik de-ngan aku-ra-si
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+[]|\T1/ptm/m/n/10.95 (+20) WhisperX:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+\T1/ptm/m/n/10.95 (+20) Time-Accurate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+\T1/ptm/m/n/10.95 (+20) Spe-e-ch
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 118--118
+[]|[]\T1/ptm/m/n/10.95 (+20) Bain , dkk.[][]
+ []
+
+
+Overfull \hbox (5.76027pt too wide) in paragraph at lines 118--118
+[]|\T1/ptm/m/n/10.95 (-20) Pengembangan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+[]|\T1/ptm/m/n/10.95 (+20) Penyelarasan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+\T1/ptm/m/n/10.95 (+20) wak-tu ting-kat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+\T1/ptm/m/n/10.95 (+20) ka-ta pa-da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+[]|\T1/ptm/m/n/10.95 (+20) VAD dan \T1/ptm/m/it/10.95 (+20) for-ced
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+\T1/ptm/m/it/10.95 (+20) alig-nment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+\T1/ptm/m/n/10.95 (+20) me-mung-kink-an
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 118--118
+\T1/ptm/m/n/10.95 (+20) transk-ri-psi 12x le-bih
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]|\T1/ptm/m/n/10.95 (+20) Bridging the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+\T1/ptm/m/n/10.95 (+20) Gap Be-twe-en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+\T1/ptm/m/n/10.95 (+20) Ge-ne-ra-li-zed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+\T1/ptm/m/n/10.95 (+20) ASR and
+ []
+
+
+Overfull \hbox (9.63945pt too wide) in paragraph at lines 119--119
+\T1/ptm/m/n/10.95 (-20) Domain-Specific...| 
+ []
+
+
+Underfull \hbox (badness 5908) in paragraph at lines 119--119
+[]|[]\T1/ptm/m/n/10.95 (+20) Nelson and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+\T1/ptm/m/n/10.95 (+20) Gret-kzi[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]|\T1/ptm/m/n/10.95 (+20) Integrasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]|\T1/ptm/m/n/10.95 (+20) Menyesuaikan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+\T1/ptm/m/n/10.95 (+20) ASR un-tuk
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]|\T1/ptm/m/n/10.95 (+20) Language mo-de-ling
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+\T1/ptm/m/n/10.95 (+20) pa-da Vosk efek-tif
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[]|\T1/ptm/m/n/10.95 (+20) A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\T1/ptm/m/n/10.95 (+20) semi-automatic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\T1/ptm/m/n/10.95 (+20) pi-pe-li-ne for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\T1/ptm/m/n/10.95 (+20) tran-scri-bing
+ []
+
+
+Overfull \hbox (12.85599pt too wide) in paragraph at lines 120--120
+[]|[]\T1/ptm/m/n/10.95 (-20) Christodoulidou
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[]|\T1/ptm/m/n/10.95 (+20) Evaluasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[]|\T1/ptm/m/n/10.95 (+20) Membangun
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\T1/ptm/m/it/10.95 (+20) pi-pe-li-ne
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\T1/ptm/m/n/10.95 (+20) transk-ri-psi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[]|\T1/ptm/m/n/10.95 (+20) Koreksi ma-nu-al
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\T1/ptm/m/n/10.95 (+20) se-be-lum \T1/ptm/m/it/10.95 (+20) for-ced
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\T1/ptm/m/it/10.95 (+20) alig-nment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+[]|\T1/ptm/m/n/10.95 (+20) Comparing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\T1/ptm/m/n/10.95 (+20) ASR Sys-tems
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\T1/ptm/m/n/10.95 (+20) in Con-te-xt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\T1/ptm/m/n/10.95 (+20) of Spe-e-ch
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\T1/ptm/m/n/10.95 (+20) Kim, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\T1/ptm/m/n/10.95 (+20) Ca-ver-lee[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+[]|\T1/ptm/m/n/10.95 (+20) Analisis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+[]|\T1/ptm/m/n/10.95 (+20) Mengevaluasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\T1/ptm/m/n/10.95 (+20) da-lam me-na-nga-ni
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|\T1/ptm/m/n/10.95 (+20) Perancangan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+\T1/ptm/m/n/10.95 (+20) An-tar-mu-ka
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+\T1/ptm/m/n/10.95 (+20) Peng-gu-na
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+\T1/ptm/m/n/10.95 (+20) Apli-ka-si
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+\T1/ptm/m/n/10.95 (+20) In-for-ma-si
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|[]\T1/ptm/m/n/10.95 (+20) Pratiwi,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+\T1/ptm/m/n/10.95 (+20) Wi-cak-so-no[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|\T1/ptm/m/it/10.95 (+20) User
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+\T1/ptm/m/it/10.95 (+20) Cen-te-red
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+\T1/ptm/m/it/10.95 (+20) De-sign
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|\T1/ptm/m/n/10.95 (+20) Merancang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+\T1/ptm/m/n/10.95 (+20) apli-ka-si
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+\T1/ptm/m/n/10.95 (+20) in-for-ma-si
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|\T1/ptm/m/n/10.95 (+20) Metode UCD
+ []
+
+
+Underfull \hbox (badness 5548) in paragraph at lines 122--122
+\T1/ptm/m/n/10.95 (+20) meng-ha-silk-an de-sa-in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+\T1/ptm/m/n/10.95 (+20) yang 100% da-pat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+\T1/ptm/m/n/10.95 (+20) Tran-scrip-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]|[]\T1/ptm/m/n/10.95 (+20) Olev and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+\T1/ptm/m/n/10.95 (+20) Alu-mäe[]
+ []
+
+
+Overfull \hbox (5.76027pt too wide) in paragraph at lines 123--123
+[]|\T1/ptm/m/n/10.95 (-20) Pengembangan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]|\T1/ptm/m/n/10.95 (+20) Membangun
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+\T1/ptm/m/n/10.95 (+20) sis-tem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+\T1/ptm/m/n/10.95 (+20) transk-ri-psi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+\T1/ptm/m/n/10.95 (+20) ber-ba-sis
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 123--123
 []|\T1/ptm/m/n/10.95 (+20) Sistem ber-ba-sis E2E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \T1/ptm/m/n/10.95 (+20) dan men-du-kung
  []
 
 
-Overfull \hbox (22.56622pt too wide) in alignment at lines 35--56
+Overfull \hbox (22.56622pt too wide) in alignment at lines 103--124
  [] [] [] [] [] 
  []
 
-
-ignored: Infinite glue shrinkage found in box being split [7]
-ignored: Infinite glue shrinkage found in box being split [8]
-ignored: Infinite glue shrinkage found in box being split [9]
-ignored: Infinite glue shrinkage found in box being split [10]) [11] [12]
+[12]
+ignored: Infinite glue shrinkage found in box being split [13]
+ignored: Infinite glue shrinkage found in box being split [14]
+ignored: Infinite glue shrinkage found in box being split [15]
+ignored: Infinite glue shrinkage found in box being split [16]) [17]
 \openout2 = `chapters/bab3.aux'.
 
  (./chapters/bab3.tex
 Bab III.
-[13
+
+Underfull \hbox (badness 1824) in paragraph at lines 4--5
+[]\T1/ptm/m/n/12 (+20) Penelitian ini ter-ma-suk pe-ne-li-ti-an re-ka-ya-sa per-ang-kat lu-nak de-ngan
+ []
+
+[18
 
 
 
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 72.
+Underfull \hbox (badness 1454) in paragraph at lines 14--15
+\T1/ptm/m/n/12 (+20) di-kon-fi-gu-ra-si meng-gu-nak-an \T1/ptm/m/it/12 (+20) pi-pe-li-ne Whis-pe-rX \T1/ptm/m/n/12 (+20) yang meng-ga-bungk-an
+ []
+
+[19] [20] [21]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 77.
  (/opt/texlive/2026/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 1762) in paragraph at lines 73--74
-[]\T1/ptm/m/n/12 (+20) Apple Mac Mi-ni M4 (M4 Chip, 16GB RAM) se-ba-gai unit
+Underfull \hbox (badness 2818) in paragraph at lines 84--85
+[]\T1/ptm/b/n/12 (+20) Bahasa Pem-ro-gram-an dan Fra-me-work: \T1/ptm/m/it/12 (+20) Type-Script \T1/ptm/m/n/12 (+20) un-tuk
  []
 
-[14]
-Underfull \hbox (badness 1515) in paragraph at lines 80--81
-[]\T1/ptm/b/n/12 (+20) Pemrosesan AI: \T1/ptm/m/it/12 (+20) Python \T1/ptm/m/n/12 (+20) 3.10 de-ngan pus-ta-ka \T1/ptm/m/it/12 (+20) Whis-pe-rX \T1/ptm/m/n/12 (+20) dan
+[22]
+Underfull \hbox (badness 1577) in paragraph at lines 89--90
+\T1/ptm/m/n/12 (+20) yang ter-di-ri da-ri 10 bu-tir per-nya-ta-an ber-s-ka-la Li-kert 5 po-in
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15]
-Underfull \hbox (badness 1448) in paragraph at lines 125--126
-[]\T1/ptm/b/n/12 (+20) Implementasi Pro-to-ti-pe: \T1/ptm/m/n/12 (+20) Mem-ba-ngun sis-tem transk-ri-psi fung-sio-nal
- []
-
-
-Underfull \hbox (badness 2846) in paragraph at lines 128--129
-[]\T1/ptm/b/n/12 (+20) Analisis Da-ta & Da-shbo-a-rd: \T1/ptm/m/n/12 (+20) Meng-hi-tung ni-lai WER dan CER
- []
-
-
-Underfull \hbox (badness 1102) in paragraph at lines 128--129
-\T1/ptm/m/n/12 (+20) meng-gu-nak-an al-go-ri-tma \T1/ptm/m/it/12 (+20) Le-ven-shte-in dis-tan-ce \T1/ptm/m/n/12 (+20) yang di-te-rapk-an se-ca-ra
- []
-
-[16]
-Underfull \hbox (badness 1043) in paragraph at lines 141--142
-\T1/ptm/m/n/12 (+20) per-an-ta-ra pes-an (\T1/ptm/m/it/12 (+20) mes-sa-ge bro-ker\T1/ptm/m/n/12 (+20) ) de-ngan pro-to-kol \T1/ptm/m/it/12 (+20) Bu-ll-MQ\T1/ptm/m/n/12 (+20) . Sa-at peng-gu-na
- []
-
-[17]
-Underfull \hbox (badness 4366) in paragraph at lines 144--145
-[]\T1/ptm/m/n/12 (+20) Antarmuka ko-rek-si ma-nu-al pa-da sis-tem Sk-rip-tor di-ran-cang un-tuk
- []
-
-
-Underfull \hbox (badness 1708) in paragraph at lines 144--145
-\T1/ptm/m/n/12 (+20) uta-ma an-tar-mu-ka ini ada-lah vi-su-a-li-sa-si ben-tuk ge-lom-bang au-dio in-te-rak-tif
- []
-
-[18] [19]) [20] [21] (./main_proposal.bbl
+) [23] (./main_proposal.bbl
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 4805) in paragraph at lines 126--146
-[]\T1/ptm/m/n/12 (+20) Graham, C., & Ro-ll, N.  (2024, Fe-bru-ary).  Eva-lu-a-ting Ope-nAI's
+Underfull \hbox (badness 1377) in paragraph at lines 78--94
+\T1/ptm/m/it/12 (+20) In-te-ra-ction\T1/ptm/m/n/12 (+20) , \T1/ptm/m/it/12 (+20) 24\T1/ptm/m/n/12 (+20) (6), 574--594.  Di-ak-ses pa-da 2026-05-23[]$\T1/cmtt/m/n/12 https :// www []
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--146
-\T1/ptm/m/n/12 (+20) Whis-per ASR: Per-for-man-ce ana-lysis across di-ver-se accen-ts and
- []
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 126--146
-\T1/ptm/m/n/12 (+20) spe-a-ker tra-i-ts.  \T1/ptm/m/it/12 (+20) JA-SA Exp-ress Let-ters\T1/ptm/m/n/12 (+20) , \T1/ptm/m/it/12 (+20) 4\T1/ptm/m/n/12 (+20) (2), 025206.  Di-ak-ses pa-da
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--146
-\T1/ptm/m/n/12 (+20) 2026-04-14[]$\T1/cmtt/m/n/12 https :// pubs [] .aip [] .org / jel / article / 4 / 2 / 025206 /
- []
-
-
-Underfull \hbox (badness 5893) in paragraph at lines 126--146
-\T1/cmtt/m/n/12 3267247 / Evaluating [] -OpenAI [] -s [] -Whisper [] -ASR [] -Performance$[]   \T1/ptm/m/n/12 (+20) doi:
- []
-
-
-Underfull \hbox (badness 1478) in paragraph at lines 190--212
-\T1/ptm/m/n/12 (+20) Re-si-du-al and Hybrid of DWT-MFCC Extra-ction Fe-a-tu-res.  \T1/ptm/m/it/12 (+20) IJA-CSA\T1/ptm/m/n/12 (+20) ,
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 190--212
-\T1/ptm/m/it/12 (+20) 13\T1/ptm/m/n/12 (+20) (5).  Di-ak-ses pa-da 2026-04-14[]$\T1/cmtt/m/n/12 http :// thesai [] .org / Publications /
- []
-
-[22
+[24
 
 
 
 {/opt/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 396--414
+Underfull \hbox (badness 4805) in paragraph at lines 292--307
+[]\T1/ptm/m/n/12 (+20) Graham, C., & Ro-ll, N.  (2024, Fe-bru-ary).  Eva-lu-a-ting Ope-nAI's
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--307
+\T1/ptm/m/n/12 (+20) Whis-per ASR: Per-for-man-ce ana-lysis across di-ver-se accen-ts and
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 292--307
+\T1/ptm/m/n/12 (+20) spe-a-ker tra-i-ts.  \T1/ptm/m/it/12 (+20) JA-SA Exp-ress Let-ters\T1/ptm/m/n/12 (+20) , \T1/ptm/m/it/12 (+20) 4\T1/ptm/m/n/12 (+20) (2), 025206.  Di-ak-ses pa-da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--307
+\T1/ptm/m/n/12 (+20) 2026-04-14[]$\T1/cmtt/m/n/12 https :// pubs [] .aip [] .org / jel / article / 4 / 2 / 025206 /
+ []
+
+
+Underfull \hbox (badness 5893) in paragraph at lines 292--307
+\T1/cmtt/m/n/12 3267247 / Evaluating [] -OpenAI [] -s [] -Whisper [] -ASR [] -Performance$[]   \T1/ptm/m/n/12 (+20) doi:
+ []
+
+[25]
+Underfull \hbox (badness 2753) in paragraph at lines 495--510
+[]\T1/ptm/m/n/12 (+20) Olev, A., & Alu-mäe, T.  (2022).  Es-to-ni-an Spe-e-ch Re-cog-ni-tion and
+ []
+
+
+Underfull \hbox (badness 8189) in paragraph at lines 495--510
+\T1/ptm/m/n/12 (+20) Tran-scrip-tion Edi-ting Se-rvi-ce.  \T1/ptm/m/it/12 (+20) BJMC\T1/ptm/m/n/12 (+20) , \T1/ptm/m/it/12 (+20) 10\T1/ptm/m/n/12 (+20) (3).  Di-ak-ses pa-da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--510
+\T1/ptm/m/n/12 (+20) 2026-04-14[]$\T1/cmtt/m/n/12 http :// www [] .bjmc [] .lu [] .lv / fileadmin / user [] []upload /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--510
+\T1/cmtt/m/n/12 lu [] []portal / projekti / bjmc / Contents / 10 [] []3 [] []14 [] []Olev [] .pdf$[]   \T1/ptm/m/n/12 (+20) doi:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 633--647
 \T1/ptm/m/n/12 (+20) Di-ak-ses pa-da 2026-04-14[]$\T1/cmtt/m/n/12 https :// www [] .ijsr [] .net / getabstract [] .php []
  []
 
-) [23] (./main_proposal.aux (./frontmatter/sampul.aux) (./frontmatter/judul.aux) (./frontmatter/persetujuan.aux) (./chapters/bab1.aux) (./chapters/bab2.aux) (./chapters/bab3.aux))
+[26]) [27] (./main_proposal.aux (./frontmatter/sampul.aux) (./frontmatter/judul.aux) (./frontmatter/persetujuan.aux) (./frontmatter/pengantar.aux) (./chapters/bab1.aux) (./chapters/bab2.aux) (./chapters/bab3.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
 Package rerunfilecheck Info: File `main_proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 7DC9818B3D7C0A059CCC5F8619ABA1A6;2938.
+(rerunfilecheck)             Checksum: EA11941DF91286C9D46010E33E8E214E;3125.
  ) 
 Here is how much of TeX's memory you used:
- 30541 strings out of 467349
- 575146 string characters out of 5391927
- 1144406 words of memory out of 5000000
- 58649 multiletter control sequences out of 15000+600000
- 676670 words of font info for 285 fonts, out of 8000000 for 9000
+ 31259 strings out of 467349
+ 585064 string characters out of 5391927
+ 1147370 words of memory out of 5000000
+ 59240 multiletter control sequences out of 15000+600000
+ 693244 words of font info for 347 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,11n,121p,1674b,993s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</opt/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></opt/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></opt/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></opt/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main_proposal.pdf (29 pages, 201421 bytes).
+ 104i,11n,121p,1172b,991s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</opt/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></opt/texlive/2026/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></opt/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></opt/texlive/2026/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></opt/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></opt/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main_proposal.pdf (34 pages, 260419 bytes).
 PDF statistics:
- 416 PDF objects out of 1000 (max. 8388607)
- 369 compressed objects within 4 object streams
- 115 named destinations out of 1000 (max. 500000)
- 49338 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 567 PDF objects out of 1000 (max. 8388607)
+ 503 compressed objects within 6 object streams
+ 144 named destinations out of 1000 (max. 500000)
+ 60618 words of extra memory for PDF output out of 61914 (max. 10000000)
 
