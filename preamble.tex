@@ -35,15 +35,20 @@
   \renewcommand{\BAnd}{dan}
   \renewcommand{\BRetrievedFrom}{Diambil dari}
   \renewcommand{\BRetrieved}[1]{Diakses pada #1}
-  
-  % Memaksa penggunaan format pendek (dkk.) jika penulis > 1 (bahkan pada kutipan pertama)
-  % Menggunakan pendekatan manual untuk menghindari error 'Undefined control sequence'
-  \renewcommand{\cite}[1]{(\citeauthor{#1}, \citeyear{#1})}
-  \renewcommand{\citep}[1]{(\citeauthor{#1}, \citeyear{#1})}
-  \renewcommand{\citet}[1]{\citeauthor{#1} (\citeyear{#1})}
+  \let\originalcite\cite
+  \renewcommand{\cite}[1]{%
+    \ifstrequal{#1}{imai_evaluating_nodate,teleki_comparing_2024}{Imai dkk. (2025); Teleki dkk. (2024)\nocite{#1}}{%
+    \ifstrequal{#1}{gaur_effects_2016}{Gaur dkk. (2016)\nocite{#1}}{%
+    \ifstrequal{#1}{olev_estonian_2022, imai_evaluating_nodate}{(Olev dan Alumäe, 2022; Imai dkk., 2025)\nocite{#1}}{%
+    \ifstrequal{#1}{christodoulidou_semi-automatic_2025}{Christodoulidou dkk. (2025)\nocite{#1}}{%
+    \ifstrequal{#1}{imai_evaluating_nodate}{Imai dkk. (2025)\nocite{#1}}{%
+    \ifstrequal{#1}{ferraro_benchmarking_2023}{Ferraro dkk. (2023)\nocite{#1}}{%
+    \ifstrequal{#1}{fathony_optimisasi_nodate}{Fathony dkk. (2025)\nocite{#1}}{%
+    \ifstrequal{#1}{prabhavalkar_end--end_2023}{Prabhavalkar dkk. (2023)\nocite{#1}}{%
+    \ifstrequal{#1}{radford_robust_nodate}{Radford dkk. (2023)\nocite{#1}}{\originalcite{#1}}}}}}}}}}}
 }
-
-% Menyesuaikan format agar selalu menggunakan kurung (Author, Year) - Sudah dihandle di AtBeginDocument via \shortcite
+    \renewcommand{\bibname}{DAFTAR PUSTAKA}
+    \renewcommand{\refname}{DAFTAR PUSTAKA}
 
 % --- Pengaturan List (Enumerate/Itemize) ---
 % Menghapus spasi tambahan antar item dan sekitar list agar sesuai dengan spasi 1.5 paragraf
@@ -56,26 +61,37 @@
 \exhyphenpenalty=10000
 \sloppy % Memberikan toleransi spasi antar kata agar tetap justify meskipun tanpa pemenggalan
 
-% --- Variabel Global Identitas ---
-\newcommand{\mhsname}{MUHAMAD IFFAN RAMADHAN}
+% --- Variabel Global Identitas Mahasiswa ---
+\newcommand{\mhsname}{MUHAMMAD IFFAN RAMADHAN}
 \newcommand{\mhsnim}{2117020036}
-\newcommand{\mhsjudul}{Rancang Bangun Sistem Speech To Text Berbasis Web Menggunakan Model Open AI Whisper}
+\newcommand{\mhsjudul}{Rancang Bangun Sistem Speech To Text Berbasis Web Menggunakan Model OpenAI Whisper}
 \newcommand{\mhsprodi}{Sistem Informasi}
 \newcommand{\mhsfakultas}{Fakultas Sains dan Teknologi}
 \newcommand{\mhsuniv}{Universitas Islam Negeri Imam Bonjol Padang}
 \newcommand{\mhstahun}{2026}
+\newcommand{\kotapengajuan}{Padang}
 
 % --- Variabel Global Pembimbing ---
-\newcommand{\pembimbingI}{Ahmad Fauzi, M.T.I}
-\newcommand{\nipI}{123456789}
-\newcommand{\pembimbingII}{Ozzy Secio Riza, M.Kom}
-\newcommand{\nipII}{987654321}
+\newcommand{\sapaanPembimbingI}{Bapak}
+\newcommand{\pembimbingI}{Ahmad Fauzi, M.T.I.}
+\newcommand{\nipI}{198805092018011001}
 
-% --- Variabel Global Pejabat ---
-\newcommand{\kaprodi}{Nama Ketua Program Studi}
-\newcommand{\nipKaprodi}{19800101XXXXXXXX}
-\newcommand{\dekan}{Nama Dekan Fakultas}
-\newcommand{\nipDekan}{19700101XXXXXXXX}
+\newcommand{\sapaanPembimbingII}{Ibu}
+\newcommand{\pembimbingII}{Ozzy Secio Riza, M.Kom.}
+\newcommand{\nipII}{199310122019032015}
+
+% --- Variabel Global Pejabat Struktural ---
+\newcommand{\kaprodi}{\pembimbingII}
+\newcommand{\nipKaprodi}{\nipII}
+\newcommand{\dekan}{Yulia}
+\newcommand{\nipDekan}{198105052009012008}
+
+% --- Variabel Global Sistem & Parameter Penelitian ---
+\newcommand{\namasistem}{Skriptor}
+\newcommand{\jumlahresponden}{30}
+\newcommand{\totalberkasaudio}{58}
+\newcommand{\totalsegmentranskrip}{11.540}
+\newcommand{\totaldurasiaudio}{23,5 jam}
 
 % Pengaturan Margin
 \geometry{
@@ -138,7 +154,7 @@
 
 % Pengaturan Caption (Tabel di atas, Gambar di bawah)
 \captionsetup{
-  font=small,
+  font=normalsize,
   labelfont=bf,
   justification=centering,
   singlelinecheck=false,
@@ -171,7 +187,7 @@
 
 % Menambahkan kata "BAB" di depan nomor bab pada Daftar Isi
 \renewcommand{\cftchappresnum}{BAB }
-\setlength{\cftchapnumwidth}{1.4cm} % Dikurangi dari 1.8cm agar tidak terlalu jauh
+\setlength{\cftchapnumwidth}{1.8cm} % Disesuaikan agar BAB III tidak menabrak teks judul bab
 \renewcommand{\cftchapaftersnumb}{} % Menghapus quad agar lebih rapat
 
 % Membuat judul daftar isi, tabel, gambar berada di tengah dan All Caps

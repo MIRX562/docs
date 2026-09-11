@@ -1,10 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.8)  10 AUG 2026 23:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.8)  11 SEP 2026 12:14
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/mirx/Tugas Kuliah/SEM 9/Skripsi/docs/main_proposal.tex"
-(/home/mirx/Tugas Kuliah/SEM 9/Skripsi/docs/main_proposal.tex
+**main_proposal.tex
+(./main_proposal.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
 (/opt/texlive/2026/texmf-dist/tex/latex/base/report.cls
@@ -24,40 +23,58 @@ File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen150
-) (./preamble.tex (/opt/texlive/2026/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2026/03/24 v26.5 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+) (./preamble.tex
+(/opt/texlive/2026/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2026/03/24 v26.5 The multilingual framework for LuaLaTeX, pdfLaT
+eX and XeLaTeX
 \babel@savecnt=\count284
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2078.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2080.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2082.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2083.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2084.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2086.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2111.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2078.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2080.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2082.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2083.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2084.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2086.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2111.
 \U@D=\dimen151
 \l@unhyphenated=\language91
- (/opt/texlive/2026/texmf-dist/tex/generic/babel/txtbabel.def)
+
+(/opt/texlive/2026/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count285
- (/opt/texlive/2026/texmf-dist/tex/generic/babel/locale/id/babel-indonesian.tex)
+
+(/opt/texlive/2026/texmf-dist/tex/generic/babel/locale/id/babel-indonesian.tex)
 Package babel Info: Importing font and identification data for indonesian
 (babel)             from babel-id.ini. Reported on input line 4330.
- (/opt/texlive/2026/texmf-dist/tex/generic/babel-indonesian/indonesian.ldf
-Language: indonesian 2025/06/01 v1.0n Bahasa Indonesia support from the babel system
-)) (/opt/texlive/2026/texmf-dist/tex/latex/base/inputenc.sty
+(/opt/texlive/2026/texmf-dist/tex/generic/babel-indonesian/indonesian.ldf
+Language: indonesian 2025/06/01 v1.0n Bahasa Indonesia support from the babel s
+ystem
+))
+(/opt/texlive/2026/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-) (/opt/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-) (/opt/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2026/03/07 v6.0 Page Geometry
- (/opt/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
+
+(/opt/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
-) (/opt/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (/opt/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
+
+(/opt/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count286
@@ -72,26 +89,34 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen158
 \Gm@layoutvoffset=\dimen159
 \Gm@dimlist=\toks20
-) (/opt/texlive/2026/texmf-dist/tex/latex/setspace/setspace.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-) (/opt/texlive/2026/texmf-dist/tex/latex/tools/indentfirst.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
-) (/opt/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
- (/opt/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+
+(/opt/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (/opt/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty
+
+(/opt/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (/opt/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
- (/opt/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def
+
+(/opt/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen160
 \Gin@req@width=\dimen161
-) (/opt/texlive/2026/texmf-dist/tex/latex/psnfss/mathptmx.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/psnfss/mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -126,7 +151,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
-) (/opt/texlive/2026/texmf-dist/tex/latex/titlesec/titlesec.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box53
 \beforetitleunit=\skip51
@@ -137,9 +163,11 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidth=\dimen164
 \titlewidthlast=\dimen165
 \titlewidthfirst=\dimen166
-) (/opt/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (/opt/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty
+
+(/opt/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen167
 \captionmargin=\dimen168
@@ -153,24 +181,29 @@ Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count289
 \c@continuedfloat=\count290
-) (/opt/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count291
-) (/opt/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip53
 
 For additional information on amsmath, use the `?' option.
 (/opt/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
- (/opt/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+(/opt/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks22
 \ex@=\dimen175
-)) (/opt/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+(/opt/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen176
-) (/opt/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count292
@@ -220,17 +253,23 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
-) (/opt/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (/opt/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+
+(/opt/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup6
 \symAMSb=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/opt/texlive/2026/texmf-dist/tex/latex/lipsum/lipsum.sty (/opt/texlive/2026/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (/opt/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
+))
+(/opt/texlive/2026/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/opt/texlive/2026/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/opt/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2026-03-20 L3 programming layer (loader) 
- (/opt/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+
+(/opt/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count304
 ))
@@ -240,8 +279,11 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count305
 \l__lipsum_a_int=\count306
 \l__lipsum_b_int=\count307
- (/opt/texlive/2026/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (/opt/texlive/2026/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+
+(/opt/texlive/2026/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
+(/opt/texlive/2026/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
 \f@nch@headwidth=\skip56
 \f@nch@offset@elh=\skip57
 \f@nch@offset@erh=\skip58
@@ -257,51 +299,69 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthC=\skip68
 \f@nch@widthR=\skip69
 \@temptokenb=\toks27
-) (/opt/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
- (/opt/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+
+(/opt/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (/opt/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/opt/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (/opt/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+
+(/opt/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (/opt/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (/opt/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/opt/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (/opt/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty
+))
+(/opt/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/opt/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
- (/opt/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty
+
+(/opt/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (/opt/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (/opt/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+
+(/opt/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count308
-) (/opt/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
 )
 \@linkdim=\dimen184
 \Hy@linkcounter=\count309
 \Hy@pagecounter=\count310
- (/opt/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def
+
+(/opt/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (/opt/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count311
- (/opt/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def
+
+(/opt/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -314,16 +374,20 @@ Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4468.
 \c@Hy@tempcnt=\count312
- (/opt/texlive/2026/texmf-dist/tex/latex/url/url.sty
+
+(/opt/texlive/2026/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4807.
 \XeTeXLinkMargin=\dimen185
- (/opt/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
+
+(/opt/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (/opt/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+
+(/opt/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
 ))
 \Fld@menulength=\count313
 \Field@Width=\dimen186
@@ -340,19 +404,24 @@ Package hyperref Info: PDF/A mode OFF on input line 6114.
 \c@Hfootnote=\count316
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (/opt/texlive/2026/texmf-dist/tex/latex/hyperref/hpdftex.def
+
+(/opt/texlive/2026/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
 \Fld@listcount=\count317
 \c@bookmark@seq@number=\count318
- (/opt/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/opt/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
- (/opt/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+
+(/opt/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
 )
 \Hy@SectionHShift=\skip70
-) (/opt/texlive/2026/texmf-dist/tex/latex/tools/array.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/tools/array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen188
 \ar@mcellbox=\box56
@@ -361,7 +430,8 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \extratabsurround=\skip71
 \backup@length=\skip72
 \ar@cellbox=\box57
-) (/opt/texlive/2026/texmf-dist/tex/latex/tocloft/tocloft.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip73
@@ -400,7 +470,8 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforetabskip=\skip104
 \cfttabindent=\skip105
 \cfttabnumwidth=\skip106
-) (/opt/texlive/2026/texmf-dist/tex/latex/microtype/microtype.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
 \MT@toks=\toks29
 \MT@tempbox=\box58
@@ -414,18 +485,22 @@ LaTeX Info: Redefining \textls on input line 1449.
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
 \MT@listname@count=\count322
- (/opt/texlive/2026/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+
+(/opt/texlive/2026/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2026/03/01 v3.2d Definitions specific to pdftex (RS)
+
 LaTeX Info: Redefining \lsstyle on input line 944.
 LaTeX Info: Redefining \lslig on input line 944.
 \MT@outer@space=\skip107
 )
 Package microtype Info: Loading configuration file microtype.cfg.
- (/opt/texlive/2026/texmf-dist/tex/latex/microtype/microtype.cfg
+
+(/opt/texlive/2026/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
-) (/opt/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip108
 \enit@outerparindent=\dimen191
@@ -433,24 +508,38 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@inbox=\box59
 \enit@count@id=\count323
 \enitdp@description=\count324
-) (/opt/texlive/2026/texmf-dist/tex/latex/pgfgantt/pgfgantt.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/pgfgantt/pgfgantt.sty
 Package: pgfgantt 2024/06/19 v5.0a Draw Gantt diagrams with TikZ
- (/opt/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/opt/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/opt/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/opt/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+
+(/opt/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/opt/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/opt/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks32
 \pgfutil@tempdima=\dimen192
 \pgfutil@tempdimb=\dimen193
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box60
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/opt/texlive/2026/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
 Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
- (/opt/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/opt/texlive/2026/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/opt/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+
+(/opt/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/opt/texlive/2026/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
- (/opt/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks33
 \pgfkeys@temptoks=\toks34
- (/opt/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.
+code.tex
 \pgfkeys@tmptoks=\toks35
 ))
 \pgf@x=\dimen194
@@ -477,23 +566,31 @@ Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (/opt/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
- (/opt/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
-))) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+)))
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.t
+ex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfsyssoftpath@smallbuffer@items=\count330
 \pgfsyssoftpath@bigbuffer@items=\count331
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.t
+ex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )) (/opt/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (/opt/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
+
+(/opt/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (/opt/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+
+(/opt/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -503,18 +600,43 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
- (/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen260
 \pgfmath@count=\count332
 \pgfmath@box=\box61
 \pgfmath@toks=\toks39
 \pgfmath@stack@operand=\toks40
 \pgfmath@stack@operation=\toks41
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.
+tex)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometr
+ic.code.tex)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code
+.tex)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.
+code.tex)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.t
+ex)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.
+tex)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.t
+ex)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarit
+hmetics.code.tex)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count333
-)) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+))
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@picminx=\dimen261
 \pgf@picmaxx=\dimen262
@@ -530,75 +652,113 @@ File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@yy=\dimen272
 \pgf@zx=\dimen273
 \pgf@zy=\dimen274
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.c
+ode.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@path@lastx=\dimen275
 \pgf@path@lasty=\dimen276
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.
+tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@shorten@end@additional=\dimen277
 \pgf@shorten@start@additional=\dimen278
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box62
 \pgf@hbox=\box63
 \pgf@layerbox@main=\box64
 \pgf@picture@serial@count=\count334
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.co
+de.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgflinewidth=\dimen279
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations
+.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@pt@x=\dimen280
 \pgf@pt@y=\dimen281
 \pgf@pt@temp=\dimen282
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.te
+x
 File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.
+code.tex
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfarrowsep=\dimen283
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@max=\dimen284
 \pgf@sys@shading@range@num=\count335
 \pgf@shadingcount=\count336
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.te
+x
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.t
+ex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfexternal@startupbox=\box65
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.co
+de.tex
 File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.t
+ex
 File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+))) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.
+tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfnodeparttextbox=\box66
 ) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/opt/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.
+sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@nodesepstart=\dimen285
 \pgf@nodesepend=\dimen286
-) (/opt/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.
+sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
-)) (/opt/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/opt/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/opt/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/opt/texlive/2026/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+)) (/opt/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/opt/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/opt/texlive/2026/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 \pgffor@iter=\dimen287
 \pgffor@skip=\dimen288
 \pgffor@stack=\toks42
 \pgffor@toks=\toks43
-)) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+))
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
- (/opt/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.
+code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@plot@mark@count=\count337
 \pgfplotmarksize=\dimen289
@@ -619,37 +779,60 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikznumberofchildren=\count339
 \tikznumberofcurrentchild=\count340
 \tikz@fig@count=\count341
- (/opt/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfmatrixcurrentrow=\count342
 \pgfmatrixcurrentcolumn=\count343
 \pgf@matrix@numberofcolumns=\count344
 )
 \tikz@expandcount=\count345
- (/opt/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikz
+librarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+)))
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikz
+libraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
- (/opt/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.t
+ex
 File: pgflibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \arrowsize=\dimen298
-)) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
+))
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikz
+librarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@layerbox@background=\box71
 \pgf@layerboxsaved@background=\box72
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikz
+librarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikz
+librarypatterns.code.tex
 File: tikzlibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
- (/opt/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
+
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code
+.tex
 File: pgflibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+))
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikz
+librarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/opt/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+)
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikz
+libraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
- (/opt/texlive/2026/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes
+.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)) (/opt/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfcalendar.sty (/opt/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.tex
+))
+(/opt/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfcalendar.sty
+(/opt/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.tex
 File: pgfcalendar.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfcalendarcurrentjulian=\count346
 \pgf@cal@easter@Y=\count347
@@ -686,7 +869,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box73
 \@float@everytoks=\toks45
 \@floatcapt=\box74
-) (/opt/texlive/2026/texmf-dist/tex/latex/tools/longtable.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \LTleft=\skip109
 \LTright=\skip110
@@ -704,7 +888,8 @@ Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \c@LT@tables=\count377
 \c@LT@chunks=\count378
 \LT@p@ftn=\toks46
-) (/opt/texlive/2026/texmf-dist/tex/latex/apacite/apacite.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/apacite/apacite.sty
 Package: apacite 2013/07/21 v6.03 APA citation
 \c@BibCnt=\count379
 \bibleftmargin=\skip113
@@ -712,7 +897,8 @@ Package: apacite 2013/07/21 v6.03 APA citation
 \bibparsep=\skip115
 \bibitemsep=\skip116
 \biblabelsep=\skip117
-) (/opt/texlive/2026/texmf-dist/tex/latex/natbib/natbib.sty
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip118
 \bibsep=\skip119
@@ -722,9 +908,14 @@ LaTeX Info: Redefining \cite on input line 694.
 LaTeX Info: Redefining \BBA on input line 30.
 )
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 6.
- (/opt/texlive/2026/texmf-dist/tex/latex/psnfss/t1ptm.fd
+
+
+(/opt/texlive/2026/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (./main_proposal.aux (./frontmatter/sampul.aux) (./frontmatter/judul.aux) (./frontmatter/persetujuan.aux) (./frontmatter/pengantar.aux) (./chapters/bab1.aux) (./chapters/bab2.aux) (./chapters/bab3.aux))
+) (./main_proposal.aux
+(./frontmatter/judul.aux) (./frontmatter/persetujuan.aux)
+(./frontmatter/pengantar.aux) (./chapters/bab1.aux) (./chapters/bab2.aux)
+(./chapters/bab3.aux))
 \openout1 = `main_proposal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -795,26 +986,33 @@ LaTeX Font Info:    ... okay on input line 6.
 \everyMPtoPDFconversion=\toks48
 ) (/opt/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (/opt/texlive/2026/texmf-dist/tex/latex/grfext/grfext.sty
+
+(/opt/texlive/2026/texmf-dist/tex/latex/grfext/grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
- (/opt/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+(/opt/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
- (/opt/texlive/2026/texmf-dist/tex/latex/caption/ltcaption.sty
+
+(/opt/texlive/2026/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 6.
- (./main_proposal.out) (./main_proposal.out)
+
+(./main_proposal.out) (./main_proposal.out)
 \@outlinefile=\write4
 \openout4 = `main_proposal.out'.
 
@@ -835,18 +1033,20 @@ Package microtype Info: Patching command `\showhyphens'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
- (/opt/texlive/2026/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+
+(/opt/texlive/2026/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 \c@maskedRefs=\count387
 
 
-Package apacite Warning: No suitable language definition file (indonesian.apc) found.
+Package apacite Warning: No suitable language definition file (indonesian.apc) 
+found.
 
-\openout2 = `frontmatter/sampul.aux'.
+\openout2 = `frontmatter/judul.aux'.
 
-(./frontmatter/sampul.tex
-<logo_universitas.png, id=98, 588.1975pt x 588.1975pt>
+(./frontmatter/judul.tex
+<logo_universitas.png, id=101, 588.1975pt x 588.1975pt>
 File: logo_universitas.png Graphic file (type png)
 <use logo_universitas.png>
 Package pdftex.def Info: logo_universitas.png  used on input line 9.
@@ -854,77 +1054,86 @@ Package pdftex.def Info: logo_universitas.png  used on input line 9.
  [1
 
 
-{/opt/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/opt/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc} <./logo_universitas.png>])
-\openout2 = `frontmatter/judul.aux'.
-
- (./frontmatter/judul.tex
-File: logo_universitas.png Graphic file (type png)
-<use logo_universitas.png>
-Package pdftex.def Info: logo_universitas.png  used on input line 11.
-(pdftex.def)             Requested size: 113.81102pt x 113.80502pt.
- [2
-
-
-
-])
+{/opt/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/opt/texlive/2
+026/texmf-dist/fonts/enc/dvips/base/8r.enc} <./logo_universitas.png>])
 \openout2 = `frontmatter/persetujuan.aux'.
 
  (./frontmatter/persetujuan.tex
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 26.
- (/opt/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 25.
+
+(/opt/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 26.
- (/opt/texlive/2026/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 25.
+
+(/opt/texlive/2026/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 26.
- (/opt/texlive/2026/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 25.
+
+(/opt/texlive/2026/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 26.
- (/opt/texlive/2026/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 25.
+
+(/opt/texlive/2026/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 26.
- (/opt/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
+5.
+
+(/opt/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
- (/opt/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
+
+(/opt/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-) (/opt/texlive/2026/texmf-dist/tex/latex/microtype/mt-msb.cfg
+)
+(/opt/texlive/2026/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [3
+) [2
 
 
 
 ])
 \openout2 = `frontmatter/pengantar.aux'.
 
- (./frontmatter/pengantar.tex [4
 
-
-
-]) (./main_proposal.toc
-Overfull \hbox (0.76111pt too wide) detected at line 26
-\T1/ptm/b/n/12 BAB III 
+(./frontmatter/pengantar.tex
+Underfull \hbox (badness 1484) in paragraph at lines 12--13
+[]\T1/ptm/m/n/12 (+20) Penulis me-nya-da-ri bah-wa pro-po-sal ini ma-sih me-mi-
+li-ki ru-ang un-tuk
  []
 
-)
+
+Underfull \hbox (badness 1122) in paragraph at lines 12--13
+\T1/ptm/m/n/12 (+20) pe-ne-li-ti-an ini da-pat mem-be-rik-an kon-tri-bu-si nya-
+ta ba-gi pe-ngem-bang-an il-mu
+ []
+
+[3
+
+
+
+]) (./main_proposal.toc)
 \tf@toc=\write5
 \openout5 = `main_proposal.toc'.
 
- [5
+ [4
 
 
 
@@ -932,1376 +1141,1374 @@ Overfull \hbox (0.76111pt too wide) detected at line 26
 \tf@lot=\write6
 \openout6 = `main_proposal.lot'.
 
- [6
+ [5
 
 ] (./main_proposal.lof)
 \tf@lof=\write7
 \openout7 = `main_proposal.lof'.
 
- [7
+
+[6
 
 ]
 \openout2 = `chapters/bab1.aux'.
 
  (./chapters/bab1.tex
 Bab I.
+
+Underfull \hbox (badness 1694) in paragraph at lines 4--5
+\T1/ptm/m/n/12 (+20) teks se-ba-gai lang-kah awal pe-ngo-lah-an da-ta. Ke-be-ra
+-da-an teks transk-ri-psi
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 8--9
+[]\T1/ptm/m/n/12 (+20) Pemanfaatan ke-lu-ar-an ASR se-ba-gai draf da-pat meng-u
+-ra-ngi se-ba-gi-an
+ []
+
 [1
 
 
 
-] [2]
-Underfull \hbox (badness 4531) in paragraph at lines 41--42
-[]\T1/ptm/m/n/12 (+20) Varian mo-del \T1/ptm/m/it/12 (+20) Whis-per \T1/ptm/m/n/12 (+20) yang le-bih be-sar (mi-sal-nya \T1/ptm/m/it/12 (+20) Large-v3 \T1/ptm/m/n/12 (+20) dan
+]
+Underfull \hbox (badness 1552) in paragraph at lines 14--15
+\T1/ptm/m/n/12 (+20) yang ti-dak te-pat da-pat me-mi-sahk-an sa-tu rang-ka-i-an
+ ujar-an, meng-hi-langk-an
+ []
+
+[2]
+Underfull \hbox (badness 1389) in paragraph at lines 18--19
+\T1/ptm/m/n/12 (+20) bi-a-ya lang-gan-an yang ting-gi ber-da-sark-an du-ra-si a
+u-dio, ser-ta me-nim-bulk-an
  []
 
 [3]
-Underfull \hbox (badness 3428) in paragraph at lines 49--50
-[]\T1/ptm/b/n/12 (+20) Manfaat Prak-tis: \T1/ptm/m/n/12 (+20) Me-nye-di-ak-an so-lu-si sis-tem transk-ri-psi man-di-ri
+Underfull \hbox (badness 5260) in paragraph at lines 24--25
+[]\T1/ptm/m/n/12 (+20) Berdasarkan per-ma-sa-lah-an ter-se-but, pe-ne-li-ti-an 
+ini me-ran-cang dan
  []
 
-) [4]
+[4]
+Underfull \hbox (badness 1454) in paragraph at lines 35--36
+[]\T1/ptm/m/n/12 (+20) Bagaimana ting-kat ke-la-yak-an ke-gu-na-an (\T1/ptm/m/i
+t/12 (+20) usa-bi-li-ty\T1/ptm/m/n/12 (+20) ) an-tar-mu-ka sis-tem
+ []
+
+[5] [6]) [7]
 \openout2 = `chapters/bab2.aux'.
 
  (./chapters/bab2.tex
 Bab II.
 
 Underfull \hbox (badness 6284) in paragraph at lines 4--5
-[]\T1/ptm/m/n/12 (+20) Bagian ini me-ma-park-an teori-teori da-sar yang men-ja-di lan-das-an
+[]\T1/ptm/m/n/12 (+20) Bagian ini me-ma-park-an teori-teori da-sar yang men-ja-
+di lan-das-an
  []
 
-
-Underfull \hbox (badness 1484) in paragraph at lines 13--14
-\T1/ptm/m/n/12 (+20) la-ju sam-pel (\T1/ptm/m/it/12 (+20) sam-pling ra-te\T1/ptm/m/n/12 (+20) ) 16.000 Hz, ke-mu-di-an di-pe-cah men-ja-di
- []
-
-[5
+[8
 
 
 
 
 ]
-Underfull \hbox (badness 4752) in paragraph at lines 14--15
-[]\T1/ptm/b/n/12 (+20) Arsitektur \T1/ptm/b/it/12 (+20) En-co-der \T1/ptm/b/n/12 (+20) Tran-sfor-mer: \T1/ptm/m/it/12 (+20) En-co-der \T1/ptm/m/n/12 (+20) ber-tu-gas me-me-tak-an
+Underfull \hbox (badness 4279) in paragraph at lines 16--17
+[]\T1/ptm/m/it/12 (+20) Decoder \T1/ptm/m/n/12 (+20) Tran-sfor-mer ber-fung-si 
+se-ba-gai mo-del ba-ha-sa kon-di-sio-nal
  []
 
-[6] [7]
-Underfull \hbox (badness 7133) in paragraph at lines 28--29
-\T1/ptm/m/n/12 (+20) au-dio se-ca-ra ber-u-rut-an (\T1/ptm/m/it/12 (+20) se-qu-en-ti-al de-co-ding\T1/ptm/m/n/12 (+20) ), yang meng-ha-la-ngi
+[9]
+Underfull \hbox (badness 1142) in paragraph at lines 30--31
+\T1/ptm/m/n/12 (+20) pe-nan-da wak-tu ting-kat ka-ta (\T1/ptm/m/it/12 (+20) wor
+d-level ti-mes-tamp\T1/ptm/m/n/12 (+20) ) yang aku-rat, \T1/ptm/m/it/12 (+20) W
+his-pe-rX
  []
 
-
-Underfull \hbox (badness 1668) in paragraph at lines 32--33
-\T1/ptm/m/it/12 (+20) Whis-pe-rX \T1/ptm/m/n/12 (+20) ada-lah kla-si-fi-ka-si iden-ti-tas su-a-ra un-tuk me-nen-tuk-an si-a-pa
- []
-
-
-Underfull \hbox (badness 2837) in paragraph at lines 32--33
-\T1/ptm/m/n/12 (+20) pem-bi-ca-ra, ke-mu-di-an pe-me-ta-an iden-ti-tas pem-bi-ca-ra ke se-ti-ap ka-ta
- []
-
-
-Underfull \hbox (badness 3312) in paragraph at lines 38--39
-[]\T1/ptm/b/it/12 (+20) CTranslate2\T1/ptm/b/n/12 (+20) : \T1/ptm/m/n/12 (+20) Pus-ta-ka yang meng-im-ple-men-ta-sik-an in-fe-ren-si mo-del
- []
-
-[8] [9] [10] [11]
-Underfull \hbox (badness 1478) in paragraph at lines 87--88
-[]\T1/ptm/m/n/12 (+20) Tinjauan pus-ta-ka di-la-kuk-an de-ngan meng-a-na-li-sis ber-ba-gai pe-ne-li-ti-an
+[10] [11]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
+8.
+ (/opt/texlive/2026/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [12]
+Underfull \hbox (badness 2088) in paragraph at lines 72--74
+[]\T1/ptm/m/n/12 (+20) Sistem ber-s-ka-la be-sar yang me-na-nga-ni beb-an in-fe
+-ren-si AI in-ten-sif
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 1509) in paragraph at lines 75--76
+\T1/ptm/m/n/12 (+20) di ling-kung-an ter-pi-sah dan ber-fo-kus pa-da kom-pu-ta-
+si GPU. Pe-mi-sah-an ini
+ []
+
+[13] [14] [15]
+Underfull \hbox (badness 1478) in paragraph at lines 106--107
+[]\T1/ptm/m/n/12 (+20) Tinjauan pus-ta-ka di-la-kuk-an de-ngan meng-a-na-li-sis
+ ber-ba-gai pe-ne-li-ti-an
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 []|\T1/ptm/b/n/10.95 (+20) Metode
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 []|\T1/ptm/b/n/10.95 (+20) Tujuan
  []
 
 
-Overfull \hbox (22.56622pt too wide) in alignment at lines 90--94
+Overfull \hbox (22.56622pt too wide) in alignment at lines 109--113
  [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 []|\T1/ptm/b/n/10.95 (+20) Metode
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 []|\T1/ptm/b/n/10.95 (+20) Tujuan
  []
 
 
-Overfull \hbox (22.56622pt too wide) in alignment at lines 94--99
+Overfull \hbox (22.56622pt too wide) in alignment at lines 113--118
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (22.56622pt too wide) in alignment at lines 99--101
+Overfull \hbox (22.56622pt too wide) in alignment at lines 118--120
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (22.56622pt too wide) in alignment at lines 101--103
+Overfull \hbox (22.56622pt too wide) in alignment at lines 120--122
  [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 []|\T1/ptm/m/n/10.95 (+20) User-centered
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \T1/ptm/m/n/10.95 (+20) De-sign
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \T1/ptm/m/n/10.95 (+20) Me-tho-ds in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \T1/ptm/m/n/10.95 (+20) Data-Intensive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
-[]|[]\T1/ptm/m/n/10.95 (+20) Riebel[]
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]|\T1/ptm/m/n/10.95 (+20) Riebel dkk.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 []|\T1/ptm/m/it/10.95 (+20) Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 []|\T1/ptm/m/n/10.95 (+20) Menganalisis
  []
 
 
-Underfull \hbox (badness 6236) in paragraph at lines 104--104
+Underfull \hbox (badness 6236) in paragraph at lines 123--123
 \T1/ptm/m/n/10.95 (+20) in-te-gra-si UCD
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 []|\T1/ptm/m/n/10.95 (+20) UCD me-ning-katk-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \T1/ptm/m/n/10.95 (+20) em-pa-ti dan de-fi-ni-si
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \T1/ptm/m/n/10.95 (+20) ma-sa-lah da-lam
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
 []|\T1/ptm/m/n/10.95 (+20) Benchmarking
  []
 
 
-Overfull \hbox (1.59152pt too wide) in paragraph at lines 105--105
+Underfull \hbox (badness 1112) in paragraph at lines 124--124
+[]|\T1/ptm/m/n/10.95 (+20) Ferraro dkk.
+ []
+
+
+Overfull \hbox (1.59152pt too wide) in paragraph at lines 124--124
 []|\T1/ptm/m/n/10.95 (-20) Membandingkan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
 \T1/ptm/m/n/10.95 (+20) per-for-ma
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
 \T1/ptm/m/n/10.95 (+20) la-yan-an ASR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
 \T1/ptm/m/n/10.95 (+20) ber-ba-yar dan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
 []|\T1/ptm/m/n/10.95 (+20) Layanan ber-ba-yar
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 105--105
+Underfull \hbox (badness 2401) in paragraph at lines 124--124
 \T1/ptm/m/n/10.95 (+20) le-bih aku-rat, na-mun
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
 \T1/ptm/m/n/10.95 (+20) per-for-ma sa-ngat
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
 \T1/ptm/m/n/10.95 (+20) ber-gan-tung pa-da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 []|\T1/ptm/m/n/10.95 (+20) Evaluating
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 \T1/ptm/m/n/10.95 (+20) Open-Source
  []
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 106--106
-[]|[]\T1/ptm/m/n/10.95 (+20) Imai , dkk.[][]
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]|\T1/ptm/m/n/10.95 (+20) Imai dkk.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 []|\T1/ptm/m/n/10.95 (+20) Evaluasi
  []
 
 
-Overfull \hbox (2.2412pt too wide) in paragraph at lines 106--106
+Overfull \hbox (2.2412pt too wide) in paragraph at lines 125--125
 \T1/ptm/m/n/10.95 (-20) Eks-pe-ri-men-tal| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 []|\T1/ptm/m/n/10.95 (+20) Mengukur
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 \T1/ptm/m/n/10.95 (+20) aku-ra-si ASR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 \T1/ptm/m/n/10.95 (+20) pa-da au-dio
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 []|\T1/ptm/m/n/10.95 (+20) Perlu \T1/ptm/m/it/10.95 (+20) ro-bust er-ror
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 \T1/ptm/m/it/10.95 (+20) cor-re-ction \T1/ptm/m/n/10.95 (+20) un-tuk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 \T1/ptm/m/n/10.95 (+20) meng-a-ta-si bi-as
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 []|\T1/ptm/m/n/10.95 (+20) End-to-End
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 \T1/ptm/m/n/10.95 (+20) Spe-e-ch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 []|\T1/ptm/m/it/10.95 (+20) Survey
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 []|\T1/ptm/m/n/10.95 (+20) Memetakan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 \T1/ptm/m/n/10.95 (+20) per-kem-bang-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 \T1/ptm/m/n/10.95 (+20) WER hing-ga 50%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 \T1/ptm/m/n/10.95 (+20) di-ban-ding HMM
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
 []|\T1/ptm/m/n/10.95 (+20) Transformers
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
 \T1/ptm/m/n/10.95 (+20) in Spe-e-ch
  []
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 108--108
+Underfull \hbox (badness 1769) in paragraph at lines 127--127
 \T1/ptm/m/n/10.95 (+20) Pro-ces-sing: A
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 108--108
-[]|[]\T1/ptm/m/n/10.95 (+20) Latif , dkk.[][]
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]|\T1/ptm/m/n/10.95 (+20) Latif dkk.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
 []|\T1/ptm/m/it/10.95 (+20) Survey
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
 []|\T1/ptm/m/n/10.95 (+20) Menganalisis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
 \T1/ptm/m/it/10.95 (+20) Tran-sfor-mer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
 []|\T1/ptm/m/it/10.95 (+20) Transformer \T1/ptm/m/n/10.95 (+20) ung-gul
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
 \T1/ptm/m/n/10.95 (+20) da-lam me-mo-delk-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
 \T1/ptm/m/n/10.95 (+20) de-pen-den-si jang-ka
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 []|\T1/ptm/m/n/10.95 (+20) Multilingual
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-[]|[]\T1/ptm/m/n/10.95 (+20) Ferraz,
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+[]|\T1/ptm/m/n/10.95 (+20) Ferraz dkk.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-\T1/ptm/m/n/10.95 (+20) Bo-i-to,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-\T1/ptm/m/n/10.95 (+20) Brun, and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-\T1/ptm/m/n/10.95 (+20) Ni-ko-u-li-na[]
- []
-
-
-Overfull \hbox (2.2412pt too wide) in paragraph at lines 109--109
+Overfull \hbox (2.2412pt too wide) in paragraph at lines 128--128
 []|\T1/ptm/m/n/10.95 (-20) Eksperimental
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 []|\T1/ptm/m/n/10.95 (+20) Meringankan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 \T1/ptm/m/n/10.95 (+20) un-tuk ba-ha-sa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 []|\T1/ptm/m/it/10.95 (+20) DistilWhisper
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 \T1/ptm/m/n/10.95 (+20) me-ning-katk-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 \T1/ptm/m/n/10.95 (+20) per-for-ma ba-ha-sa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 \T1/ptm/m/it/10.95 (+20) under-represented
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 \T1/ptm/m/n/10.95 (+20) de-ngan \T1/ptm/m/it/10.95 (+20) over-he-ad
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 110--110
+Underfull \hbox (badness 1038) in paragraph at lines 129--129
 []|\T1/ptm/m/n/10.95 (+20) Does Cha-tGPT
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
 \T1/ptm/m/n/10.95 (+20) and Whis-per
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
 \T1/ptm/m/n/10.95 (+20) Ma-ke
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
 \T1/ptm/m/n/10.95 (+20) Hu-ma-no-id
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
 \T1/ptm/m/n/10.95 (+20) Ro-bo-ts Mo-re
  []
 
 
-Underfull \hbox (badness 6792) in paragraph at lines 110--110
-[]|[]\T1/ptm/m/n/10.95 (+20) Chen, Luo,
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+[]|\T1/ptm/m/n/10.95 (+20) Chen dkk.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
-\T1/ptm/m/n/10.95 (+20) Gee, and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
-\T1/ptm/m/n/10.95 (+20) Ne-ja-ti[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
 []|\T1/ptm/m/n/10.95 (+20) Evaluasi
  []
 
 
-Overfull \hbox (1.59152pt too wide) in paragraph at lines 110--110
+Overfull \hbox (1.59152pt too wide) in paragraph at lines 129--129
 []|\T1/ptm/m/n/10.95 (-20) Membandingkan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
 \T1/ptm/m/n/10.95 (+20) Whis-per vs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
 \T1/ptm/m/n/10.95 (+20) Go-o-gle ASR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
 []|\T1/ptm/m/n/10.95 (+20) Whisper me-mi-li-ki
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
 \T1/ptm/m/n/10.95 (+20) Ope-nAI's
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
 \T1/ptm/m/n/10.95 (+20) Whis-per
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
 []|[]\T1/ptm/m/n/10.95 (+20) Andreyev[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
 []|\T1/ptm/m/n/10.95 (+20) Analisis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
 []|\T1/ptm/m/n/10.95 (+20) Mengukur
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
 \T1/ptm/m/n/10.95 (+20) dam-pak
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
 \T1/ptm/m/n/10.95 (+20) ku-an-ti-sa-si
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
 []|\T1/ptm/m/n/10.95 (+20) Kuantisasi INT8
  []
 
 
-Underfull \hbox (badness 3396) in paragraph at lines 111--111
+Underfull \hbox (badness 3396) in paragraph at lines 130--130
 \T1/ptm/m/n/10.95 (+20) me-re-duk-si si-ze 45%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 \T1/ptm/m/n/10.95 (+20) App-ro-a-ch for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 \T1/ptm/m/n/10.95 (+20) Whis-per to
  []
 
 
-Underfull \hbox (badness 5802) in paragraph at lines 112--112
+Underfull \hbox (badness 5802) in paragraph at lines 131--131
 \T1/ptm/m/n/10.95 (+20) Enhan-ce Long
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 \T1/ptm/m/n/10.95 (+20) Dysar-thric
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\T1/ptm/m/n/10.95 (+20) Zhao, and
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]|\T1/ptm/m/n/10.95 (+20) Wang dkk.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 []|\T1/ptm/m/it/10.95 (+20) Self-training
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 []|\T1/ptm/m/n/10.95 (+20) Meningkatkan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 \T1/ptm/m/n/10.95 (+20) ASR un-tuk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 \T1/ptm/m/n/10.95 (+20) pen-de-ri-ta
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 []|\T1/ptm/m/n/10.95 (+20) Metode \T1/ptm/m/it/10.95 (+20) self-training
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 \T1/ptm/m/n/10.95 (+20) me-ning-katk-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 []|\T1/ptm/m/n/10.95 (+20) Accurate
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 \T1/ptm/m/n/10.95 (+20) Spe-e-ch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 \T1/ptm/m/n/10.95 (+20) Re-cog-ni-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 \T1/ptm/m/n/10.95 (+20) AI using
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
-[]|[]\T1/ptm/m/n/10.95 (+20) Isyanto,
+Underfull \hbox (badness 1102) in paragraph at lines 132--132
+[]|\T1/ptm/m/n/10.95 (+20) Isyanto dkk.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
-\T1/ptm/m/n/10.95 (+20) Ibra-him,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
-\T1/ptm/m/n/10.95 (+20) Sam-si-nar,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
-\T1/ptm/m/n/10.95 (+20) and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
-\T1/ptm/m/n/10.95 (+20) Su-dar-wa-ti[]
- []
-
-
-Overfull \hbox (2.2412pt too wide) in paragraph at lines 113--113
+Overfull \hbox (2.2412pt too wide) in paragraph at lines 132--132
 []|\T1/ptm/m/n/10.95 (-20) Eksperimental
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 []|\T1/ptm/m/n/10.95 (+20) Membangun
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 \T1/ptm/m/n/10.95 (+20) ASR un-tuk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 \T1/ptm/m/n/10.95 (+20) ke-a-man-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 []|\T1/ptm/m/n/10.95 (+20) Algoritma CNN
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 []|\T1/ptm/m/n/10.95 (+20) Evaluating
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \T1/ptm/m/n/10.95 (+20) Ope-nAI's
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 []|\T1/ptm/m/n/10.95 (+20) Analisis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 []|\T1/ptm/m/n/10.95 (+20) Mengevaluasi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \T1/ptm/m/n/10.95 (+20) Whis-per pa-da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \T1/ptm/m/n/10.95 (+20) di-ban-dingk-an ak-sen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 []|\T1/ptm/m/n/10.95 (+20) The Ro-le of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 \T1/ptm/m/n/10.95 (+20) Type-Script
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 \T1/ptm/m/n/10.95 (+20) in Enhan-cing
  []
 
 
-Overfull \hbox (16.70714pt too wide) in paragraph at lines 115--115
+Overfull \hbox (16.70714pt too wide) in paragraph at lines 134--134
 []|[]\T1/ptm/m/n/10.95 (-20) Sekhar Em-man-ni[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 []|\T1/ptm/m/it/10.95 (+20) Empirical
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 []|\T1/ptm/m/n/10.95 (+20) Menganalisis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 \T1/ptm/m/n/10.95 (+20) per-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 \T1/ptm/m/n/10.95 (+20) Type-Script
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 \T1/ptm/m/n/10.95 (+20) da-lam
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 \T1/ptm/m/n/10.95 (+20) pe-ngem-bang-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 \T1/ptm/m/n/10.95 (+20) apli-ka-si \T1/ptm/m/it/10.95 (+20) web
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 []|\T1/ptm/m/n/10.95 (+20) TypeScript se-ca-ra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 \T1/ptm/m/n/10.95 (+20) ke-sa-lah-an \T1/ptm/m/it/10.95 (+20) run-ti-me
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 \T1/ptm/m/n/10.95 (+20) dan me-ning-katk-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 \T1/ptm/m/n/10.95 (+20) and Wa-ter-fa-ll
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 \T1/ptm/m/n/10.95 (+20) Sof-twa-re
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-\T1/ptm/m/n/10.95 (+20) John and
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]|\T1/ptm/m/n/10.95 (+20) John dkk.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-\T1/ptm/m/n/10.95 (+20) Sha-i-le-sh
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-\T1/ptm/m/n/10.95 (+20) Sa-ti-sh
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-\T1/ptm/m/n/10.95 (+20) Shar-ma[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 []|\T1/ptm/m/n/10.95 (+20) Analisis
  []
 
 
-Overfull \hbox (1.59152pt too wide) in paragraph at lines 116--116
+Overfull \hbox (1.59152pt too wide) in paragraph at lines 135--135
 []|\T1/ptm/m/n/10.95 (-20) Membandingkan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 \T1/ptm/m/it/10.95 (+20) Agi-le \T1/ptm/m/n/10.95 (+20) vs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 []|\T1/ptm/m/it/10.95 (+20) Agile \T1/ptm/m/n/10.95 (+20) le-bih
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 \T1/ptm/m/n/10.95 (+20) ung-gul da-lam
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 \T1/ptm/m/n/10.95 (+20) ke-pu-as-an pe-langg-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 \T1/ptm/m/n/10.95 (+20) dan ke-ce-pat-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 []|\T1/ptm/m/n/10.95 (+20) Turning
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \T1/ptm/m/n/10.95 (+20) Whis-per in-to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \T1/ptm/m/n/10.95 (+20) Real-Time
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \T1/ptm/m/n/10.95 (+20) Tran-scrip-tion
  []
 
 
-Underfull \hbox (badness 7238) in paragraph at lines 117--117
+Underfull \hbox (badness 7238) in paragraph at lines 136--136
 []|[]\T1/ptm/m/n/10.95 (+20) Machá£ek ,
  []
 
 
-Overfull \hbox (3.37291pt too wide) in paragraph at lines 117--117
+Overfull \hbox (3.37291pt too wide) in paragraph at lines 136--136
 []|\T1/ptm/m/n/10.95 (-20) Mengembangkan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \T1/ptm/m/n/10.95 (+20) sis-tem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \T1/ptm/m/n/10.95 (+20) transk-ri-psi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \T1/ptm/m/it/10.95 (+20) real-time
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \T1/ptm/m/n/10.95 (+20) ber-ba-sis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 []|\T1/ptm/m/it/10.95 (+20) Whisper-Streaming
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 117--117
+Underfull \hbox (badness 1546) in paragraph at lines 136--136
 \T1/ptm/m/n/10.95 (+20) men-ca-pai la-ten-si 3,3
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 117--117
+Underfull \hbox (badness 1102) in paragraph at lines 136--136
 \T1/ptm/m/n/10.95 (+20) de-tik de-ngan aku-ra-si
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 []|\T1/ptm/m/n/10.95 (+20) WhisperX:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 \T1/ptm/m/n/10.95 (+20) Time-Accurate
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 \T1/ptm/m/n/10.95 (+20) Spe-e-ch
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 118--118
+Underfull \hbox (badness 1924) in paragraph at lines 137--137
 []|[]\T1/ptm/m/n/10.95 (+20) Bain , dkk.[][]
  []
 
 
-Overfull \hbox (5.76027pt too wide) in paragraph at lines 118--118
+Overfull \hbox (5.76027pt too wide) in paragraph at lines 137--137
 []|\T1/ptm/m/n/10.95 (-20) Pengembangan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 []|\T1/ptm/m/n/10.95 (+20) Penyelarasan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 \T1/ptm/m/n/10.95 (+20) wak-tu ting-kat
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 \T1/ptm/m/n/10.95 (+20) ka-ta pa-da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 []|\T1/ptm/m/n/10.95 (+20) VAD dan \T1/ptm/m/it/10.95 (+20) for-ced
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 \T1/ptm/m/it/10.95 (+20) alig-nment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 \T1/ptm/m/n/10.95 (+20) me-mung-kink-an
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 118--118
+Underfull \hbox (badness 1365) in paragraph at lines 137--137
 \T1/ptm/m/n/10.95 (+20) transk-ri-psi 12x le-bih
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 []|\T1/ptm/m/n/10.95 (+20) Bridging the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 \T1/ptm/m/n/10.95 (+20) Gap Be-twe-en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 \T1/ptm/m/n/10.95 (+20) Ge-ne-ra-li-zed
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 \T1/ptm/m/n/10.95 (+20) ASR and
  []
 
 
-Overfull \hbox (9.63945pt too wide) in paragraph at lines 119--119
+Overfull \hbox (9.63945pt too wide) in paragraph at lines 138--138
 \T1/ptm/m/n/10.95 (-20) Domain-Specific...| 
  []
 
 
-Underfull \hbox (badness 5908) in paragraph at lines 119--119
-[]|[]\T1/ptm/m/n/10.95 (+20) Nelson and
+Underfull \hbox (badness 2644) in paragraph at lines 138--138
+[]|\T1/ptm/m/n/10.95 (+20) Nelson dkk.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
-\T1/ptm/m/n/10.95 (+20) Gret-kzi[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 []|\T1/ptm/m/n/10.95 (+20) Integrasi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 []|\T1/ptm/m/n/10.95 (+20) Menyesuaikan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 \T1/ptm/m/n/10.95 (+20) ASR un-tuk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 []|\T1/ptm/m/n/10.95 (+20) Language mo-de-ling
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 \T1/ptm/m/n/10.95 (+20) pa-da Vosk efek-tif
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 []|\T1/ptm/m/n/10.95 (+20) A
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 \T1/ptm/m/n/10.95 (+20) semi-automatic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 \T1/ptm/m/n/10.95 (+20) pi-pe-li-ne for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 \T1/ptm/m/n/10.95 (+20) tran-scri-bing
  []
 
 
-Overfull \hbox (12.85599pt too wide) in paragraph at lines 120--120
+Overfull \hbox (12.85599pt too wide) in paragraph at lines 139--139
 []|[]\T1/ptm/m/n/10.95 (-20) Christodoulidou
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 []|\T1/ptm/m/n/10.95 (+20) Evaluasi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 []|\T1/ptm/m/n/10.95 (+20) Membangun
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 \T1/ptm/m/it/10.95 (+20) pi-pe-li-ne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 \T1/ptm/m/n/10.95 (+20) transk-ri-psi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 []|\T1/ptm/m/n/10.95 (+20) Koreksi ma-nu-al
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 \T1/ptm/m/n/10.95 (+20) se-be-lum \T1/ptm/m/it/10.95 (+20) for-ced
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 \T1/ptm/m/it/10.95 (+20) alig-nment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 []|\T1/ptm/m/n/10.95 (+20) Comparing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 \T1/ptm/m/n/10.95 (+20) ASR Sys-tems
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 \T1/ptm/m/n/10.95 (+20) in Con-te-xt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 \T1/ptm/m/n/10.95 (+20) of Spe-e-ch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-\T1/ptm/m/n/10.95 (+20) Kim, and
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+[]|\T1/ptm/m/n/10.95 (+20) Teleki dkk.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-\T1/ptm/m/n/10.95 (+20) Ca-ver-lee[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 []|\T1/ptm/m/n/10.95 (+20) Analisis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 []|\T1/ptm/m/n/10.95 (+20) Mengevaluasi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 \T1/ptm/m/n/10.95 (+20) da-lam me-na-nga-ni
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 []|\T1/ptm/m/n/10.95 (+20) Perancangan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 \T1/ptm/m/n/10.95 (+20) An-tar-mu-ka
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 \T1/ptm/m/n/10.95 (+20) Peng-gu-na
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 \T1/ptm/m/n/10.95 (+20) Apli-ka-si
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 \T1/ptm/m/n/10.95 (+20) In-for-ma-si
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
-[]|[]\T1/ptm/m/n/10.95 (+20) Pratiwi,
+Underfull \hbox (badness 1755) in paragraph at lines 141--141
+[]|\T1/ptm/m/n/10.95 (+20) Pratiwi dkk.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
-\T1/ptm/m/n/10.95 (+20) Wi-cak-so-no[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 []|\T1/ptm/m/it/10.95 (+20) User
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 \T1/ptm/m/it/10.95 (+20) Cen-te-red
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 \T1/ptm/m/it/10.95 (+20) De-sign
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 []|\T1/ptm/m/n/10.95 (+20) Merancang
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 \T1/ptm/m/n/10.95 (+20) apli-ka-si
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 \T1/ptm/m/n/10.95 (+20) in-for-ma-si
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 []|\T1/ptm/m/n/10.95 (+20) Metode UCD
  []
 
 
-Underfull \hbox (badness 5548) in paragraph at lines 122--122
+Underfull \hbox (badness 5548) in paragraph at lines 141--141
 \T1/ptm/m/n/10.95 (+20) meng-ha-silk-an de-sa-in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 \T1/ptm/m/n/10.95 (+20) yang 100% da-pat
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 \T1/ptm/m/n/10.95 (+20) Tran-scrip-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 []|[]\T1/ptm/m/n/10.95 (+20) Olev and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 \T1/ptm/m/n/10.95 (+20) Alu-mäe[]
  []
 
 
-Overfull \hbox (5.76027pt too wide) in paragraph at lines 123--123
+Overfull \hbox (5.76027pt too wide) in paragraph at lines 142--142
 []|\T1/ptm/m/n/10.95 (-20) Pengembangan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 []|\T1/ptm/m/n/10.95 (+20) Membangun
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 \T1/ptm/m/n/10.95 (+20) sis-tem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 \T1/ptm/m/n/10.95 (+20) transk-ri-psi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 \T1/ptm/m/n/10.95 (+20) ber-ba-sis
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 123--123
+Underfull \hbox (badness 1365) in paragraph at lines 142--142
 []|\T1/ptm/m/n/10.95 (+20) Sistem ber-ba-sis E2E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 \T1/ptm/m/n/10.95 (+20) dan men-du-kung
  []
 
 
-Overfull \hbox (22.56622pt too wide) in alignment at lines 103--124
+Overfull \hbox (22.56622pt too wide) in alignment at lines 122--143
  [] [] [] [] [] 
  []
 
-[12]
-ignored: Infinite glue shrinkage found in box being split [13]
-ignored: Infinite glue shrinkage found in box being split [14]
-ignored: Infinite glue shrinkage found in box being split [15]
-ignored: Infinite glue shrinkage found in box being split [16]) [17]
+
+ignored: Infinite glue shrinkage found in box being split [16]
+ignored: Infinite glue shrinkage fo
+und in box being split [17]
+ignored: Infinite glue shrinkage found in box being split [18
+]
+ignored: Infinite glue shrinkage found in box being split [19] [20]
+Underfull \hbox (badness 4144) in paragraph at lines 153--154
+[]\T1/ptm/m/n/12 (+20) Evaluasi ke-gu-na-an an-tar-mu-ka sis-tem Sk-rip-tor ber
+-ba-sis pen-de-kat-an
+ []
+
+) [21]
 \openout2 = `chapters/bab3.aux'.
 
  (./chapters/bab3.tex
 Bab III.
 
-Underfull \hbox (badness 1824) in paragraph at lines 4--5
-[]\T1/ptm/m/n/12 (+20) Penelitian ini ter-ma-suk pe-ne-li-ti-an re-ka-ya-sa per-ang-kat lu-nak de-ngan
+Underfull \hbox (badness 1122) in paragraph at lines 4--5
+\T1/ptm/m/n/12 (+20) meng-gu-nak-an pen-de-kat-an \T1/ptm/m/it/12 (+20) User-Ce
+ntered De-sign \T1/ptm/m/n/12 (+20) (UCD), ya-i-tu di-mu-lai da-ri
  []
 
-[18
+[22
 
 
 
 
 ]
-Underfull \hbox (badness 1454) in paragraph at lines 14--15
-\T1/ptm/m/n/12 (+20) di-kon-fi-gu-ra-si meng-gu-nak-an \T1/ptm/m/it/12 (+20) pi-pe-li-ne Whis-pe-rX \T1/ptm/m/n/12 (+20) yang meng-ga-bungk-an
+Underfull \hbox (badness 2080) in paragraph at lines 13--14
+\T1/ptm/m/n/12 (+20) se-ba-gai or-kes-tra-tor tu-gas dan \T1/ptm/m/it/12 (+20) 
+Python Wor-ker \T1/ptm/m/n/12 (+20) se-ba-gai unit ek-se-ku-si GPU.
  []
 
-[19] [20] [21]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 77.
- (/opt/texlive/2026/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-Underfull \hbox (badness 2818) in paragraph at lines 84--85
-[]\T1/ptm/b/n/12 (+20) Bahasa Pem-ro-gram-an dan Fra-me-work: \T1/ptm/m/it/12 (+20) Type-Script \T1/ptm/m/n/12 (+20) un-tuk
+[23] [24]
+Underfull \hbox (badness 1715) in paragraph at lines 77--78
+\T1/ptm/m/it/12 (+20) Pos-tgre-SQL\T1/ptm/m/n/12 (+20) , \T1/ptm/m/it/12 (+20) 
+Re-dis \T1/ptm/m/n/12 (+20) de-ngan \T1/ptm/m/it/12 (+20) Bu-ll-MQ\T1/ptm/m/n/1
+2 (+20) , ser-ta \T1/ptm/m/it/12 (+20) Ga-ra-ge S3\T1/ptm/m/n/12 (+20) . Pem-ro
+-ses-an au-dio
  []
 
-[22]
-Underfull \hbox (badness 1577) in paragraph at lines 89--90
-\T1/ptm/m/n/12 (+20) yang ter-di-ri da-ri 10 bu-tir per-nya-ta-an ber-s-ka-la Li-kert 5 po-in
+[25]
+Underfull \hbox (badness 1024) in paragraph at lines 88--90
+\T1/ptm/m/n/12 (+20) Teks yang te-lah di-nor-ma-li-sa-si ke-mu-di-an di-gu-nak-
+an se-ba-gai ma-suk-an un-tuk
  []
 
-) [23] (./main_proposal.bbl
+[26]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-Underfull \hbox (badness 1377) in paragraph at lines 78--94
-\T1/ptm/m/it/12 (+20) In-te-ra-ction\T1/ptm/m/n/12 (+20) , \T1/ptm/m/it/12 (+20) 24\T1/ptm/m/n/12 (+20) (6), 574--594.  Di-ak-ses pa-da 2026-05-23[]$\T1/cmtt/m/n/12 https :// www []
+ [27{/opt/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+Overfull \hbox (16.54713pt too wide) in paragraph at lines 158--160
+ [][] 
  []
 
-[24
-
-
-
-{/opt/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-Underfull \hbox (badness 4805) in paragraph at lines 292--307
-[]\T1/ptm/m/n/12 (+20) Graham, C., & Ro-ll, N.  (2024, Fe-bru-ary).  Eva-lu-a-ting Ope-nAI's
+) [28] [29] (./main_proposal.bbl
+Underfull \hbox (badness 1377) in paragraph at lines 86--107
+\T1/ptm/m/it/12 (+20) In-te-ra-ction\T1/ptm/m/n/12 (+20) , \T1/ptm/m/it/12 (+20
+) 24\T1/ptm/m/n/12 (+20) (6), 574--594.  Di-ak-ses pa-da 2026-05-23[]$\T1/cmtt/
+m/n/12 https :// www []
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--307
-\T1/ptm/m/n/12 (+20) Whis-per ASR: Per-for-man-ce ana-lysis across di-ver-se accen-ts and
- []
+[30
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 292--307
-\T1/ptm/m/n/12 (+20) spe-a-ker tra-i-ts.  \T1/ptm/m/it/12 (+20) JA-SA Exp-ress Let-ters\T1/ptm/m/n/12 (+20) , \T1/ptm/m/it/12 (+20) 4\T1/ptm/m/n/12 (+20) (2), 025206.  Di-ak-ses pa-da
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--307
-\T1/ptm/m/n/12 (+20) 2026-04-14[]$\T1/cmtt/m/n/12 https :// pubs [] .aip [] .org / jel / article / 4 / 2 / 025206 /
+]
+Underfull \hbox (badness 4805) in paragraph at lines 369--389
+[]\T1/ptm/m/n/12 (+20) Graham, C., & Ro-ll, N.  (2024, Fe-bru-ary).  Eva-lu-a-t
+ing Ope-nAI's
  []
 
 
-Underfull \hbox (badness 5893) in paragraph at lines 292--307
-\T1/cmtt/m/n/12 3267247 / Evaluating [] -OpenAI [] -s [] -Whisper [] -ASR [] -Performance$[]   \T1/ptm/m/n/12 (+20) doi:
- []
-
-[25]
-Underfull \hbox (badness 2753) in paragraph at lines 495--510
-[]\T1/ptm/m/n/12 (+20) Olev, A., & Alu-mäe, T.  (2022).  Es-to-ni-an Spe-e-ch Re-cog-ni-tion and
+Underfull \hbox (badness 10000) in paragraph at lines 369--389
+\T1/ptm/m/n/12 (+20) Whis-per ASR: Per-for-man-ce ana-lysis across di-ver-se ac
+cen-ts and
  []
 
 
-Underfull \hbox (badness 8189) in paragraph at lines 495--510
-\T1/ptm/m/n/12 (+20) Tran-scrip-tion Edi-ting Se-rvi-ce.  \T1/ptm/m/it/12 (+20) BJMC\T1/ptm/m/n/12 (+20) , \T1/ptm/m/it/12 (+20) 10\T1/ptm/m/n/12 (+20) (3).  Di-ak-ses pa-da
+Underfull \hbox (badness 1067) in paragraph at lines 369--389
+\T1/ptm/m/n/12 (+20) spe-a-ker tra-i-ts.  \T1/ptm/m/it/12 (+20) JA-SA Exp-ress 
+Let-ters\T1/ptm/m/n/12 (+20) , \T1/ptm/m/it/12 (+20) 4\T1/ptm/m/n/12 (+20) (2),
+ 025206.  Di-ak-ses pa-da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 495--510
-\T1/ptm/m/n/12 (+20) 2026-04-14[]$\T1/cmtt/m/n/12 http :// www [] .bjmc [] .lu [] .lv / fileadmin / user [] []upload /
+Underfull \hbox (badness 10000) in paragraph at lines 369--389
+\T1/ptm/m/n/12 (+20) 2026-04-14[]$\T1/cmtt/m/n/12 https :// pubs [] .aip [] .or
+g / jel / article / 4 / 2 / 025206 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 495--510
-\T1/cmtt/m/n/12 lu [] []portal / projekti / bjmc / Contents / 10 [] []3 [] []14 [] []Olev [] .pdf$[]   \T1/ptm/m/n/12 (+20) doi:
+Underfull \hbox (badness 5893) in paragraph at lines 369--389
+\T1/cmtt/m/n/12 3267247 / Evaluating [] -OpenAI [] -s [] -Whisper [] -ASR [] -P
+erformance$[]   \T1/ptm/m/n/12 (+20) doi:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 633--647
-\T1/ptm/m/n/12 (+20) Di-ak-ses pa-da 2026-04-14[]$\T1/cmtt/m/n/12 https :// www [] .ijsr [] .net / getabstract [] .php []
+Underfull \hbox (badness 2753) in paragraph at lines 604--623
+[]\T1/ptm/m/n/12 (+20) Olev, A., & Alu-mäe, T.  (2022).  Es-to-ni-an Spe-e-ch R
+e-cog-ni-tion and
  []
 
-[26]) [27] (./main_proposal.aux (./frontmatter/sampul.aux) (./frontmatter/judul.aux) (./frontmatter/persetujuan.aux) (./frontmatter/pengantar.aux) (./chapters/bab1.aux) (./chapters/bab2.aux) (./chapters/bab3.aux))
+
+Underfull \hbox (badness 8189) in paragraph at lines 604--623
+\T1/ptm/m/n/12 (+20) Tran-scrip-tion Edi-ting Se-rvi-ce.  \T1/ptm/m/it/12 (+20)
+ BJMC\T1/ptm/m/n/12 (+20) , \T1/ptm/m/it/12 (+20) 10\T1/ptm/m/n/12 (+20) (3).  
+Di-ak-ses pa-da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--623
+\T1/ptm/m/n/12 (+20) 2026-04-14[]$\T1/cmtt/m/n/12 http :// www [] .bjmc [] .lu 
+[] .lv / fileadmin / user [] []upload /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--623
+\T1/cmtt/m/n/12 lu [] []portal / projekti / bjmc / Contents / 10 [] []3 [] []14
+ [] []Olev [] .pdf$[]   \T1/ptm/m/n/12 (+20) doi:
+ []
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 760--778
+\T1/ptm/m/n/12 (+20) Di-ak-ses pa-da 2026-04-14[]$\T1/cmtt/m/n/12 https :// www
+ [] .ijsr [] .net / getabstract [] .php []
+ []
+
+) [32] (./main_proposal.aux (./frontmatter/judul.aux)
+(./frontmatter/persetujuan.aux) (./frontmatter/pengantar.aux)
+(./chapters/bab1.aux) (./chapters/bab2.aux) (./chapters/bab3.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
 Package rerunfilecheck Info: File `main_proposal.out' has not changed.
-(rerunfilecheck)             Checksum: EA11941DF91286C9D46010E33E8E214E;3125.
+(rerunfilecheck)             Checksum: 5B4ACF3BAE418BE8986B48BD02FB25D1;3274.
  ) 
 Here is how much of TeX's memory you used:
- 31259 strings out of 467349
- 585064 string characters out of 5391927
- 1147370 words of memory out of 5000000
- 59240 multiletter control sequences out of 15000+600000
- 693244 words of font info for 347 fonts, out of 8000000 for 9000
+ 31214 strings out of 467349
+ 584177 string characters out of 5391927
+ 1148446 words of memory out of 5000000
+ 59238 multiletter control sequences out of 15000+600000
+ 695495 words of font info for 332 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,11n,121p,1172b,991s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</opt/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></opt/texlive/2026/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></opt/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></opt/texlive/2026/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></opt/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></opt/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main_proposal.pdf (34 pages, 260419 bytes).
+ 104i,12n,121p,1259b,991s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</opt/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt
+/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texliv
+e/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/texlive/2026/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/2026/texmf-di
+st/fonts/type1/public/cm-super/sftt1200.pfb></opt/texlive/2026/texmf-dist/fonts
+/type1/urw/symbol/usyr.pfb></opt/texlive/2026/texmf-dist/fonts/type1/urw/times/
+utmb8a.pfb></opt/texlive/2026/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></op
+t/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></opt/texlive/2026/t
+exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main_proposal.pdf (38 pages, 266810 bytes).
 PDF statistics:
- 567 PDF objects out of 1000 (max. 8388607)
- 503 compressed objects within 6 object streams
- 144 named destinations out of 1000 (max. 500000)
- 60618 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 522 PDF objects out of 1000 (max. 8388607)
+ 455 compressed objects within 5 object streams
+ 131 named destinations out of 1000 (max. 500000)
+ 64722 words of extra memory for PDF output out of 74296 (max. 10000000)
 

@@ -1,7 +1,6 @@
 This is BibTeX, Version 0.99e (TeX Live 2026)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main_proposal.aux
-A level-1 auxiliary file: frontmatter/sampul.aux
 A level-1 auxiliary file: frontmatter/judul.aux
 A level-1 auxiliary file: frontmatter/persetujuan.aux
 A level-1 auxiliary file: frontmatter/pengantar.aux
@@ -18,54 +17,50 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: ../referensi/ref/ref.bib
+Database file #1: referensi/ref/ref.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-Warning--No journal in fathony_optimisasi_nodate
 Warning--No journal in imai_evaluating_nodate
 Warning--No journal in isyanto_accurate_nodate
-Warning--No journal in nelson_bridging_nodate
-Warning--No journal in pratiwi_perancangan_nodate
 Warning--No journal in radford_robust_nodate
-Warning--No journal in riebel_user-centered_nodate
-You've used 24 entries,
+You've used 25 entries,
             6951 wiz_defined-function locations,
-            1427 strings with 17607 characters,
-and the built_in function-call counts, 53098 in all, are:
-= -- 6353
-> -- 497
-< -- 2706
-+ -- 2751
-- -- 52
-* -- 3598
-:= -- 9835
-add.period$ -- 110
-call.type$ -- 24
-change.case$ -- 350
+            1448 strings with 18376 characters,
+and the built_in function-call counts, 56945 in all, are:
+= -- 6891
+> -- 523
+< -- 2871
++ -- 2943
+- -- 50
+* -- 3841
+:= -- 10442
+add.period$ -- 116
+call.type$ -- 25
+change.case$ -- 461
 chr.to.int$ -- 0
-cite$ -- 55
-duplicate$ -- 1437
-empty$ -- 2023
-format.name$ -- 837
-if$ -- 9822
+cite$ -- 53
+duplicate$ -- 1568
+empty$ -- 2166
+format.name$ -- 878
+if$ -- 10571
 int.to.chr$ -- 0
-int.to.str$ -- 72
+int.to.str$ -- 75
 missing$ -- 0
-newline$ -- 716
-num.names$ -- 192
-pop$ -- 1041
+newline$ -- 750
+num.names$ -- 200
+pop$ -- 1124
 preamble$ -- 1
-purify$ -- 117
+purify$ -- 130
 quote$ -- 0
-skip$ -- 3072
+skip$ -- 3327
 stack$ -- 0
-substring$ -- 2979
-swap$ -- 817
-text.length$ -- 105
+substring$ -- 3190
+swap$ -- 886
+text.length$ -- 118
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2304
-warning$ -- 7
-while$ -- 307
+type$ -- 2448
+warning$ -- 3
+while$ -- 331
 width$ -- 0
-write$ -- 917
-(There were 7 warnings)
+write$ -- 962
+(There were 3 warnings)

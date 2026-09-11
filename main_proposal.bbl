@@ -17,11 +17,14 @@ Andreyev, A.%
 \newblock
 \APACrefYearMonthDay{2025}{{\APACmonth{03}}}{}.
 \newblock
-\APACrefbtitle {Quantization for {OpenAI}'s {Whisper} {Models}: {A} {Comparative} {Analysis}.} {Quantization for {OpenAI}'s {Whisper} {Models}: {A} {Comparative} {Analysis}.}
+\APACrefbtitle {Quantization for {OpenAI}'s {Whisper} {Models}: {A}
+  {Comparative} {Analysis}.} {Quantization for {OpenAI}'s {Whisper} {Models}:
+  {A} {Comparative} {Analysis}.}
 \newblock
 \APACaddressPublisher{}{arXiv}.
 \newblock
-\begin{APACrefURL} [{2026-04-14}]\url{http://arxiv.org/abs/2503.09905} \end{APACrefURL}
+\begin{APACrefURL} [{2026-04-14}]\url{http://arxiv.org/abs/2503.09905}
+  \end{APACrefURL}
 \newblock
 \APACrefnote{arXiv:2503.09905 [cs]}
 \newblock
@@ -51,13 +54,18 @@ Bain, M.%
 \newblock
 \APACrefYearMonthDay{2023}{{\APACmonth{08}}}{}.
 \newblock
-{\BBOQ}\APACrefatitle {{WhisperX}: {Time}-{Accurate} {Speech} {Transcription} of {Long}-{Form} {Audio}} {{WhisperX}: {Time}-{Accurate} {Speech} {Transcription} of {Long}-{Form} {Audio}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {{WhisperX}: {Time}-{Accurate} {Speech} {Transcription}
+  of {Long}-{Form} {Audio}} {{WhisperX}: {Time}-{Accurate} {Speech}
+  {Transcription} of {Long}-{Form} {Audio}}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {{INTERSPEECH} 2023} {{INTERSPEECH} 2023}\ (\BPGS\ 4489--4493).
+\BIn{} \APACrefbtitle {{INTERSPEECH} 2023} {{INTERSPEECH} 2023}\ (\BPGS\
+  4489--4493).
 \newblock
 \APACaddressPublisher{}{ISCA}.
 \newblock
-\begin{APACrefURL} [{2026-04-14}]\url{https://www.isca-archive.org/interspeech_2023/bain23_interspeech.html} \end{APACrefURL}
+\begin{APACrefURL}
+  [{2026-04-14}]\url{https://www.isca-archive.org/interspeech_2023/bain23_interspeech.html}
+  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.21437/Interspeech.2023-78} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -83,11 +91,16 @@ Bangor, A.%
 \newblock
 \APACrefYearMonthDay{2008}{{\APACmonth{07}}}{}.
 \newblock
-{\BBOQ}\APACrefatitle {An {Empirical} {Evaluation} of the {System} {Usability} {Scale}} {An {Empirical} {Evaluation} of the {System} {Usability} {Scale}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {An {Empirical} {Evaluation} of the {System} {Usability}
+  {Scale}} {An {Empirical} {Evaluation} of the {System} {Usability}
+  {Scale}}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{International Journal of Human–Computer Interaction}{24}{6}{574--594}.
+\APACjournalVolNumPages{International Journal of Human–Computer
+  Interaction}{24}{6}{574--594}.
 \newblock
-\begin{APACrefURL} [{2026-05-23}]\url{https://www.tandfonline.com/doi/full/10.1080/10447310802205776} \end{APACrefURL}
+\begin{APACrefURL}
+  [{2026-05-23}]\url{https://www.tandfonline.com/doi/full/10.1080/10447310802205776}
+  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1080/10447310802205776} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -109,7 +122,8 @@ Brooke, J.%
 \newblock
 \APACrefYearMonthDay{1996}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {{SUS} - {A} quick and dirty usability scale} {{SUS} - {A} quick and dirty usability scale}.{\BBCQ}.
+{\BBOQ}\APACrefatitle {{SUS} - {A} quick and dirty usability scale} {{SUS} -
+  {A} quick and dirty usability scale}.{\BBCQ}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -135,11 +149,14 @@ Chen, X.%
 \newblock
 \APACrefYearMonthDay{2024}{{\APACmonth{02}}}{}.
 \newblock
-\APACrefbtitle {Does {ChatGPT} and {Whisper} {Make} {Humanoid} {Robots} {More} {Relatable}?} {Does {ChatGPT} and {Whisper} {Make} {Humanoid} {Robots} {More} {Relatable}?}
+\APACrefbtitle {Does {ChatGPT} and {Whisper} {Make} {Humanoid} {Robots} {More}
+  {Relatable}?} {Does {ChatGPT} and {Whisper} {Make} {Humanoid} {Robots} {More}
+  {Relatable}?}
 \newblock
 \APACaddressPublisher{}{arXiv}.
 \newblock
-\begin{APACrefURL} [{2026-04-14}]\url{http://arxiv.org/abs/2402.07095} \end{APACrefURL}
+\begin{APACrefURL} [{2026-04-14}]\url{http://arxiv.org/abs/2402.07095}
+  \end{APACrefURL}
 \newblock
 \APACrefnote{arXiv:2402.07095 [cs]}
 \newblock
@@ -169,13 +186,18 @@ Christodoulidou, P.%
 \newblock
 \APACrefYearMonthDay{2025}{{\APACmonth{08}}}{}.
 \newblock
-{\BBOQ}\APACrefatitle {A semi-automatic pipeline for transcribing and segmenting child speech} {A semi-automatic pipeline for transcribing and segmenting child speech}.{\BBCQ}
+{\BBOQ}\APACrefatitle {A semi-automatic pipeline for transcribing and
+  segmenting child speech} {A semi-automatic pipeline for transcribing and
+  segmenting child speech}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Interspeech 2025} {Interspeech 2025}\ (\BPGS\ 4278--4282).
+\BIn{} \APACrefbtitle {Interspeech 2025} {Interspeech 2025}\ (\BPGS\
+  4278--4282).
 \newblock
 \APACaddressPublisher{}{ISCA}.
 \newblock
-\begin{APACrefURL} [{2026-04-14}]\url{https://www.isca-archive.org/interspeech_2025/christodoulidou25_interspeech.html} \end{APACrefURL}
+\begin{APACrefURL}
+  [{2026-04-14}]\url{https://www.isca-archive.org/interspeech_2025/christodoulidou25_interspeech.html}
+  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.21437/Interspeech.2025-1030} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -189,7 +211,7 @@ Fathony%
 }{%
 Fathony%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACyear {2025}}%
 }]{%
 fathony_optimisasi_nodate}
 \APACinsertmetastar {%
@@ -203,11 +225,14 @@ Fathony, I\BPBI A\BPBI N.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\APACrefYearMonthDay{2025}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Optimisasi {Whisper} {Speech}-to-{Text} {Bahasa} {Indonesia} dengan {Hybrid} {Cloud} dan {Multi}-{Engine}} {Optimisasi {Whisper} {Speech}-to-{Text} {Bahasa} {Indonesia} dengan {Hybrid} {Cloud} dan {Multi}-{Engine}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Optimisasi {Whisper} {Speech}-to-{Text} {Bahasa}
+  {Indonesia} dengan {Hybrid} {Cloud} dan {Multi}-{Engine}} {Optimisasi
+  {Whisper} {Speech}-to-{Text} {Bahasa} {Indonesia} dengan {Hybrid} {Cloud} dan
+  {Multi}-{Engine}}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{}{18}{1}{}.
+\APACjournalVolNumPages{ELKOM (Jurnal Elektronika dan Komputer)}{18}{1}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -233,11 +258,16 @@ Ferraro, A.%
 \newblock
 \APACrefYearMonthDay{2023}{{\APACmonth{09}}}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Benchmarking open source and paid services for speech to text: an analysis of quality and input variety} {Benchmarking open source and paid services for speech to text: an analysis of quality and input variety}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Benchmarking open source and paid services for speech to
+  text: an analysis of quality and input variety} {Benchmarking open source and
+  paid services for speech to text: an analysis of quality and input
+  variety}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Front. Big Data}{6}{}{1210559}.
 \newblock
-\begin{APACrefURL} [{2026-04-14}]\url{https://www.frontiersin.org/articles/10.3389/fdata.2023.1210559/full} \end{APACrefURL}
+\begin{APACrefURL}
+  [{2026-04-14}]\url{https://www.frontiersin.org/articles/10.3389/fdata.2023.1210559/full}
+  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.3389/fdata.2023.1210559} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -265,15 +295,62 @@ Ferraz, T\BPBI P.%
 \newblock
 \APACrefYearMonthDay{2024}{{\APACmonth{04}}}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Multilingual {DistilWhisper}: {Efficient} {Distillation} of {Multi}-task {Speech} {Models} via {Language}-{Specific} {Experts}} {Multilingual {DistilWhisper}: {Efficient} {Distillation} of {Multi}-task {Speech} {Models} via {Language}-{Specific} {Experts}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Multilingual {DistilWhisper}: {Efficient} {Distillation}
+  of {Multi}-task {Speech} {Models} via {Language}-{Specific} {Experts}}
+  {Multilingual {DistilWhisper}: {Efficient} {Distillation} of {Multi}-task
+  {Speech} {Models} via {Language}-{Specific} {Experts}}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {{ICASSP} 2024 - 2024 {IEEE} {International} {Conference} on {Acoustics}, {Speech} and {Signal} {Processing} ({ICASSP})} {{ICASSP} 2024 - 2024 {IEEE} {International} {Conference} on {Acoustics}, {Speech} and {Signal} {Processing} ({ICASSP})}\ (\BPGS\ 10716--10720).
+\BIn{} \APACrefbtitle {{ICASSP} 2024 - 2024 {IEEE} {International} {Conference}
+  on {Acoustics}, {Speech} and {Signal} {Processing} ({ICASSP})} {{ICASSP} 2024
+  - 2024 {IEEE} {International} {Conference} on {Acoustics}, {Speech} and
+  {Signal} {Processing} ({ICASSP})}\ (\BPGS\ 10716--10720).
 \newblock
-\begin{APACrefURL} [{2026-04-14}]\url{http://arxiv.org/abs/2311.01070} \end{APACrefURL}
+\begin{APACrefURL} [{2026-04-14}]\url{http://arxiv.org/abs/2311.01070}
+  \end{APACrefURL}
 \newblock
 \APACrefnote{arXiv:2311.01070 [cs]}
 \newblock
 \begin{APACrefDOI} \doi{10.1109/ICASSP48485.2024.10447520} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gaur%
+, Lasecki%
+, Metze%
+\BCBL {}\ \BBA {} Bigham%
+}{%
+Gaur%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+gaur_effects_2016}
+\APACinsertmetastar {%
+gaur_effects_2016}%
+\begin{APACrefauthors}%
+Gaur, Y.%
+, Lasecki, W\BPBI S.%
+, Metze, F.%
+\BCBL {}\ \BBA {} Bigham, J\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{{\APACmonth{04}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The effects of automatic speech recognition quality on
+  human transcription latency} {The effects of automatic speech recognition
+  quality on human transcription latency}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 13th {International} {Web} for {All}
+  {Conference}} {Proceedings of the 13th {International} {Web} for {All}
+  {Conference}}\ (\BPGS\ 1--8).
+\newblock
+\APACaddressPublisher{Montreal Canada}{ACM}.
+\newblock
+\begin{APACrefURL}
+  [{2026-04-14}]\url{https://dl.acm.org/doi/10.1145/2899475.2899478}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1145/2899475.2899478} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -296,11 +373,16 @@ Graham, C.%
 \newblock
 \APACrefYearMonthDay{2024}{{\APACmonth{02}}}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Evaluating {OpenAI}'s {Whisper} {ASR}: {Performance} analysis across diverse accents and speaker traits} {Evaluating {OpenAI}'s {Whisper} {ASR}: {Performance} analysis across diverse accents and speaker traits}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Evaluating {OpenAI}'s {Whisper} {ASR}: {Performance}
+  analysis across diverse accents and speaker traits} {Evaluating {OpenAI}'s
+  {Whisper} {ASR}: {Performance} analysis across diverse accents and speaker
+  traits}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{JASA Express Letters}{4}{2}{025206}.
 \newblock
-\begin{APACrefURL} [{2026-04-14}]\url{https://pubs.aip.org/jel/article/4/2/025206/3267247/Evaluating-OpenAI-s-Whisper-ASR-Performance} \end{APACrefURL}
+\begin{APACrefURL}
+  [{2026-04-14}]\url{https://pubs.aip.org/jel/article/4/2/025206/3267247/Evaluating-OpenAI-s-Whisper-ASR-Performance}
+  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1121/10.0024876} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -312,7 +394,7 @@ Imai%
 }{%
 Imai%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACyear {2025}}%
 }]{%
 imai_evaluating_nodate}
 \APACinsertmetastar {%
@@ -324,11 +406,15 @@ Imai, S.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\APACrefYearMonthDay{2025}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Evaluating {Open}-{Source} {ASR} {Systems}: {Performance} {Across} {Diverse} {Audio} {Conditions} and {Error} {Correction} {Methods}} {Evaluating {Open}-{Source} {ASR} {Systems}: {Performance} {Across} {Diverse} {Audio} {Conditions} and {Error} {Correction} {Methods}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Evaluating {Open}-{Source} {ASR} {Systems}:
+  {Performance} {Across} {Diverse} {Audio} {Conditions} and {Error}
+  {Correction} {Methods}} {Evaluating {Open}-{Source} {ASR} {Systems}:
+  {Performance} {Across} {Diverse} {Audio} {Conditions} and {Error}
+  {Correction} {Methods}}.{\BBCQ}
 \newblock
-
+\APACjournalVolNumPages{}{}{}{5027--5039}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -339,7 +425,7 @@ Isyanto%
 }{%
 Isyanto%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACyear {2024}}%
 }]{%
 isyanto_accurate_nodate}
 \APACinsertmetastar {%
@@ -352,19 +438,21 @@ Isyanto, H.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\APACrefYearMonthDay{2024}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Accurate {Speech} {Recognition} {AI} using {Model} of {Deep} {Learning} for {Security} {Access}} {Accurate {Speech} {Recognition} {AI} using {Model} of {Deep} {Learning} for {Security} {Access}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Accurate {Speech} {Recognition} {AI} using {Model} of
+  {Deep} {Learning} for {Security} {Access}} {Accurate {Speech} {Recognition}
+  {AI} using {Model} of {Deep} {Learning} for {Security} {Access}}.{\BBCQ}
 \newblock
 
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-{Justin Joseph John}%
-\ \BBA {} {Shailesh Satish Sharma}%
+John%
+\ \BBA {} Sharma%
 }{%
-{Justin Joseph John}%
-\ \BBA {} {Shailesh Satish Sharma}%
+John%
+\ \BBA {} Sharma%
 }{%
 {\protect \APACyear {2024}}%
 }]{%
@@ -372,18 +460,21 @@ justin_joseph_john_comparative_2024}
 \APACinsertmetastar {%
 justin_joseph_john_comparative_2024}%
 \begin{APACrefauthors}%
-{Justin Joseph John}%
-\BCBT {}\ \BBA {} {Shailesh Satish Sharma}.%
+John, J\BPBI J.%
+\BCBT {}\ \BBA {} Sharma, S\BPBI S.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2024}{{\APACmonth{01}}}{}.
 \newblock
-{\BBOQ}\APACrefatitle {A {Comparative} {Study} of {Agile} and {Waterfall} {Software} {Development} {Methodologies}} {A {Comparative} {Study} of {Agile} and {Waterfall} {Software} {Development} {Methodologies}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {A {Comparative} {Study} of {Agile} and {Waterfall}
+  {Software} {Development} {Methodologies}} {A {Comparative} {Study} of {Agile}
+  and {Waterfall} {Software} {Development} {Methodologies}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{IJARSCT}{}{}{54--57}.
 \newblock
-\begin{APACrefURL} [{2026-04-14}]\url{http://ijarsct.co.in/Paper15207.pdf} \end{APACrefURL}
+\begin{APACrefURL} [{2026-04-14}]\url{http://ijarsct.co.in/Paper15207.pdf}
+  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.48175/IJARSCT-15207} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -411,11 +502,13 @@ Latif, S.%
 \newblock
 \APACrefYearMonthDay{2025}{{\APACmonth{06}}}{}.
 \newblock
-\APACrefbtitle {Transformers in {Speech} {Processing}: {A} {Survey}.} {Transformers in {Speech} {Processing}: {A} {Survey}.}
+\APACrefbtitle {Transformers in {Speech} {Processing}: {A} {Survey}.}
+  {Transformers in {Speech} {Processing}: {A} {Survey}.}
 \newblock
 \APACaddressPublisher{}{arXiv}.
 \newblock
-\begin{APACrefURL} [{2026-04-14}]\url{http://arxiv.org/abs/2303.11607} \end{APACrefURL}
+\begin{APACrefURL} [{2026-04-14}]\url{http://arxiv.org/abs/2303.11607}
+  \end{APACrefURL}
 \newblock
 \APACrefnote{arXiv:2303.11607 [cs]}
 \newblock
@@ -443,13 +536,25 @@ Macháček, D.%
 \newblock
 \APACrefYearMonthDay{2023}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Turning {Whisper} into {Real}-{Time} {Transcription} {System}} {Turning {Whisper} into {Real}-{Time} {Transcription} {System}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Turning {Whisper} into {Real}-{Time} {Transcription}
+  {System}} {Turning {Whisper} into {Real}-{Time} {Transcription}
+  {System}}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the 13th {International} {Joint} {Conference} on {Natural} {Language} {Processing} and the 3rd {Conference} of the {Asia}-{Pacific} {Chapter} of the {Association} for {Computational} {Linguistics}: {System} {Demonstrations}} {Proceedings of the 13th {International} {Joint} {Conference} on {Natural} {Language} {Processing} and the 3rd {Conference} of the {Asia}-{Pacific} {Chapter} of the {Association} for {Computational} {Linguistics}: {System} {Demonstrations}}\ (\BPGS\ 17--24).
+\BIn{} \APACrefbtitle {Proceedings of the 13th {International} {Joint}
+  {Conference} on {Natural} {Language} {Processing} and the 3rd {Conference} of
+  the {Asia}-{Pacific} {Chapter} of the {Association} for {Computational}
+  {Linguistics}: {System} {Demonstrations}} {Proceedings of the 13th
+  {International} {Joint} {Conference} on {Natural} {Language} {Processing} and
+  the 3rd {Conference} of the {Asia}-{Pacific} {Chapter} of the {Association}
+  for {Computational} {Linguistics}: {System} {Demonstrations}}\ (\BPGS\
+  17--24).
 \newblock
-\APACaddressPublisher{Bali, Indonesia}{Association for Computational Linguistics}.
+\APACaddressPublisher{Bali, Indonesia}{Association for Computational
+  Linguistics}.
 \newblock
-\begin{APACrefURL} [{2026-04-14}]\url{https://aclanthology.org/2023.ijcnlp-demo.3} \end{APACrefURL}
+\begin{APACrefURL}
+  [{2026-04-14}]\url{https://aclanthology.org/2023.ijcnlp-demo.3}
+  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.18653/v1/2023.ijcnlp-demo.3} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -461,7 +566,7 @@ Nelson%
 Nelson%
 \ \BBA {} Gretkzi%
 }{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACyear {2025}}%
 }]{%
 nelson_bridging_nodate}
 \APACinsertmetastar {%
@@ -472,11 +577,15 @@ Nelson, J.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\APACrefYearMonthDay{2025}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Bridging the {Gap} {Between} {Generalized} {ASR} and {Domain}-{Specific} {Communication} {Using} {Vosk}-{Driven} {Language} {Modeling}} {Bridging the {Gap} {Between} {Generalized} {ASR} and {Domain}-{Specific} {Communication} {Using} {Vosk}-{Driven} {Language} {Modeling}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Bridging the {Gap} {Between} {Generalized} {ASR} and
+  {Domain}-{Specific} {Communication} {Using} {Vosk}-{Driven} {Language}
+  {Modeling}} {Bridging the {Gap} {Between} {Generalized} {ASR} and
+  {Domain}-{Specific} {Communication} {Using} {Vosk}-{Driven} {Language}
+  {Modeling}}.{\BBCQ}
 \newblock
-
+\APACjournalVolNumPages{ResearchGate Preprint}{}{}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -499,11 +608,15 @@ Olev, A.%
 \newblock
 \APACrefYearMonthDay{2022}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Estonian {Speech} {Recognition} and {Transcription} {Editing} {Service}} {Estonian {Speech} {Recognition} and {Transcription} {Editing} {Service}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Estonian {Speech} {Recognition} and {Transcription}
+  {Editing} {Service}} {Estonian {Speech} {Recognition} and {Transcription}
+  {Editing} {Service}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{BJMC}{10}{3}{}.
 \newblock
-\begin{APACrefURL} [{2026-04-14}]\url{http://www.bjmc.lu.lv/fileadmin/user_upload/lu_portal/projekti/bjmc/Contents/10_3_14_Olev.pdf} \end{APACrefURL}
+\begin{APACrefURL}
+  [{2026-04-14}]\url{http://www.bjmc.lu.lv/fileadmin/user_upload/lu_portal/projekti/bjmc/Contents/10_3_14_Olev.pdf}
+  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.22364/bjmc.2022.10.3.14} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -533,11 +646,13 @@ Prabhavalkar, R.%
 \newblock
 \APACrefYearMonthDay{2023}{{\APACmonth{03}}}{}.
 \newblock
-\APACrefbtitle {End-to-{End} {Speech} {Recognition}: {A} {Survey}.} {End-to-{End} {Speech} {Recognition}: {A} {Survey}.}
+\APACrefbtitle {End-to-{End} {Speech} {Recognition}: {A} {Survey}.}
+  {End-to-{End} {Speech} {Recognition}: {A} {Survey}.}
 \newblock
 \APACaddressPublisher{}{arXiv}.
 \newblock
-\begin{APACrefURL} [{2026-04-14}]\url{http://arxiv.org/abs/2303.03329} \end{APACrefURL}
+\begin{APACrefURL} [{2026-04-14}]\url{http://arxiv.org/abs/2303.03329}
+  \end{APACrefURL}
 \newblock
 \APACrefnote{arXiv:2303.03329 [eess]}
 \newblock
@@ -551,7 +666,7 @@ Pratiwi%
 }{%
 Pratiwi%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACyear {2022}}%
 }]{%
 pratiwi_perancangan_nodate}
 \APACinsertmetastar {%
@@ -563,11 +678,17 @@ Pratiwi, A\BPBI S.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\APACrefYearMonthDay{2022}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Perancangan {Antarmuka} {Pengguna} {Aplikasi} {Sistem} {Informasi} {Siswa} berbasis {Android} menggunakan {Metode} {User} {Centered} {Design} ({Studi} pada : di {SMK} {Telkom} {Banjarbaru})} {Perancangan {Antarmuka} {Pengguna} {Aplikasi} {Sistem} {Informasi} {Siswa} berbasis {Android} menggunakan {Metode} {User} {Centered} {Design} ({Studi} pada : di {SMK} {Telkom} {Banjarbaru})}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Perancangan {Antarmuka} {Pengguna} {Aplikasi} {Sistem}
+  {Informasi} {Siswa} berbasis {Android} menggunakan {Metode} {User} {Centered}
+  {Design} ({Studi} pada : di {SMK} {Telkom} {Banjarbaru})} {Perancangan
+  {Antarmuka} {Pengguna} {Aplikasi} {Sistem} {Informasi} {Siswa} berbasis
+  {Android} menggunakan {Metode} {User} {Centered} {Design} ({Studi} pada : di
+  {SMK} {Telkom} {Banjarbaru})}.{\BBCQ}
 \newblock
-
+\APACjournalVolNumPages{Jurnal Pengembangan Teknologi Informasi dan Ilmu
+  Komputer (J-PTIIK)}{6}{9}{4554--4561}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -575,7 +696,7 @@ Radford%
 \ \protect \BOthers {.}}{%
 Radford%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACyear {2023}}%
 }]{%
 radford_robust_nodate}
 \APACinsertmetastar {%
@@ -590,11 +711,13 @@ Radford, A.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\APACrefYearMonthDay{2023}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Robust {Speech} {Recognition} via {Large}-{Scale} {Weak} {Supervision}} {Robust {Speech} {Recognition} via {Large}-{Scale} {Weak} {Supervision}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Robust {Speech} {Recognition} via {Large}-{Scale} {Weak}
+  {Supervision}} {Robust {Speech} {Recognition} via {Large}-{Scale} {Weak}
+  {Supervision}}.{\BBCQ}
 \newblock
-
+\APACjournalVolNumPages{}{202}{}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -602,7 +725,7 @@ Riebel%
 }{%
 Riebel%
 }{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACyear {2023}}%
 }]{%
 riebel_user-centered_nodate}
 \APACinsertmetastar {%
@@ -612,11 +735,15 @@ Riebel, J\BPBI A.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\APACrefYearMonthDay{2023}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {User-centered {Design} {Methods} in {Data}-{Intensive} {Software} {Development} {Processes}: {A} {State}-of-the-{Art} {Review}} {User-centered {Design} {Methods} in {Data}-{Intensive} {Software} {Development} {Processes}: {A} {State}-of-the-{Art} {Review}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {User-centered {Design} {Methods} in {Data}-{Intensive}
+  {Software} {Development} {Processes}: {A} {State}-of-the-{Art} {Review}}
+  {User-centered {Design} {Methods} in {Data}-{Intensive} {Software}
+  {Development} {Processes}: {A} {State}-of-the-{Art} {Review}}.{\BBCQ}
 \newblock
-
+\APACjournalVolNumPages{State-of-the-Art Review in Data-Intensive Software
+  Development Processes}{}{}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -636,11 +763,15 @@ Sekhar~Emmanni, P.%
 \newblock
 \APACrefYearMonthDay{2021}{{\APACmonth{02}}}{}.
 \newblock
-{\BBOQ}\APACrefatitle {The {Role} of {TypeScript} in {Enhancing} {Development} with {Modern} {JavaScript} {Frameworks}} {The {Role} of {TypeScript} in {Enhancing} {Development} with {Modern} {JavaScript} {Frameworks}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {The {Role} of {TypeScript} in {Enhancing} {Development}
+  with {Modern} {JavaScript} {Frameworks}} {The {Role} of {TypeScript} in
+  {Enhancing} {Development} with {Modern} {JavaScript} {Frameworks}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{IJSR}{10}{2}{1738--1741}.
 \newblock
-\begin{APACrefURL} [{2026-04-14}]\url{https://www.ijsr.net/getabstract.php?paperid=SR24401234212} \end{APACrefURL}
+\begin{APACrefURL}
+  [{2026-04-14}]\url{https://www.ijsr.net/getabstract.php?paperid=SR24401234212}
+  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.21275/SR24401234212} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -668,13 +799,18 @@ Teleki, M.%
 \newblock
 \APACrefYearMonthDay{2024}{{\APACmonth{09}}}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Comparing {ASR} {Systems} in the {Context} of {Speech} {Disfluencies}} {Comparing {ASR} {Systems} in the {Context} of {Speech} {Disfluencies}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Comparing {ASR} {Systems} in the {Context} of {Speech}
+  {Disfluencies}} {Comparing {ASR} {Systems} in the {Context} of {Speech}
+  {Disfluencies}}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Interspeech 2024} {Interspeech 2024}\ (\BPGS\ 4548--4552).
+\BIn{} \APACrefbtitle {Interspeech 2024} {Interspeech 2024}\ (\BPGS\
+  4548--4552).
 \newblock
 \APACaddressPublisher{}{ISCA}.
 \newblock
-\begin{APACrefURL} [{2026-04-14}]\url{https://www.isca-archive.org/interspeech_2024/teleki24_interspeech.html} \end{APACrefURL}
+\begin{APACrefURL}
+  [{2026-04-14}]\url{https://www.isca-archive.org/interspeech_2024/teleki24_interspeech.html}
+  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.21437/Interspeech.2024-1270} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -702,11 +838,14 @@ Wang, S.%
 \newblock
 \APACrefYearMonthDay{2025}{{\APACmonth{06}}}{}.
 \newblock
-\APACrefbtitle {A {Self}-{Training} {Approach} for {Whisper} to {Enhance} {Long} {Dysarthric} {Speech} {Recognition}.} {A {Self}-{Training} {Approach} for {Whisper} to {Enhance} {Long} {Dysarthric} {Speech} {Recognition}.}
+\APACrefbtitle {A {Self}-{Training} {Approach} for {Whisper} to {Enhance}
+  {Long} {Dysarthric} {Speech} {Recognition}.} {A {Self}-{Training} {Approach}
+  for {Whisper} to {Enhance} {Long} {Dysarthric} {Speech} {Recognition}.}
 \newblock
 \APACaddressPublisher{}{arXiv}.
 \newblock
-\begin{APACrefURL} [{2026-04-14}]\url{http://arxiv.org/abs/2506.22810} \end{APACrefURL}
+\begin{APACrefURL} [{2026-04-14}]\url{http://arxiv.org/abs/2506.22810}
+  \end{APACrefURL}
 \newblock
 \APACrefnote{arXiv:2506.22810 [cs]}
 \newblock
