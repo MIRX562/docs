@@ -1,0 +1,18 @@
+# LaTeX build output (all aux files go here)
+build/
+
+# LaTeX auxiliary files (root-level, in case compiled without outdir)
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Final PDFs
+# *.pdf

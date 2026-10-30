@@ -143,12 +143,13 @@ Estonian Speech Recognition and Transcription Editing Service & \citeauthor{olev
 \end{longtable}
 \end{small}
 
+\vspace{\baselineskip}
 Berdasarkan tinjauan literatur di atas, penelitian ini memadukan tiga pilar utama yang saling terkait. Pilar pertama adalah mesin inferensi transkripsi berupa model OpenAI \foreign{Whisper} yang dioptimasi menggunakan pustaka \foreign{Faster-Whisper} (CTranslate2) dan \foreign{pipeline} \foreign{WhisperX} untuk menangani berkas audio berdurasi panjang secara efisien. Pilar kedua adalah fondasi arsitektur terdistribusi berbasis \foreign{Next.js} dan \foreign{Python Worker} yang dihubungkan melalui antrean tugas asinkron \foreign{Redis BullMQ} untuk memastikan stabilitas operasional mandiri (\foreign{self-hosted}) pada infrastruktur lokal. Pilar ketiga adalah perancangan antarmuka penyuntingan terintegrasi dengan pendekatan \foreign{User-Centered Design} (UCD) yang dievaluasi menggunakan instrumen \foreign{System Usability Scale} (SUS). Ketiga pilar ini menjadi kerangka acuan utama perancangan sistem \namasistem\ yang dibahas pada Bab III.
 
-\section{Hipotesis Penelitian}
-Berdasarkan landasan teori dan tinjauan pustaka yang telah diuraikan, hipotesis yang diajukan dalam penelitian ini adalah:
-\begin{enumerate}
-    \item Arsitektur terdistribusi yang memisahkan peladen web (\foreign{Next.js}) dan unit inferensi (\foreign{Python Worker}) melalui antrean terisolasi \foreign{Redis BullMQ} mampu menjaga stabilitas respons antarmuka pengguna serta mencegah terjadinya kegagalan memori (\foreign{Out-of-Memory}) saat memproses transkripsi audio berdurasi panjang secara asinkron.
-    \item Peningkatan kapasitas parameter model OpenAI \foreign{Whisper} (dari varian \foreign{Tiny} hingga \foreign{Large-v3}) berbanding lurus dengan peningkatan akurasi transkripsi (penurunan nilai WER dan CER), namun berbanding terbalik terhadap kecepatan komputasi (peningkatan nilai RTF) dan kebutuhan alokasi memori VRAM GPU.
-    \item Evaluasi kegunaan antarmuka sistem \namasistem\ berbasis pendekatan \foreign{User-Centered Design} (UCD) memperoleh skor rata-rata \foreign{System Usability Scale} (SUS) $\geq 70$ (kategori \foreign{Acceptable} dengan tingkat kelayakan \foreign{Good}), sehingga dinyatakan layak dan efektif untuk mendukung alur kerja transkripsi audio percakapan bahasa Indonesia.
-\end{enumerate}
+% \section{Hipotesis Penelitian}
+% Berdasarkan landasan teori dan tinjauan pustaka yang telah diuraikan, hipotesis yang diajukan dalam penelitian ini adalah:
+% \begin{enumerate}
+%     \item Arsitektur terdistribusi yang memisahkan peladen web (\foreign{Next.js}) dan unit inferensi (\foreign{Python Worker}) melalui antrean terisolasi \foreign{Redis BullMQ} mampu menjaga stabilitas respons antarmuka pengguna serta mencegah terjadinya kegagalan memori (\foreign{Out-of-Memory}) saat memproses transkripsi audio berdurasi panjang secara asinkron.
+%     \item Peningkatan kapasitas parameter model OpenAI \foreign{Whisper} (dari varian \foreign{Tiny} hingga \foreign{Large-v3}) berbanding lurus dengan peningkatan akurasi transkripsi (penurunan nilai WER dan CER), namun berbanding terbalik terhadap kecepatan komputasi (peningkatan nilai RTF) dan kebutuhan alokasi memori VRAM GPU.
+%     \item Evaluasi kegunaan antarmuka sistem \namasistem\ berbasis pendekatan \foreign{User-Centered Design} (UCD) memperoleh skor rata-rata \foreign{System Usability Scale} (SUS) $\geq 70$ (kategori \foreign{Acceptable} dengan tingkat kelayakan \foreign{Good}), sehingga dinyatakan layak dan efektif untuk mendukung alur kerja transkripsi audio percakapan bahasa Indonesia.
+% \end{enumerate}
