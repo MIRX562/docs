@@ -14,5 +14,11 @@ build/
 *.fdb_latexmk
 *.synctex.gz
 
+# LaTeX auxiliary files in chapter/frontmatter subdirectories
+chapters/*.aux
+frontmatter/*.aux
+build/frontmatter/*.aux
+build/chapters/*.aux
+
 # Final PDFs
 # *.pdf
