@@ -35,20 +35,9 @@
   \renewcommand{\BAnd}{dan}
   \renewcommand{\BRetrievedFrom}{Diambil dari}
   \renewcommand{\BRetrieved}[1]{Diakses pada #1}
-  \let\originalcite\cite
-  \renewcommand{\cite}[1]{%
-    \ifstrequal{#1}{imai_evaluating_nodate,teleki_comparing_2024}{Imai dkk. (2025); Teleki dkk. (2024)\nocite{#1}}{%
-    \ifstrequal{#1}{gaur_effects_2016}{Gaur dkk. (2016)\nocite{#1}}{%
-    \ifstrequal{#1}{olev_estonian_2022, imai_evaluating_nodate}{(Olev dan Alumäe, 2022; Imai dkk., 2025)\nocite{#1}}{%
-    \ifstrequal{#1}{christodoulidou_semi-automatic_2025}{Christodoulidou dkk. (2025)\nocite{#1}}{%
-    \ifstrequal{#1}{imai_evaluating_nodate}{Imai dkk. (2025)\nocite{#1}}{%
-    \ifstrequal{#1}{ferraro_benchmarking_2023}{Ferraro dkk. (2023)\nocite{#1}}{%
-    \ifstrequal{#1}{fathony_optimisasi_nodate}{Fathony dkk. (2025)\nocite{#1}}{%
-    \ifstrequal{#1}{prabhavalkar_end--end_2023}{Prabhavalkar dkk. (2023)\nocite{#1}}{%
-    \ifstrequal{#1}{radford_robust_nodate}{Radford dkk. (2023)\nocite{#1}}{\originalcite{#1}}}}}}}}}}}
-}
     \renewcommand{\bibname}{DAFTAR PUSTAKA}
     \renewcommand{\refname}{DAFTAR PUSTAKA}
+  }
 
 % --- Pengaturan List (Enumerate/Itemize) ---
 % Menghapus spasi tambahan antar item dan sekitar list agar sesuai dengan spasi 1.5 paragraf

@@ -18,7 +18,7 @@ Pada tahap pengumpulan data, sebanyak \totalberkasaudio{} berkas audio utuh per 
 
 Pengujian sistem dilakukan melalui \foreign{black-box testing} manual dan pengujian unit menggunakan \foreign{Vitest}. Skenario pengujian mencakup pengunggahan audio, penolakan format yang tidak didukung, pemantauan progres, dan penyimpanan hasil koreksi. Setelah sistem stabil, transkripsi diuji pada varian \foreign{tiny, base, small, medium, large-v2, large-v3,} dan \foreign{large-v3-turbo}. Waktu inferensi, RTF, penggunaan memori, dan hasil transkripsi mentah dicatat dalam lingkungan terkontrol.
 
-Evaluasi \foreign{usability} dilakukan menggunakan kuesioner \foreign{System Usability Scale} (SUS) terhadap \jumlahresponden{} responden yang mewakili mahasiswa, akademisi, dan pembuat konten digital. Responden dipilih secara \foreign{purposive sampling}, kemudian diminta menjalankan tugas mengunggah audio, memantau progres, dan mengoreksi transkripsi pada antarmuka \namasistem{}. Setelah menyelesaikan tugas, responden mengisi sepuluh pernyataan SUS berskala Likert 5 poin. Skor yang diperoleh dihitung dan diinterpretasikan berdasarkan kategori standar \cite{brooke_sus_1996, bangor_empirical_2008}.
+Evaluasi \foreign{usability} dilakukan menggunakan kuesioner \foreign{System Usability Scale} (SUS) terhadap \jumlahresponden{} responden yang mewakili mahasiswa, akademisi, dan pembuat konten digital. Responden dipilih secara \foreign{purposive sampling}, kemudian diminta menjalankan tugas mengunggah audio, memantau progres, dan mengoreksi transkripsi pada antarmuka \namasistem{}. Setelah menyelesaikan tugas, responden mengisi sepuluh pernyataan SUS berskala Likert 5 poin. Skor yang diperoleh dihitung dan diinterpretasikan berdasarkan kategori standar \cite{brooke_sus_1986, bangor_empirical_2008}.
 
 \begin{figure}[H]
     \centering
@@ -76,7 +76,7 @@ Perangkat keras penelitian meliputi NVIDIA RTX A5000 dengan VRAM 24 GB melalui \
 
 Perangkat lunak yang digunakan meliputi \foreign{Visual Studio Code}, \foreign{Git}, dan \foreign{Bun Runtime}. Lapisan aplikasi dibangun dengan \foreign{TypeScript}, \foreign{Next.js} 16, \foreign{React} 19, \foreign{Tailwind CSS} v4, \foreign{shadcn/ui}, dan \foreign{Drizzle ORM}. Infrastruktur data menggunakan \foreign{PostgreSQL}, \foreign{Redis} dengan \foreign{BullMQ}, serta \foreign{Garage S3}. Pemrosesan audio menggunakan \foreign{PyTorch}, \foreign{WhisperX}, \foreign{Faster-Whisper}, \foreign{CTranslate2}, \foreign{pyannote.audio} 3.1, dan \foreign{jiwer}, sedangkan pengujian unit dilakukan dengan \foreign{Vitest}.
 
-Instrumen evaluasi yang digunakan adalah kuesioner \foreign{System Usability Scale} (SUS), yang terdiri atas sepuluh pernyataan berskala Likert 5 poin \cite{brooke_sus_1996}. Kuesioner dibagikan setelah responden menyelesaikan skenario tugas pada antarmuka \namasistem{}. Responden berjumlah \jumlahresponden{} orang dan dipilih secara \foreign{purposive sampling} dari kelompok mahasiswa, akademisi, serta pembuat konten digital yang memiliki kebutuhan transkripsi.
+Instrumen evaluasi yang digunakan adalah kuesioner \foreign{System Usability Scale} (SUS), yang terdiri atas sepuluh pernyataan berskala Likert 5 poin \cite{brooke_sus_1986}. Kuesioner dibagikan setelah responden menyelesaikan skenario tugas pada antarmuka \namasistem{}. Responden berjumlah \jumlahresponden{} orang dan dipilih secara \foreign{purposive sampling} dari kelompok mahasiswa, akademisi, serta pembuat konten digital yang memiliki kebutuhan transkripsi.
 
 \section{Teknik Analisis Data}
 Analisis data dalam penelitian ini dilakukan melalui lima pendekatan yang saling melengkapi guna mengevaluasi aspek akurasi, efisiensi, kegunaan, dan fungsionalitas sistem secara komprehensif.
@@ -110,7 +110,7 @@ Efisiensi komputasi diukur melalui \foreign{Real-Time Factor} (RTF) dan pengguna
 Penggunaan VRAM puncak (\foreign{Peak VRAM}) dicatat melalui \foreign{polling} perintah \texttt{nvidia-smi} atau fungsi \texttt{torch.cuda.memory\_reserved()} pada \foreign{PyTorch}. Data tersebut digunakan untuk menentukan kelayakan model pada berbagai spesifikasi GPU.
 
 \subsection{Analisis Kegunaan (\foreign{Usability}) dengan SUS}
-Evaluasi kegunaan antarmuka dilakukan menggunakan kuesioner \foreign{System Usability Scale} (SUS) yang terdiri dari 10 butir pernyataan berskala Likert 1--5 \cite{brooke_sus_1996}. Kuesioner didistribusikan kepada \jumlahresponden{} responden. Skor SUS untuk setiap responden dihitung dengan formula:
+Evaluasi kegunaan antarmuka dilakukan menggunakan kuesioner \foreign{System Usability Scale} (SUS) yang terdiri dari 10 butir pernyataan berskala Likert 1--5 \cite{brooke_sus_1986}. Kuesioner didistribusikan kepada \jumlahresponden{} responden. Skor SUS untuk setiap responden dihitung dengan formula:
 \begin{equation}
     \text{SUS} = 2{,}5 \times \left[\sum_{i \in \text{ganjil}} (x_i - 1) + \sum_{j \in \text{genap}} (5 - x_j)\right]
 \end{equation}
