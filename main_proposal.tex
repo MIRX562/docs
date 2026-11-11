@@ -1,0 +1,45 @@
+\documentclass[12pt,a4paper,oneside]{report}
+
+% Memasukkan preamble
+\input{preamble}
+
+\begin{document}
+
+% --- Bagian Awal (Front Matter) ---
+\pagenumbering{roman}
+\pagestyle{frontmatter}
+\include{frontmatter/judul}
+\include{frontmatter/persetujuan}
+\include{frontmatter/pengantar}
+
+% Daftar Isi
+\addcontentsline{toc}{chapter}{DAFTAR ISI}
+\tableofcontents
+\newpage
+
+% Daftar Tabel & Gambar
+\addcontentsline{toc}{chapter}{DAFTAR TABEL}
+\listoftables
+\newpage
+
+\addcontentsline{toc}{chapter}{DAFTAR GAMBAR}
+\listoffigures
+\newpage
+
+% --- Bagian Isi (Main Matter) ---
+\startmainmatter
+\include{chapters/bab1}
+\include{chapters/bab2}
+\include{chapters/bab3}
+
+% --- Daftar Pustaka ---
+\nocite{riebel_user-centered_2023,ferraro_benchmarking_2023,imai_evaluating_2025,prabhavalkar_end--end_2023,latif_transformers_2025,ferraz_multilingual_2024,chen_does_2024,andreyev_quantization_2025,wang_self-training_2025,isyanto_accurate_2024,graham_evaluating_2024,khan_comparative_2024,machacek_turning_2023,bain_whisperx_2023,nelson_bridging_2025,christodoulidou_semi-automatic_2025,teleki_comparing_2024,pratiwi_perancangan_2022,olev_estonian_2022}
+\renewcommand{\bibname}{DAFTAR PUSTAKA}
+\renewcommand{\refname}{DAFTAR PUSTAKA}
+\addcontentsline{toc}{chapter}{DAFTAR PUSTAKA}
+\begin{singlespace}
+\bibliographystyle{apacite}
+\bibliography{ref/ref}
+\end{singlespace}
+
+\end{document}

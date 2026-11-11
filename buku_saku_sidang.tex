@@ -1,0 +1,248 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2cm]{geometry}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage[hidelinks]{hyperref}
+
+\definecolor{primary}{RGB}{31, 78, 121}
+\definecolor{accent}{RGB}{192, 57, 43}
+\definecolor{lightgray}{RGB}{245, 245, 245}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{primary}}
+  {\thesection.}{0.5em}{}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\color{primary}}
+  {\thesubsection.}{0.5em}{}
+
+\setstretch{1.15}
+\setlist{nosep, leftmargin=1.2cm}
+
+\newcommand{\qa}[2]{%
+  \subsection*{\color{accent} Q: #1}%
+  \textbf{A:} #2\par\vspace{0.6em}%
+}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries\color{primary} BUKU SAKU SIDANG PROPOSAL}\\[0.3em]
+  {\large Rancang Bangun Sistem Speech-to-Text Berbasis Web Menggunakan Model OpenAI Whisper}\\[0.2em]
+  {\normalsize Muhammad Iffan Ramadhan (2117020036) --- Sistem Informasi}
+\end{center}
+
+\vspace{0.5em}
+\noindent\rule{\textwidth}{1pt}
+
+% ============================================================
+\section{Elevator Pitch (30 Detik)}
+
+\fbox{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{
+\textbf{Inti penelitian:} \emph{``Saya membangun sistem transkripsi audio mandiri (self-hosted) yang murah dan aman untuk institusi, menggunakan model AI Whisper. Saya mengukur seberapa akurat dan cepat model ini pada percakapan bahasa Indonesia (data siniar), lalu menguji seberapa mudah antarmuka koreksinya digunakan manusia. Singkatnya: membangun sistem, mengukur performanya, dan menguji kenyamanan penggunanya.''}
+}}
+
+\vspace{0.5em}
+\textbf{Logika 1 kalimat:} Saya membangun alat transkripsi mandiri, lalu membuktikan alat itu akurat, cepat, dan mudah dipakai.
+
+% ============================================================
+\section{Akar Masalah (3 Lapis)}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|p{2.2cm}|p{6.5cm}|p{4.5cm}|}
+\hline
+\rowcolor{lightgray} \textbf{Lapis} & \textbf{Masalah} & \textbf{Siapa yang Merasakan} \\
+\hline
+1. Praktis & Transkripsi manual sangat lambat (5 jam per 1 jam audio) & Peneliti, jurnalis, institusi \\
+\hline
+2. Infrastruktur & Layanan cloud ASR mahal \& berisiko kebocoran data sensitif & Institusi lokal \\
+\hline
+3. Teknis & Whisper belum tentu akurat pada percakapan alami bahasa Indonesia (gaul, noise, spontan) --- perlu dibuktikan empiris & Peneliti ASR/akademik \\
+\hline
+\end{tabular}
+\end{center}
+
+\textbf{Frasa kunci:} \emph{``Masalahnya bukan 'belum ada AI', tapi 'AI-nya belum terbukti bagus untuk konteks kita dan belum ada cara memakainya secara mandiri dan terjangkau'.''}
+
+% ============================================================
+\section{Tujuan Sebenarnya}
+
+\begin{itemize}
+  \item \textbf{BUKAN} tujuan: ``Membuat aplikasi web keren.''
+  \item \textbf{ADALAH} tujuan:
+  \begin{enumerate}
+    \item \textbf{Rancang bangun} sistem STT web terdistribusi (Next.js + Python Worker) --- \emph{kontribusi rekayasa}.
+    \item \textbf{Evaluasi empiris} performa 7 varian Whisper pada data siniar bahasa Indonesia (WER, CER, RTF, VRAM) --- \emph{kontribusi ilmiah/data}.
+    \item \textbf{Evaluasi usability} antarmuka koreksi dengan SUS --- \emph{kontribusi HCI}.
+  \end{enumerate}
+\end{itemize}
+
+\textbf{Kalimat siap pakai:} \emph{``Tujuan saya bukan sekadar membangun aplikasi. Saya menghasilkan (1) sebuah arsitektur referensi, (2) data benchmark baru untuk bahasa Indonesia pada data spontan, dan (3) bukti usability --- tiga hal yang bisa dipakai peneliti lain.''}
+
+% ============================================================
+\section{Cheat Sheet MATT (1 Menit)}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|p{2.5cm}|p{10.5cm}|}
+\hline
+\rowcolor{lightgray} \textbf{Aspek} & \textbf{Jawaban} \\
+\hline
+\textbf{M}asalah? & Transkripsi manual lambat; cloud mahal \& tidak aman; Whisper belum terbukti di bahasa Indonesia spontan. \\
+\hline
+\textbf{A}pa yang dibangun? & Sistem STT web self-hosted, arsitektur terdistribusi (Next.js + Python Worker + Redis). \\
+\hline
+\textbf{T}ujuan? & (a) Rancang bangun, (b) benchmark 7 varian Whisper (WER/CER/RTF/VRAM), (c) uji usability (SUS). \\
+\hline
+\textbf{T}eknis singkat? & WhisperX pipeline + Faster-Whisper di RTX A5000, data 11.540 segmen siniar, 30 responden SUS. \\
+\hline
+\end{tabular}
+\end{center}
+
+% ============================================================
+\section{Analogi Cepat (Untuk Penguji Non-Teknis)}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|p{4.5cm}|p{8.5cm}|}
+\hline
+\rowcolor{lightgray} \textbf{Istilah} & \textbf{Analogi} \\
+\hline
+ASR / Whisper & ``Mesin yang mengubah suara jadi teks'' \\
+\hline
+WER/CER & ``Seberapa sering salah dengar --- dihitung per kata \& per huruf'' \\
+\hline
+RTF & ``Kecepatan: kalau RTF 0,5, audio 1 jam selesai dalam 30 menit'' \\
+\hline
+VRAM & ``Seberapa besar memori kartu grafis yang dibutuhkan'' \\
+\hline
+Arsitektur terdistribusi & ``Seperti restoran: kasir (web) terpisah dari dapur (GPU worker) --- pesanan antre, dapur masak, kasir tetap layani pelanggan lain'' \\
+\hline
+Worker & ``Koki yang masak di dapur'' \\
+\hline
+Task queue (Redis) & ``Papan antrean pesanan di dapur'' \\
+\hline
+Self-hosted & ``Masak di dapur sendiri, bukan pesan dari luar'' \\
+\hline
+UCD & ``Desain yang dimulai dari tanya dulu ke pengguna, baru bikin'' \\
+\hline
+SUS & ``Kuesioner baku untuk nilai kegunaan (skor 0--100)'' \\
+\hline
+\end{tabular}
+\end{center}
+
+% ============================================================
+\section{Strategi Jika Presentasi Gagal / Penguji Bingung}
+
+\subsection{Teknik ``Turun Satu Level''}
+Jika penjelasan mulai berbelit, berhenti lalu ulangi dengan analogi:
+\emph{``Baik, saya sederhanakan. Transkripsi itu seperti membuat subtitle. Manual = ngetik sambil dengerin, sangat lama. AI Whisper = bikin draft otomatis, cepat tapi kadang salah, terutama untuk bahasa gaul Indonesia. Penelitian saya: bikin tempat kerja (sistem) supaya AI bisa jalan sendiri di komputer institusi, lalu saya uji seberapa bagus dan seberapa cepat hasilnya untuk podcast bahasa Indonesia, dan seberapa nyaman orang mengoreksi hasilnya.''}
+
+\subsection{Teknik ``Tunjukkan Keterkaitan''}
+Jika penguji bertanya ``Kok pakai 3 hal sekaligus?'':
+\emph{``Ketiganya bukan topik terpisah. Sistem (arsitektur) adalah wadahnya; benchmark adalah bukti mesinnya bagus; usability adalah bukti manusia bisa memakainya. Tanpa salah satu, klaim 'sistem transkripsi yang baik' tidak lengkap.''}
+
+% ============================================================
+\section{Daftar Pertanyaan \& Jawaban}
+
+\subsection{Pertanyaan Dasar (Wajib Hafal)}
+
+\qa{Apa kontribusi/novelty penelitian Anda?}
+Kontribusinya bukan algoritma baru, tapi: (1) data benchmark Whisper pada \emph{spontaneous Indonesian speech} yang jarang diuji, (2) arsitektur referensi sistem STT self-hosted terdistribusi untuk institusi lokal, (3) integrasi evaluasi usability (SUS) pada sistem nyata. Tiga hal ini jarang digabung dalam satu penelitian.
+
+\qa{Apa bedanya dengan penelitian yang sudah ada?}
+Penelitian-penelitian tersebut (1) mengukur Whisper pada data formal (bukan siniar spontan), (2) hanya mengukur akurasi tanpa membangun sistem, atau (3) membangun sistem cloud (bukan self-hosted). Penelitian saya menggabungkan ketiganya pada konteks bahasa Indonesia dan institusi lokal.
+
+\qa{Kenapa memakai data siniar (podcast)?}
+Karena siniar adalah representasi percakapan alami --- ada bahasa gaul, noise, interupsi, kecepatan bicara bervariasi. Ini justru tantangan yang belum banyak diuji untuk Whisper bahasa Indonesia, dan relevan dengan kebutuhan nyata (banyak siniar/wawancara butuh transkripsi).
+
+\qa{Kenapa 7 varian model? Apa gunanya?}
+Karena pengguna institusi perlu tahu trade-off: model kecil = cepat \& hemat VRAM tapi kurang akurat; model besar = akurat tapi butuh GPU mahal. Hasil benchmark menjawab: ``varian mana yang paling cost-effective untuk skala institusi lokal?'' Ini keputusan praktis yang berguna.
+
+\qa{Apa metrik utamanya?}
+Empat: WER \& CER (akurasi), RTF (kecepatan), VRAM (sumber daya). Kombinasi ini menangkap kualitas DAN kelayakan operasional.
+
+\subsection{Pertanyaan Menengah (Perlu Paham Konsep)}
+
+\qa{Apa itu RTF? Bagaimana membacanya?}
+RTF = waktu proses $\div$ durasi audio. RTF $<$ 1 berarti lebih cepat dari real-time (audio 1 jam diproses kurang dari 1 jam). Ini standar industri ASR.
+
+\qa{Apa beda Whisper asli vs WhisperX vs Faster-Whisper?}
+Tiga lapis: \textbf{Whisper} = model AI asli OpenAI. \textbf{Faster-Whisper} = implementasi ulang yang lebih cepat (C++/CTranslate2). \textbf{WhisperX} = pipeline yang menggabungkan VAD (potong audio di hening), Faster-Whisper (transkripsi batch), forced alignment (timestamp akurat), dan diarization (pisah pembicara). Sistem saya memakai WhisperX sebagai pipeline-nya.
+
+\qa{Kenapa tidak pakai cloud (Google/Azure API) saja?}
+Dua alasan: biaya jangka panjang untuk volume besar, dan keamanan --- data audio institusi sensitif tidak nyaman dikirim ke server pihak ketiga. Self-hosted memberi kontrol penuh. Inilah justifikasi arsitektur terdistribusi.
+
+\qa{Kenapa arsitekturnya dipisah (web vs worker)?}
+Karena inferensi GPU berat dan lama. Jika digabung, web server bisa membeku. Dengan pemisahan: pengguna tetap bisa melihat antarmuka, mengunggah, dan mengoreksi sementara worker memproses antrean di belakang layar. Ini juga memungkinkan skala horizontal (tambah worker).
+
+\qa{Apa itu Human-in-the-Loop di penelitian Anda?}
+ASR tidak 100\% akurat, terutama bahasa gaul. Jadi hasil draf otomatis harus dikoreksi manusia. Sistem saya menyediakan antarmuka koreksi --- inilah titik HITL: manusia validator akhir, dan antarmukanya dirancang dengan UCD agar koreksi efisien.
+
+\qa{Kenapa pakai SUS? Bisa juga kan metode lain?}
+SUS dipilih karena: (1) terstandarisasi \& valid, (2) murah dan cepat (10 item), (3) banyak dipakai sehingga hasilnya bisa dibandingkan lintas studi, (4) memberi skor kuantitatif 0--100 yang mudah diinterpretasikan.
+
+\qa{Responden 30 orang --- cukup?}
+Untuk penelitian usability, 30 responden sudah umum dan memadai untuk mendeteksi masalah utama antarmuka serta memberikan variasi latar belakang pengguna (mahasiswa, akademisi, kreator konten).
+
+\subsection{Pertanyaan Sulit / Jebakan (Uji Pemahaman \& Kejujuran)}
+
+\qa{Menurut Anda, bagian mana yang paling lemah dari penelitian ini?}
+Kelemahan utamanya adalah generalisasi: hasil benchmark hanya berlaku untuk data siniar bahasa Indonesia dan GPU RTX A5000. Namun justru karena itu saya membatasi klaim secara jelas di batasan masalah. Ke depan, bisa diperluas ke domain lain (mis. wawancara medis/hukum) dan GPU lain.\\
+\textit{(Jangan jawab ``tidak ada kelemahan'' --- penguji menghargai kesadaran akan limitasi.)}
+
+\qa{Ini kan cuma bikin aplikasi, mana penelitiannya?}
+Saya menerima tantangan ini. Bedanya dengan sekadar bikin aplikasi: (1) ada pertanyaan empiris yang diuji --- seberapa baik Whisper pada data spontan bahasa Indonesia, yang belum banyak datanya; (2) ada pengukuran sistematis (WER/CER/RTF/VRAM) dengan ground truth; (3) ada evaluasi usability terstandarisasi; (4) semua dipublikasikan sebagai arsitektur referensi. Aplikasinya hanyalah kendaraan untuk menjawab pertanyaan-pertanyaan tersebut.\\
+\textit{(Ini pertanyaan paling penting --- persiapkan mental.)}
+
+\qa{Kenapa tidak sekalian fine-tune Whisper supaya akurat?}
+Fine-tuning memang bisa, tapi di luar scope proposal ini. Fokus saya adalah evaluasi model yang sudah ada + membangun sistem yang bisa memakainya. Fine-tuning layak menjadi penelitian lanjutan (future work) --- dan justru data benchmark saya bisa jadi dasar untuk itu.\\
+Alternatif: ``Fine-tune butuh data berlabel besar dan biaya komputasi tambahan. Sebelum fine-tune, kita perlu tahu dulu baseline-nya --- itulah yang saya ukur.''
+
+\qa{Bagaimana Anda menjamin hasil benchmark valid/reliable?}
+Saya: (1) memakai ground truth TSV yang sudah divalidasi, (2) memastikan kesesuaian durasi audio vs teks, (3) menjalankan pengujian berulang di lingkungan terkontrol (Runpod RTX A5000), (4) memakai metrik standar industri (WER/CER/RTF).
+
+\qa{Apa implikasi praktis dan teoritis dari hasil Anda nanti?}
+Teoritis: menambah peta performa Whisper pada bahasa Indonesia, khususnya speech spontan. Praktis: institusi bisa memilih varian model yang cost-effective berdasarkan kebutuhan --- misal butuh cepat vs butuh akurat --- dan bisa menerapkan arsitektur serupa.
+
+\qa{Apa yang terjadi jika semua model hasilnya buruk?}
+Hasil ``buruk'' pun tetap bernilai ilmiah --- ia menunjukkan batas kemampuan Whisper pada domain ini dan memperkuat argumen perlunya fine-tuning atau post-processing. Penelitian tidak wajib hasilnya bagus; yang penting terukur dan jujur.
+
+\qa{Kenapa memilih Next.js, Python, Redis, PostgreSQL --- bukan yang lain?}
+Pilihan ini berdasarkan kebutuhan: Next.js + TypeScript untuk antarmuka yang cepat dan type-safe; Python karena ekosistem ASR (WhisperX/Faster-Whisper) dominan di Python; Redis sebagai task queue ringan dan real-time status; PostgreSQL karena data transkripsi relasional. Ini pemilihan yang lazim dan matang di industri.
+
+\qa{Berapa lama Anda memperkirakan penelitian ini selesai?}
+Delapan minggu sesuai jadwal: 2 minggu studi literatur \& pengumpulan data, 2 minggu perancangan \& implementasi, 1 minggu pengujian fungsional, 1 minggu benchmarking, 1 minggu usability, 1 minggu laporan.
+
+% ============================================================
+\section{Peta Konsep 3 Pilar (Untuk Ditunjukkan ke Penguji)}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|}
+\hline
+\rowcolor{lightgray} \textbf{Pilar 1: Mesin Transkripsi} & \textbf{Pilar 2: Fondasi Sistem} & \textbf{Pilar 3: Antarmuka Koreksi} \\
+\hline
+Model Whisper via WhisperX & Arsitektur terdistribusi Next.js + Python Worker + Redis & UCD + evaluasi SUS \\
+\hline
+Menjawab RQ2 (performa) & Menjawab RQ1 (rancang bangun) & Menjawab RQ3 (usability) \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{0.5em}
+\noindent\rule{\textwidth}{1pt}
+
+\begin{center}
+\small \emph{Selamat Sidang! --- Hafalkan Elevator Pitch, Akar Masalah 3 Lapis, dan Jawaban ``Ini Bukan Cuma Bikin Aplikasi''.}
+\end{center}
+
+\end{document}
