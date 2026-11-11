@@ -1,7 +1,11 @@
 \chapter{PENUTUP}
 
 \section{Kesimpulan}
-Kesimpulan menjawab pertanyaan penelitian secara ringkas dan padat.
+Proposal ini merancang penelitian rekayasa perangkat lunak dengan pendekatan \foreign{Research and Development} (R\&D) dan model \foreign{Rapid Application Development} (RAD) untuk menyempurnakan serta menguji prototipe sistem transkripsi \namasistem. Evaluasi yang direncanakan mencakup pengujian fungsional, perbandingan tujuh varian \foreign{Whisper} pada 58 episode percakapan berbahasa Indonesia menggunakan metrik WER, CER, waktu inferensi, RTF, dan penggunaan VRAM, serta pengujian tugas dan pengukuran SUS terhadap 30 responden.
+
+Eksperimen inferensi direncanakan menggunakan GPU NVIDIA RTX A5000 melalui layanan \foreign{Runpod}; kinerja pada perangkat lokal tidak menjadi objek pengujian. Karena penelitian masih berada pada tahap proposal, uraian ini merangkum rancangan dan ruang lingkup penelitian, bukan menyatakan hasil atau menarik kesimpulan empiris.
 
 \section{Saran}
-Rekomendasi untuk penelitian selanjutnya akan dicantumkan di sini.
+Sebelum eksperimen dilaksanakan, kelengkapan audio dan transkrip acuan perlu diverifikasi serta prosedur normalisasi teks, konfigurasi model, dan lingkungan komputasi ditetapkan secara konsisten. Setiap pengulangan, waktu inferensi, dan penggunaan VRAM perlu dicatat agar hasil perbandingan dapat ditelusuri dan direproduksi.
+
+Pengujian fungsional dan evaluasi kegunaan perlu dilakukan sesuai skenario yang telah dirumuskan. Pelaksanaan uji kepada responden hendaknya disertai penjelasan dan persetujuan yang diperlukan, serta hasilnya dilaporkan berdasarkan data yang benar-benar diperoleh. Setelah seluruh pengujian selesai, kesimpulan akhir dan saran pengembangan perlu disesuaikan dengan temuan empiris, bukan hanya dengan target atau rencana penelitian.

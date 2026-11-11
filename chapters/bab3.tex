@@ -1,24 +1,29 @@
 \chapter{METODE PENELITIAN}
 
 \section{Jenis Penelitian}
-Penelitian ini termasuk dalam kategori penelitian rekayasa perangkat lunak dengan pendekatan \foreign{Research and Development} (R\&D). Pengembangan sistem mengikuti model \foreign{waterfall} yang berjalan secara sekuensial melalui tahap perancangan, implementasi, dan pengujian, dengan penekanan iteratif khusus pada fase perancangan antarmuka. Antarmuka koreksi pada sistem dirancang menggunakan pendekatan \foreign{User-Centered Design} (UCD), yaitu dimulai dari pemahaman kebutuhan pengguna, perancangan \foreign{wireframe}, hingga validasi desain sebelum implementasi. Pengujian sistem mencakup tiga aspek. Pertama, pengujian fungsionalitas sistem melalui \foreign{black-box testing} manual serta \foreign{unit testing} otomatis menggunakan \foreign{Vitest} untuk memastikan kode berjalan andal. Kedua, pengujian teknis berupa \foreign{benchmarking} yang mengukur kecepatan inferensi, konsumsi VRAM, dan akurasi transkripsi (WER dan CER) dari berbagai varian model OpenAI \foreign{Whisper}. Ketiga, pengujian non-teknis berupa evaluasi kegunaan (\foreign{usability}) menggunakan kuesioner \foreign{System Usability Scale} (SUS).
+Penelitian ini merupakan penelitian rekayasa perangkat lunak dengan pendekatan \foreign{Research and Development} (R\&D). Model \foreign{Rapid Application Development} (RAD) digunakan untuk menata penyempurnaan dan pengujian prototipe \namasistem. Prototipe awal telah tersedia sebelum evaluasi penelitian; kondisi awal, kebutuhan yang dievaluasi, dan penyempurnaan yang dilakukan didokumentasikan berdasarkan artefak aplikasi. Karena itu, penelitian ini tidak menyatakan telah menjalankan iterasi RAD atau UCD sebelumnya tanpa bukti yang mendukungnya. Kegunaan antarmuka dievaluasi melalui skenario tugas dan kuesioner SUS, bukan melalui klaim penerapan penuh siklus UCD.
+
+Evaluasi penelitian mencakup tiga aspek. Pertama, pengujian fungsional melalui \foreign{black-box testing} manual dan pengujian unit otomatis menggunakan \foreign{Vitest}. Kedua, eksperimen komparatif tujuh varian \foreign{Whisper} yang mengukur WER, CER, waktu inferensi, RTF, dan penggunaan VRAM. Ketiga, evaluasi kegunaan antarmuka melalui penyelesaian tugas dan SUS.
 
 \section{Setting Penelitian}
-Penelitian ini berlangsung dengan memanfaatkan infrastruktur \foreign{cloud} dan perangkat keras lokal. Tugas inferensi model AI yang intensif dijalankan pada \foreign{remote pod} dari layanan \foreign{Runpod} yang menyediakan GPU NVIDIA RTX A5000 dengan VRAM 24GB. Sementara itu, aplikasi web beserta layanan pendukungnya berjalan pada server lokal. Pemilihan infrastruktur ini didasari kebutuhan akan lingkungan komputasi yang terkontrol dan fleksibel, sehingga spesifikasi perangkat keras dapat disesuaikan dengan kebutuhan model kecerdasan buatan skala besar. Penelitian direncanakan berlangsung selama delapan bulan, dimulai pada bulan Maret hingga Oktober \mhstahun.
+Pengembangan aplikasi dan layanan pendukung dilakukan pada perangkat lokal, sedangkan eksperimen inferensi penelitian dijalankan pada \foreign{remote pod} Runpod dengan GPU NVIDIA RTX A5000 dan VRAM 24 GB karena perangkat lokal yang tersedia tidak memiliki sumber daya GPU yang memadai untuk menjalankan pengujian tersebut. Secara rancangan, aplikasi dan unit inferensi dapat ditempatkan pada lingkungan lokal apabila perangkat keras serta konfigurasi layanan yang dibutuhkan tersedia; deployment lokal bukan lingkungan yang dievaluasi dalam penelitian ini. Penelitian direncanakan berlangsung selama delapan bulan, mulai Desember 2026 hingga Juli 2027.
 
 \section{Prosedur Penelitian}
-Prosedur penelitian disusun secara sistematis agar setiap tahap menghasilkan luaran yang dapat divalidasi pada tahap berikutnya. Rincian setiap tahapan dijelaskan sebagai berikut:
-Tahap studi literatur diawali dengan meninjau dokumentasi model \foreign{Whisper}, arsitektur sistem terdistribusi berbasis antrean (\foreign{queue-based}), serta metrik evaluasi ASR. Teori \foreign{human-computer interaction} juga dikaji untuk mendukung perancangan antarmuka koreksi yang ergonomis. Referensi ilmiah yang relevan dikumpulkan sebagai dasar penelitian.
+Prosedur penelitian mengikuti kerangka RAD dengan memperhatikan bahwa prototipe awal telah tersedia. Kegiatan pengembangan yang telah berlangsung dideskripsikan berdasarkan kode sumber dan artefak yang dapat diperiksa, sedangkan kegiatan yang belum dilakukan dinyatakan sebagai rencana. Tahap-tahap penelitian adalah sebagai berikut.
 
-Pada tahap perancangan sistem, disusun skema interaksi antara \foreign{Next.js} sebagai orkestrator tugas dan \foreign{Python Worker} sebagai unit eksekusi GPU. Perancangan mencakup Redis \foreign{Pub/Sub} untuk pelaporan status secara \foreign{real-time}, struktur data laporan \foreign{benchmarking}, serta diagram basis data. Antarmuka koreksi dirancang menggunakan pendekatan \foreign{User-Centered Design} (UCD), dimulai dari identifikasi kebutuhan calon pengguna hingga penyusunan dan validasi \foreign{wireframe} serta \foreign{prototype}.
+Pada tahap perencanaan kebutuhan (\foreign{requirements planning}), ditetapkan tujuan evaluasi, skenario fungsional, kebutuhan pengguna yang akan diuji, spesifikasi eksperimen, dan kriteria kelengkapan data. Arsitektur sistem yang tersedia—aplikasi \foreign{Next.js}, antrean \foreign{Redis BullMQ}, worker \foreign{Python}/\foreign{WhisperX}, penyimpanan, dan pelaporan progres—didokumentasikan berdasarkan implementasi.
 
-Implementasi prototipe dilakukan dengan mengintegrasikan komponen yang telah dirancang. \foreign{Worker} dikonfigurasi menggunakan \foreign{pipeline} \foreign{WhisperX} yang menggabungkan \foreign{Faster-Whisper}, VAD, dan \foreign{forced alignment}. Teknik kuantisasi diterapkan untuk mengoptimalkan VRAM pada RTX A5000. Implementasi juga mencakup antarmuka web untuk mengunggah audio dan memantau progres.
+Pada tahap desain pengguna (\foreign{user design}), alur utama penggunaan prototipe dan skenario tugas evaluasi ditetapkan. Tahap ini tidak mencakup penggalian kebutuhan atau iterasi desain bersama pengguna yang tidak benar-benar dilakukan. Skenario uji mencakup pengunggahan audio, pemantauan progres, navigasi dari segmen ke audio, koreksi teks, penyimpanan perubahan, dan ekspor hasil.
 
-Pada tahap pengumpulan data, sebanyak \totalberkasaudio{} berkas audio utuh per episode disiapkan dari korpus \foreign{Mozilla Data Collective} (MDC), yang terdiri atas 16 episode \foreign{Homostoria} dan 42 episode \foreign{Hari Minggoean}. Berkas acuan \foreign{ground truth} berformat \foreign{TSV} memuat \totalsegmentranskrip{} segmen transkrip beserta anotasi waktu. Kesesuaian durasi audio dan teks manual divalidasi sebelum evaluasi.
+Pada tahap konstruksi (\foreign{construction}), prototipe yang sudah tersedia diuji secara fungsional dan disempurnakan apabila ditemukan ketidaksesuaian yang menghambat skenario penelitian. Implementasi sistem menggunakan antrean tugas untuk memisahkan permintaan web dari inferensi, sementara worker menjalankan \foreign{WhisperX} untuk transkripsi, penyelarasan waktu, dan, bila diaktifkan, diarization. Setiap perubahan yang dilakukan selama penelitian dicatat agar ruang lingkup penyempurnaan dapat dibedakan dari fitur yang telah tersedia sebelumnya.
 
-Pengujian sistem dilakukan melalui \foreign{black-box testing} manual dan pengujian unit menggunakan \foreign{Vitest}. Skenario pengujian mencakup pengunggahan audio, penolakan format yang tidak didukung, pemantauan progres, dan penyimpanan hasil koreksi. Setelah sistem stabil, transkripsi diuji pada varian \foreign{tiny, base, small, medium, large-v2, large-v3,} dan \foreign{large-v3-turbo}. Waktu inferensi, RTF, penggunaan memori, dan hasil transkripsi mentah dicatat dalam lingkungan terkontrol.
+Pada tahap penerapan dan pengujian (\foreign{cutover}), prototipe yang telah diverifikasi digunakan dalam pengujian fungsional dan evaluasi kegunaan. Benchmark model dilakukan terpisah dari pilihan model operasional pada aplikasi: eksperimen mencakup \foreign{tiny, base, small, medium, large-v2, large-v3,} dan \foreign{turbo}, sedangkan antarmuka aplikasi menyediakan \foreign{small}, \foreign{turbo}, dan \foreign{large}. Hasil benchmark tidak dengan sendirinya mengubah pilihan model aplikasi.
 
-Evaluasi \foreign{usability} dilakukan menggunakan kuesioner \foreign{System Usability Scale} (SUS) terhadap \jumlahresponden{} responden yang mewakili mahasiswa, akademisi, dan pembuat konten digital. Responden dipilih secara \foreign{purposive sampling}, kemudian diminta menjalankan tugas mengunggah audio, memantau progres, dan mengoreksi transkripsi pada antarmuka \namasistem{}. Setelah menyelesaikan tugas, responden mengisi sepuluh pernyataan SUS berskala Likert 5 poin. Skor yang diperoleh dihitung dan diinterpretasikan berdasarkan kategori standar \cite{brooke_sus_1986, bangor_empirical_2008}.
+Data utama terdiri atas seluruh \totalberkasaudio{} berkas audio utuh dari korpus \foreign{Mozilla Data Collective} (MDC): 16 episode \foreign{Homostoria} dan 42 episode \foreign{Hari Minggoean}. Berkas \foreign{TSV} acuan memuat \totalsegmentranskrip{} segmen transkrip beserta anotasi waktu. Sebelum eksperimen, kelengkapan berkas audio, kecocokan identitas episode, dan kesesuaian transkrip acuan diperiksa. Berkas hasil eksperimen pendahuluan yang hanya mencakup sebagian episode diperlakukan sebagai data pendahuluan dan tidak digabungkan dengan hasil evaluasi utama.
+
+Pengujian fungsional dilakukan melalui \foreign{black-box testing} manual dan pengujian unit menggunakan \foreign{Vitest}. Skenario meliputi pengunggahan audio, penolakan format yang tidak didukung, pemantauan progres, pemutaran audio, koreksi dan penyimpanan segmen, serta ekspor transkrip. Eksperimen utama menjalankan masing-masing dari tujuh varian model pada semua 58 episode dengan konfigurasi perangkat lunak dan GPU yang sama. Setelah pemanasan setiap model menggunakan berkas uji yang tidak masuk perhitungan, waktu inferensi dan penggunaan VRAM setiap kombinasi model-episode diukur dalam tiga pengulangan. Median waktu dari tiga pengulangan digunakan sebagai waktu representatif untuk setiap kombinasi; VRAM puncak dicatat pada setiap pengulangan. Transkrip keluaran yang belum dikoreksi manusia dibandingkan dengan acuan setelah normalisasi seragam menggunakan WER dan CER. WER dan CER agregat dihitung dari jumlah operasi suntingan dan jumlah kata atau karakter acuan pada seluruh episode, bukan dari rerata sederhana antarepisode. Hasil pendahuluan yang tersedia untuk 55 berkas per model menjadi bahan pemeriksaan awal, bukan pengganti pengujian utama seluruh 58 berkas.
+
+Evaluasi kegunaan dilakukan terhadap \jumlahresponden{} responden yang dipilih secara \foreign{purposive sampling} dari kelompok mahasiswa, akademisi, dan pembuat konten yang memiliki kebutuhan transkripsi. Setiap responden menjalankan skenario tugas yang sama pada prototipe \namasistem, meliputi mengunggah audio, memahami progres, menemukan segmen melalui audio, melakukan koreksi, dan menyimpan hasil. Setelah tugas selesai, responden mengisi sepuluh butir SUS berskala Likert 5 poin. Keberhasilan penyelesaian tugas dan kendala yang diamati dicatat secara deskriptif; skor SUS dihitung dan ditafsirkan berdasarkan acuan (Brooke, 1986; Bangor dkk., 2008). Uji tugas dan SUS merupakan evaluasi kegunaan, bukan bukti bahwa seluruh siklus UCD telah dilaksanakan.
 
 \begin{figure}[H]
     \centering
@@ -31,12 +36,12 @@ Evaluasi \foreign{usability} dilakukan menggunakan kuesioner \foreign{System Usa
 
         % Nodes
         \node (start) [startstop] {Mulai};
-        \node (lit) [process, below of=start] {Studi Literatur};
-        \node (design) [process, below of=lit] {Perancangan Sistem};
-        \node (impl) [process, below of=design] {Implementasi Prototipe};
-        \node (data) [process, below of=impl] {Pengumpulan Data};
-        \node (bench) [process, below of=data] {Pengujian \& Benchmarking};
-        \node (eval) [process, below of=bench] {Evaluasi \textit{Usability}};
+        \node (lit) [process, below of=start] {Studi Literatur \& Protokol};
+        \node (design) [process, below of=lit] {Perencanaan Kebutuhan RAD};
+        \node (impl) [process, below of=design] {Verifikasi Prototipe};
+        \node (data) [process, below of=impl] {Validasi Dataset};
+        \node (bench) [process, below of=data] {Benchmark 7 Model};
+        \node (eval) [process, below of=bench] {Uji Tugas \& SUS};
         \node (end) [startstop, below of=eval] {Selesai};
 
         % Arrows
@@ -72,11 +77,11 @@ Berkas \foreign{TSV} (\foreign{tab-separated values}) digunakan sebagai \foreign
 
 \section{Alat dan Instrumen Penelitian}
 Instrumen penelitian terdiri dari perangkat keras dan perangkat lunak yang dipilih untuk mendukung arsitektur sistem terdistribusi berperforma tinggi. Pemilihan komponen ini didasarkan pada kebutuhan skalabilitas (\foreign{scalability}) dan efisiensi dalam menangani model AI yang berat.
-Perangkat keras penelitian meliputi NVIDIA RTX A5000 dengan VRAM 24 GB melalui \foreign{Runpod} untuk inferensi AI, \foreign{Thin Client HP t630} dengan RAM 8 GB sebagai server aplikasi lokal, serta laptop \foreign{Lenovo IdeaPad Slim 3 14ALC6} dengan prosesor \foreign{AMD Ryzen 5 5500U}, RAM 20 GB, dan penyimpanan \foreign{NVMe SSD} untuk pengembangan serta pengujian lokal.
+Perangkat keras penelitian meliputi GPU NVIDIA RTX A5000 dengan VRAM 24 GB melalui \foreign{Runpod} untuk eksperimen inferensi, \foreign{Thin Client HP t630} dengan RAM 8 GB sebagai server aplikasi lokal, serta laptop \foreign{Lenovo IdeaPad Slim 3 14ALC6} dengan prosesor \foreign{AMD Ryzen 5 5500U}, RAM 20 GB, dan penyimpanan \foreign{NVMe SSD} untuk pengembangan serta pengujian lokal. Perangkat lokal tidak digunakan untuk benchmark inferensi model karena sumber daya GPU yang tersedia tidak memadai.
 
 Perangkat lunak yang digunakan meliputi \foreign{Visual Studio Code}, \foreign{Git}, dan \foreign{Bun Runtime}. Lapisan aplikasi dibangun dengan \foreign{TypeScript}, \foreign{Next.js} 16, \foreign{React} 19, \foreign{Tailwind CSS} v4, \foreign{shadcn/ui}, dan \foreign{Drizzle ORM}. Infrastruktur data menggunakan \foreign{PostgreSQL}, \foreign{Redis} dengan \foreign{BullMQ}, serta \foreign{Garage S3}. Pemrosesan audio menggunakan \foreign{PyTorch}, \foreign{WhisperX}, \foreign{Faster-Whisper}, \foreign{CTranslate2}, \foreign{pyannote.audio} 3.1, dan \foreign{jiwer}, sedangkan pengujian unit dilakukan dengan \foreign{Vitest}.
 
-Instrumen evaluasi yang digunakan adalah kuesioner \foreign{System Usability Scale} (SUS), yang terdiri atas sepuluh pernyataan berskala Likert 5 poin \cite{brooke_sus_1986}. Kuesioner dibagikan setelah responden menyelesaikan skenario tugas pada antarmuka \namasistem{}. Responden berjumlah \jumlahresponden{} orang dan dipilih secara \foreign{purposive sampling} dari kelompok mahasiswa, akademisi, serta pembuat konten digital yang memiliki kebutuhan transkripsi.
+Instrumen evaluasi yang digunakan adalah kuesioner \foreign{System Usability Scale} (SUS), yang terdiri atas sepuluh pernyataan berskala Likert 5 poin \citep{brooke_sus_1986}. Kuesioner dibagikan setelah responden menyelesaikan skenario tugas pada antarmuka \namasistem{}. Responden berjumlah \jumlahresponden{} orang dan dipilih secara \foreign{purposive sampling} dari kelompok mahasiswa, akademisi, serta pembuat konten digital yang memiliki kebutuhan transkripsi.
 
 \section{Teknik Analisis Data}
 Analisis data dalam penelitian ini dilakukan melalui lima pendekatan yang saling melengkapi guna mengevaluasi aspek akurasi, efisiensi, kegunaan, dan fungsionalitas sistem secara komprehensif.
@@ -110,17 +115,17 @@ Efisiensi komputasi diukur melalui \foreign{Real-Time Factor} (RTF) dan pengguna
 Penggunaan VRAM puncak (\foreign{Peak VRAM}) dicatat melalui \foreign{polling} perintah \texttt{nvidia-smi} atau fungsi \texttt{torch.cuda.memory\_reserved()} pada \foreign{PyTorch}. Data tersebut digunakan untuk menentukan kelayakan model pada berbagai spesifikasi GPU.
 
 \subsection{Analisis Kegunaan (\foreign{Usability}) dengan SUS}
-Evaluasi kegunaan antarmuka dilakukan menggunakan kuesioner \foreign{System Usability Scale} (SUS) yang terdiri dari 10 butir pernyataan berskala Likert 1--5 \cite{brooke_sus_1986}. Kuesioner didistribusikan kepada \jumlahresponden{} responden. Skor SUS untuk setiap responden dihitung dengan formula:
+Evaluasi kegunaan antarmuka dilakukan menggunakan kuesioner \foreign{System Usability Scale} (SUS) yang terdiri dari 10 butir pernyataan berskala Likert 1--5 \citep{brooke_sus_1986}. Kuesioner didistribusikan kepada \jumlahresponden{} responden. Skor SUS untuk setiap responden dihitung dengan formula:
 \begin{equation}
     \text{SUS} = 2{,}5 \times \left[\sum_{i \in \text{ganjil}} (x_i - 1) + \sum_{j \in \text{genap}} (5 - x_j)\right]
 \end{equation}
-dengan $x_i$ adalah skor butir ganjil (pernyataan positif) dan $x_j$ adalah skor butir genap (pernyataan negatif). Rentang skor SUS adalah 0--100. Rata-rata dan standar deviasi skor SUS kemudian dihitung dan diinterpretasikan berdasarkan skala penerimaan (\foreign{Acceptability Ranges}), skala huruf (\foreign{Grade Scale}), dan peringkat kata sifat (\foreign{Adjective Rating}) dari \citeauthor{bangor_empirical_2008} (\citeyear{bangor_empirical_2008}).
+dengan $x_i$ adalah skor butir ganjil (pernyataan positif) dan $x_j$ adalah skor butir genap (pernyataan negatif). Rentang skor SUS adalah 0--100. Rata-rata dan standar deviasi skor SUS kemudian dihitung dan diinterpretasikan berdasarkan skala penerimaan (\foreign{Acceptability Ranges}), skala huruf (\foreign{Grade Scale}), dan peringkat kata sifat (\foreign{Adjective Rating}) dari Bangor dkk. (2008).
 
 \subsection{Analisis Pengujian Fungsional}
 Pengujian fungsional dilakukan melalui pendekatan kotak hitam manual (\foreign{manual black-box testing}). Setiap fitur utama sistem diuji berdasarkan matriks skenario pengujian yang memuat: identifikasi skenario, kondisi masukan (\foreign{input}), langkah pengujian, respons sistem yang diharapkan (\foreign{expected result}), dan hasil pengamatan aktual (\foreign{actual result}). Setiap skenario dinilai dengan status ``Berhasil'' atau ``Gagal'' berdasarkan kesesuaian antara keluaran aktual dan keluaran yang diharapkan.
 
 \section{Jadwal Penelitian}
-Penelitian direncanakan berlangsung selama delapan bulan. Rincian jadwal penelitian disajikan dalam bentuk \foreign{Gantt Chart} pada Tabel 3.2.
+Penelitian direncanakan berlangsung selama delapan bulan, mulai Desember 2026 hingga Juli 2027. Rincian kegiatan disajikan dalam bentuk \foreign{Gantt Chart} pada Tabel 3.2.
 
 \begin{table}[H]
     \centering
@@ -140,21 +145,22 @@ Penelitian direncanakan berlangsung selama delapan bulan. Rincian jadwal penelit
         vgrid={*1{black, dotted}},
         hgrid={*1{black, dotted}}
     ]{1}{8}
-        \gantttitle{M1}{1}
-        \gantttitle{M2}{1}
-        \gantttitle{M3}{1}
-        \gantttitle{M4}{1}
-        \gantttitle{M5}{1}
-        \gantttitle{M6}{1}
-        \gantttitle{M7}{1}
-        \gantttitle{M8}{1} \\
-        \ganttbar{Studi Literatur}{1}{2} \\
-        \ganttbar{Perancangan Sistem}{2}{3} \\
-        \ganttbar{Pengumpulan Data}{2}{3} \\
-        \ganttbar{Implementasi Prototipe}{3}{5} \\
-        \ganttbar{Pengujian \& Benchmarking}{5}{6} \\
-        \ganttbar{Evaluasi Usability (SUS)}{6}{7} \\
-        \ganttbar{Penyusunan Laporan}{7}{8}
+        \gantttitle{Des}{1}
+        \gantttitle{Jan}{1}
+        \gantttitle{Feb}{1}
+        \gantttitle{Mar}{1}
+        \gantttitle{Apr}{1}
+        \gantttitle{Mei}{1}
+        \gantttitle{Jun}{1}
+        \gantttitle{Jul}{1} \\
+        \ganttbar{Literatur \& protokol}{1}{2} \\
+        \ganttbar{Validasi dataset}{1}{2} \\
+        \ganttbar{Verifikasi prototipe RAD}{2}{4} \\
+        \ganttbar{Benchmark 7 model}{2}{4} \\
+        \ganttbar{Uji tugas \& SUS}{4}{5} \\
+        \ganttbar{Analisis \& penulisan}{5}{7} \\
+        \ganttbar{Revisi akhir}{8}{8}
     \end{ganttchart}
     \end{small}
 \end{table}
+\noindent\textit{Keterangan:} Desember pada M1 adalah Desember 2026; Januari--Juli adalah tahun 2027.

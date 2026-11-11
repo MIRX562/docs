@@ -27,14 +27,16 @@
 
 % --- Pengaturan Sitasi (APACite dengan Natbib Compatibility) ---
 \usepackage[natbibapa]{apacite}
+\newcommand{\apaSevenAuthorYear}[2]{#1, \citeyear{#2}}
+\newcommand{\apaSevenCite}[2]{(\apaSevenAuthorYear{#1}{#2})}
 
-% Lokalisasi Sitasi (et al -> dkk, and -> dan)
+% Lokalisasi sitasi dalam bahasa Indonesia.
 \AtBeginDocument{
-  \renewcommand{\BOthers}[1]{, dkk.\hbox{}}
-  \renewcommand{\BOthersPeriod}[1]{, dkk.\hbox{}}
+  \renewcommand{\BOthers}[1]{ dkk.\hbox{}}
+  \renewcommand{\BOthersPeriod}[1]{ dkk.\hbox{}}
   \renewcommand{\BAnd}{dan}
-  \renewcommand{\BRetrievedFrom}{Diambil dari}
-  \renewcommand{\BRetrieved}[1]{Diakses pada #1}
+  \renewcommand{\BRetrievedFrom}{}
+  \renewcommand{\BRetrieved}[1]{Diakses pada #1\space}
     \renewcommand{\bibname}{DAFTAR PUSTAKA}
     \renewcommand{\refname}{DAFTAR PUSTAKA}
   }
@@ -53,7 +55,7 @@
 % --- Variabel Global Identitas Mahasiswa ---
 \newcommand{\mhsname}{MUHAMMAD IFFAN RAMADHAN}
 \newcommand{\mhsnim}{2117020036}
-\newcommand{\mhsjudul}{Rancang Bangun Sistem Speech To Text Berbasis Web Menggunakan Model OpenAI Whisper}
+\newcommand{\mhsjudul}{Rancang Bangun Sistem Transkripsi Audio Berbasis Web dengan Evaluasi Komparatif Model Whisper pada Korpus Percakapan Bahasa Indonesia}
 \newcommand{\mhsprodi}{Sistem Informasi}
 \newcommand{\mhsfakultas}{Fakultas Sains dan Teknologi}
 \newcommand{\mhsuniv}{Universitas Islam Negeri Imam Bonjol Padang}
